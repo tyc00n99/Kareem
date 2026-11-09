@@ -15,12 +15,16 @@ export function Home() {
         </button>
       </header>
       <main className="home">
+        <div className="hero">
+          <img src="/content/images/art/together.jpg" alt="Two children sitting together on a prayer mat under the moon" />
+          <p className="hero-line">Learning Islam, one calm step at a time.</p>
+        </div>
         <p className="lead">Choose what to learn.</p>
         <ul className="topic-list">
           {topics.map((t) => (
             <li key={t.id}>
               <a className="topic" href={href({ name: 'learn', topicId: t.id, index: 0 })}>
-                <Pic picture={t.picture} adultPicture={t.adultPicture} size="small" />
+                <Pic picture={t.picture} adultPicture={t.adultPicture} size="card" />
                 <span className="topic-text">
                   <span className="topic-title">{t.title}</span>
                   <span className="topic-summary">{t.summary}</span>

@@ -5,24 +5,24 @@
   "order": 60,
   "status": "draft",
   "picture": {
-    "src": "/content/images/salam/wave.svg",
-    "alt": "A boy in a white cap waving hello"
+    "src": "/content/images/art/manners.jpg",
+    "alt": "A boy and a girl sitting together and sharing dates"
   },
   "screens": [
     {
       "type": "learn",
       "text": "Muslims greet each other with salam.",
       "picture": {
-        "src": "/content/images/salam/meeting.svg",
-        "alt": "A boy and a girl meeting and smiling"
+        "src": "/content/images/art/manners.jpg",
+        "alt": "A boy and a girl sitting together and smiling"
       }
     },
     {
       "type": "learn",
       "text": "When you meet someone, you say: Assalamu alaykum.",
       "picture": {
-        "src": "/content/images/salam/wave.svg",
-        "alt": "A boy in a white cap waving hello"
+        "src": "/content/images/art/together.jpg",
+        "alt": "Two children sitting together on a prayer mat under the moon"
       },
       "arabic": {
         "text": "السَّلَامُ عَلَيْكُمْ",
@@ -57,8 +57,8 @@
         {
           "label": "Assalamu alaykum",
           "picture": {
-            "src": "/content/images/salam/wave.svg",
-            "alt": "A boy waving hello"
+            "src": "/content/images/art/manners.jpg",
+            "alt": "Two children greeting each other"
           },
           "correct": true
         },

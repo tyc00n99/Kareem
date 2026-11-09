@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import type { Picture } from './lib/content';
 import { useSettings } from './lib/settings';
 
-export function Pic({ picture, adultPicture, size = 'large' }: { picture: Picture; adultPicture?: Picture; size?: 'large' | 'small' }) {
+export function Pic({ picture, adultPicture, size = 'large' }: { picture: Picture; adultPicture?: Picture; size?: 'large' | 'small' | 'card' }) {
   const { settings } = useSettings();
   const p = settings.look === 'adult' && adultPicture ? adultPicture : picture;
   return (

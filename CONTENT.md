@@ -71,4 +71,4 @@ Put pictures in `public/content/images/` and recordings in `public/content/audio
   The two recurring characters are **Kareem** (a boy in a white kufi cap) and **Noor** (a girl in a hijab).
 - **Never draw Allah, the Prophet (peace be upon him), other prophets, angels, or companions.**
   Show the Kaaba, mosques, nature, everyday scenes, and the child characters instead.
-- Pictures are SVG files in `public/content/images/<topic>/`. Keep them calm: soft flat colours, no flashing, nothing busy.
+- The picture style is a soft storybook watercolor, like the reference art in `public/content/images/art/` (taken from the Lovable prototype). New pictures should match it: gentle colours, one clear subject, nothing busy or flashing.
