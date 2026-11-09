@@ -34,6 +34,9 @@ export function Home() {
             </li>
           ))}
         </ul>
+        <p className="hint foot-link">
+          <a href="#/helper">For helpers: see progress</a>
+        </p>
       </main>
     </div>
   );

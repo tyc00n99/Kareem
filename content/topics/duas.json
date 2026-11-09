@@ -1,0 +1,27 @@
+{
+  "id": "duas",
+  "title": "Duas",
+  "summary": "Little prayers for every day.",
+  "order": 50,
+  "status": "draft",
+  "picture": { "src": "/content/images/art/duas.jpg", "alt": "A boy holding up his hands to make dua" },
+  "screens": [
+    { "type": "learn", "text": "A dua is a little prayer.", "picture": { "src": "/content/images/art/duas.jpg", "alt": "A boy holding up his hands to make dua" } },
+    { "type": "learn", "text": "When I wake up, I thank Allah.", "picture": { "emoji": "🌅", "alt": "The sun rising" } },
+    { "type": "learn", "text": "I say: Alhamdulillah.", "picture": { "emoji": "🌅", "alt": "The sun rising" }, "arabic": { "text": "الْحَمْدُ لِلَّهِ", "say": "Alhamdulillah" } },
+    { "type": "learn", "text": "Before I eat, I say: Bismillah.", "picture": { "src": "/content/images/art/manners.jpg", "alt": "Two children sharing a plate of dates" }, "arabic": { "text": "بِسْمِ اللَّهِ", "say": "Bismillah" } },
+    { "type": "learn", "text": "Before I sleep, I say: Bismika Allahumma amutu wa ahya.", "picture": { "src": "/content/images/salam/night.svg", "alt": "The moon in the night sky" }, "arabic": { "text": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا", "say": "Bismika Allahumma amutu wa ahya" } },
+    { "type": "learn", "text": "When I leave home, I say: Bismillah, tawakkaltu alallah.", "picture": { "emoji": "🚪", "alt": "An open door" }, "arabic": { "text": "بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ", "say": "Bismillah, tawakkaltu alallah" } },
+    { "type": "learn", "text": "After wudu, I say: Ash-hadu an la ilaha illallah.", "picture": { "src": "/content/images/art/wudu.jpg", "alt": "A boy washing his hands under a tap" }, "arabic": { "text": "أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ", "say": "Ash-hadu an la ilaha illallah" } },
+    {
+      "type": "check",
+      "question": "What do I say before I eat?",
+      "showAgain": 4,
+      "answers": [
+        { "label": "Bismillah", "picture": { "src": "/content/images/art/manners.jpg", "alt": "Two children sharing food" }, "correct": true },
+        { "label": "Goodnight", "picture": { "src": "/content/images/salam/night.svg", "alt": "The moon at night" } }
+      ]
+    },
+    { "type": "learn", "text": "You learned five little duas.", "picture": { "src": "/content/images/art/duas.jpg", "alt": "A boy holding up his hands to make dua" } }
+  ]
+}

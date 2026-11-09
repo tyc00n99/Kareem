@@ -1,0 +1,26 @@
+{
+  "id": "islam-basics",
+  "title": "Islam basics",
+  "summary": "Allah, the Prophet, the Quran.",
+  "order": 10,
+  "status": "draft",
+  "picture": { "src": "/content/images/art/why-we-pray.jpg", "alt": "A mosque under the sun and moon" },
+  "screens": [
+    { "type": "learn", "text": "Allah made everything.", "picture": { "src": "/content/images/art/why-we-pray.jpg", "alt": "A mosque with the sun, the moon and hills around it" } },
+    { "type": "learn", "text": "Allah is One.", "picture": { "emoji": "☝️", "alt": "One finger held up" } },
+    { "type": "learn", "text": "Muhammad, peace be upon him, is Allah's Messenger.", "picture": { "src": "/content/images/art/seerah.jpg", "alt": "An old town in the desert with palm trees" } },
+    { "type": "learn", "text": "The Quran is Allah's book.", "picture": { "src": "/content/images/art/quran.jpg", "alt": "The Quran open on a wooden stand" } },
+    { "type": "learn", "text": "The Quran tells us how to live.", "picture": { "src": "/content/images/art/quran.jpg", "alt": "The Quran open on a wooden stand" } },
+    { "type": "learn", "text": "A person who follows Islam is a Muslim.", "picture": { "src": "/content/images/art/together.jpg", "alt": "Two children sitting together on a prayer mat" } },
+    {
+      "type": "check",
+      "question": "Which picture shows the Quran?",
+      "showAgain": 4,
+      "answers": [
+        { "label": "The Quran", "picture": { "src": "/content/images/art/quran.jpg", "alt": "A book on a wooden stand" }, "correct": true },
+        { "label": "A boat", "picture": { "src": "/content/images/art/stories.jpg", "alt": "A big wooden boat with animals" } }
+      ]
+    },
+    { "type": "learn", "text": "You learned the basics of Islam.", "picture": { "src": "/content/images/art/together.jpg", "alt": "Two children sitting together and smiling" } }
+  ]
+}

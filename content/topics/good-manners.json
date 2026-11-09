@@ -1,0 +1,26 @@
+{
+  "id": "good-manners",
+  "title": "Good manners",
+  "summary": "Being kind like a Muslim.",
+  "order": 70,
+  "status": "draft",
+  "picture": { "src": "/content/images/art/manners.jpg", "alt": "A boy and a girl sharing a plate of dates" },
+  "screens": [
+    { "type": "learn", "text": "Muslims try to be kind.", "picture": { "src": "/content/images/art/manners.jpg", "alt": "A boy and a girl sharing a plate of dates" } },
+    { "type": "learn", "text": "I say salam when I meet someone.", "picture": { "src": "/content/images/art/together.jpg", "alt": "Two children sitting together and smiling" } },
+    { "type": "learn", "text": "I share what I have.", "picture": { "src": "/content/images/art/manners.jpg", "alt": "A boy giving dates to a girl" } },
+    { "type": "learn", "text": "I tell the truth.", "picture": { "emoji": "🙂", "alt": "A calm, honest face" } },
+    { "type": "learn", "text": "I help at home.", "picture": { "emoji": "🏠", "alt": "A house" } },
+    { "type": "learn", "text": "I am gentle with people and animals.", "picture": { "emoji": "🐱", "alt": "A cat" } },
+    {
+      "type": "check",
+      "question": "Which picture shows sharing?",
+      "showAgain": 3,
+      "answers": [
+        { "label": "Sharing food", "picture": { "src": "/content/images/art/manners.jpg", "alt": "Two children sharing food" }, "correct": true },
+        { "label": "The moon", "picture": { "src": "/content/images/salam/night.svg", "alt": "The moon at night" } }
+      ]
+    },
+    { "type": "learn", "text": "You learned good manners.", "picture": { "src": "/content/images/art/manners.jpg", "alt": "Two children sharing food and smiling" } }
+  ]
+}
