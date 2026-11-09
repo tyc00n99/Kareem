@@ -5,12 +5,14 @@ import { useEffect, useState } from 'react';
 export type Route =
   | { name: 'home' }
   | { name: 'settings' }
+  | { name: 'helper' }
   | { name: 'learn'; topicId: string; index: number }
   | { name: 'done'; topicId: string };
 
 export function parse(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean);
   if (parts[0] === 'settings') return { name: 'settings' };
+  if (parts[0] === 'helper') return { name: 'helper' };
   if (parts[0] === 'learn' && parts[1]) {
     const n = Number(parts[2]);
     return { name: 'learn', topicId: parts[1], index: Number.isInteger(n) && n > 0 ? n - 1 : 0 };
@@ -25,6 +27,8 @@ export function href(route: Route): string {
       return '#/';
     case 'settings':
       return '#/settings';
+    case 'helper':
+      return '#/helper';
     case 'learn':
       return `#/learn/${route.topicId}/${route.index + 1}`;
     case 'done':

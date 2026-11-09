@@ -1,0 +1,29 @@
+{
+  "id": "salah",
+  "title": "Salah",
+  "summary": "How Muslims pray, step by step.",
+  "order": 40,
+  "status": "draft",
+  "picture": { "src": "/content/images/art/how-to-pray.jpg", "alt": "A boy standing on a prayer mat by a window" },
+  "screens": [
+    { "type": "learn", "text": "Salah is how Muslims pray.", "picture": { "src": "/content/images/art/how-to-pray.jpg", "alt": "A boy standing on a prayer mat by a window" } },
+    { "type": "learn", "text": "Before salah, I make wudu.", "picture": { "src": "/content/images/art/wudu.jpg", "alt": "A boy washing his hands under a tap" } },
+    { "type": "learn", "text": "I stand on a clean place and face the Kaaba.", "picture": { "src": "/content/images/art/seerah.jpg", "alt": "The Kaaba in an old desert town" } },
+    { "type": "learn", "text": "I raise my hands and say: Allahu Akbar.", "picture": { "emoji": "🙌", "alt": "Two raised hands" }, "arabic": { "text": "اللَّهُ أَكْبَرُ", "say": "Allahu Akbar" } },
+    { "type": "learn", "text": "I stand still and recite the Quran quietly.", "picture": { "src": "/content/images/art/how-to-pray.jpg", "alt": "A boy standing still on a prayer mat" } },
+    { "type": "learn", "text": "I bow down with my hands on my knees. This is ruku.", "picture": { "emoji": "🙇", "alt": "A person bowing" } },
+    { "type": "learn", "text": "I put my forehead on the floor. This is sujud.", "picture": { "emoji": "🧎", "alt": "A person kneeling" } },
+    { "type": "learn", "text": "I sit quietly between the sujud.", "picture": { "emoji": "🧘", "alt": "A person sitting still" } },
+    {
+      "type": "check",
+      "question": "What do I say when I start salah?",
+      "showAgain": 4,
+      "answers": [
+        { "label": "Allahu Akbar", "picture": { "emoji": "🙌", "alt": "Two raised hands" }, "correct": true },
+        { "label": "Goodnight", "picture": { "src": "/content/images/salam/night.svg", "alt": "The moon at night" } }
+      ]
+    },
+    { "type": "learn", "text": "At the end, I turn my head and say: Assalamu alaykum wa rahmatullah.", "picture": { "src": "/content/images/art/together.jpg", "alt": "Two children sitting on a prayer mat" }, "arabic": { "text": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ", "say": "Assalamu alaykum wa rahmatullah" } },
+    { "type": "learn", "text": "You learned the steps of salah.", "picture": { "src": "/content/images/art/how-to-pray.jpg", "alt": "A boy standing on a prayer mat" } }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "five-pillars",
+  "title": "The Five Pillars",
+  "summary": "Five things Muslims do.",
+  "order": 20,
+  "status": "draft",
+  "picture": { "src": "/content/images/art/seerah.jpg", "alt": "The Kaaba in an old desert town" },
+  "screens": [
+    { "type": "learn", "text": "Every Muslim does five big things. They are called the Five Pillars.", "picture": { "emoji": "🖐️", "alt": "An open hand showing five fingers" } },
+    { "type": "learn", "text": "One. I say: there is no god but Allah, and Muhammad is His Messenger.", "picture": { "emoji": "☝️", "alt": "One finger held up" }, "arabic": { "text": "لَا إِلَٰهَ إِلَّا اللَّهُ مُحَمَّدٌ رَسُولُ اللَّهِ", "say": "La ilaha illallah, Muhammadur rasulullah" } },
+    { "type": "learn", "text": "Two. I pray five times a day.", "picture": { "src": "/content/images/art/how-to-pray.jpg", "alt": "A boy standing on a prayer mat" } },
+    { "type": "learn", "text": "Three. I give some of my money to people who need it.", "picture": { "emoji": "🤲", "alt": "Two open hands giving" } },
+    { "type": "learn", "text": "Four. In Ramadan, I do not eat or drink from morning until sunset.", "picture": { "src": "/content/images/salam/night.svg", "alt": "The moon in the night sky" } },
+    { "type": "learn", "text": "Five. If I am able, I visit the Kaaba in Makkah once in my life.", "picture": { "src": "/content/images/art/seerah.jpg", "alt": "The Kaaba in an old desert town" } },
+    {
+      "type": "check",
+      "question": "How many times a day do Muslims pray?",
+      "showAgain": 3,
+      "answers": [
+        { "label": "Five", "picture": { "emoji": "🖐️", "alt": "An open hand showing five fingers" }, "correct": true },
+        { "label": "One", "picture": { "emoji": "☝️", "alt": "One finger held up" } }
+      ]
+    },
+    { "type": "learn", "text": "You learned the Five Pillars.", "picture": { "src": "/content/images/art/seerah.jpg", "alt": "The Kaaba in an old desert town" } }
+  ]
+}
