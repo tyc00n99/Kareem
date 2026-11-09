@@ -1,0 +1,75 @@
+{
+  "id": "saying-salam",
+  "title": "Saying salam",
+  "summary": "What Muslims say when they meet.",
+  "order": 60,
+  "status": "draft",
+  "picture": {
+    "src": "/content/images/art/manners.jpg",
+    "alt": "A boy and a girl sitting together and sharing dates"
+  },
+  "screens": [
+    {
+      "type": "learn",
+      "text": "Muslims greet each other with salam.",
+      "picture": {
+        "src": "/content/images/art/manners.jpg",
+        "alt": "A boy and a girl sitting together and smiling"
+      }
+    },
+    {
+      "type": "learn",
+      "text": "When you meet someone, you say: Assalamu alaykum.",
+      "picture": {
+        "src": "/content/images/art/together.jpg",
+        "alt": "Two children sitting together on a prayer mat under the moon"
+      },
+      "arabic": {
+        "text": "السَّلَامُ عَلَيْكُمْ",
+        "say": "Assalamu alaykum"
+      }
+    },
+    {
+      "type": "learn",
+      "text": "It means: peace be with you.",
+      "picture": {
+        "src": "/content/images/salam/dove.svg",
+        "alt": "A white dove, a sign of peace"
+      }
+    },
+    {
+      "type": "learn",
+      "text": "The other person says back: Wa alaykum assalam.",
+      "picture": {
+        "src": "/content/images/salam/reply.svg",
+        "alt": "A girl in a hijab smiling and waving back"
+      },
+      "arabic": {
+        "text": "وَعَلَيْكُمُ السَّلَامُ",
+        "say": "Wa alaykum assalam"
+      }
+    },
+    {
+      "type": "check",
+      "question": "You meet someone. What do you say?",
+      "showAgain": 2,
+      "answers": [
+        {
+          "label": "Assalamu alaykum",
+          "picture": {
+            "src": "/content/images/art/manners.jpg",
+            "alt": "Two children greeting each other"
+          },
+          "correct": true
+        },
+        {
+          "label": "Goodnight",
+          "picture": {
+            "src": "/content/images/salam/night.svg",
+            "alt": "The moon at night"
+          }
+        }
+      ]
+    }
+  ]
+}

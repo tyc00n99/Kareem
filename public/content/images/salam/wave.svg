@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#dff0f7"/>
+  <circle cx="330" cy="54" r="26" fill="#f7d774"/>
+  <path d="M0 262 Q100 236 200 256 T400 252 V300 H0 Z" fill="#cfe8d8"/>
+  <!-- Kareem: a Muslim boy waving -->
+  <path d="M148 298 Q146 212 200 208 Q254 212 252 298 Z" fill="#2f6f62"/>
+  <path d="M252 240 Q274 220 268 178" stroke="#2f6f62" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <circle cx="268" cy="166" r="15" fill="#e8b48a"/>
+  <circle cx="200" cy="152" r="44" fill="#e8b48a"/>
+  <path d="M156 142 A44 44 0 0 1 244 142 L238 120 Q200 96 162 120 Z" fill="#ffffff"/>
+  <circle cx="184" cy="152" r="5" fill="#2b2b2b"/>
+  <circle cx="216" cy="152" r="5" fill="#2b2b2b"/>
+  <path d="M184 172 Q200 184 216 172" stroke="#2b2b2b" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>
