@@ -1,0 +1,84 @@
+{
+  "id": "wudu",
+  "title": "Wudu",
+  "summary": "Getting clean to pray.",
+  "order": 30,
+  "status": "draft",
+  "picture": { "src": "/content/images/art/wudu.jpg", "alt": "A boy washing his hands under a tap" },
+  "screens": [
+    {
+      "type": "learn",
+      "text": "Wudu is washing before prayer.",
+      "picture": { "src": "/content/images/art/wudu.jpg", "alt": "A boy washing his hands under a tap" }
+    },
+    {
+      "type": "learn",
+      "text": "First I say: Bismillah.",
+      "picture": { "emoji": "🗣️", "alt": "A person speaking" },
+      "arabic": { "text": "بِسْمِ اللَّهِ", "say": "Bismillah" }
+    },
+    {
+      "type": "learn",
+      "text": "I wash my hands. One, two, three.",
+      "picture": { "src": "/content/images/art/wudu.jpg", "alt": "A boy washing his hands under a tap" }
+    },
+    {
+      "type": "learn",
+      "text": "I rinse my mouth. One, two, three.",
+      "picture": { "emoji": "👄", "alt": "A mouth" }
+    },
+    {
+      "type": "learn",
+      "text": "I rinse my nose. One, two, three.",
+      "picture": { "emoji": "👃", "alt": "A nose" }
+    },
+    {
+      "type": "check",
+      "question": "What do I say first?",
+      "showAgain": 2,
+      "answers": [
+        { "label": "Bismillah", "picture": { "emoji": "🗣️", "alt": "A person speaking" }, "correct": true },
+        { "label": "Goodnight", "picture": { "src": "/content/images/salam/night.svg", "alt": "The moon at night" } }
+      ]
+    },
+    {
+      "type": "learn",
+      "text": "I wash my face. One, two, three.",
+      "picture": { "emoji": "🙂", "alt": "A face" }
+    },
+    {
+      "type": "learn",
+      "text": "I wash my arms up to the elbows. Right arm first, then left.",
+      "picture": { "emoji": "💪", "alt": "An arm" }
+    },
+    {
+      "type": "learn",
+      "text": "I wipe my wet hands over my head.",
+      "picture": { "emoji": "🙆", "alt": "A person with hands on their head" }
+    },
+    {
+      "type": "learn",
+      "text": "I wipe my ears with wet fingers.",
+      "picture": { "emoji": "👂", "alt": "An ear" }
+    },
+    {
+      "type": "learn",
+      "text": "I wash my feet up to the ankles. Right foot first, then left.",
+      "picture": { "emoji": "🦶", "alt": "A foot" }
+    },
+    {
+      "type": "check",
+      "question": "Which picture shows washing hands?",
+      "showAgain": 3,
+      "answers": [
+        { "label": "Washing hands", "picture": { "src": "/content/images/art/wudu.jpg", "alt": "A boy washing his hands under a tap" }, "correct": true },
+        { "label": "A book", "picture": { "src": "/content/images/art/quran.jpg", "alt": "A book on a stand" } }
+      ]
+    },
+    {
+      "type": "learn",
+      "text": "Now I am clean. I am ready to pray.",
+      "picture": { "src": "/content/images/art/how-to-pray.jpg", "alt": "A boy standing on a prayer mat" }
+    }
+  ]
+}
