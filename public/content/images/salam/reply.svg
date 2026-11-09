@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#dff0f7"/>
+  <circle cx="330" cy="54" r="26" fill="#f7d774"/>
+  <path d="M0 262 Q100 236 200 256 T400 252 V300 H0 Z" fill="#cfe8d8"/>
+  <!-- Noor, a Muslim girl, waves back -->
+  <path d="M148 298 Q146 212 200 208 Q254 212 252 298 Z" fill="#7a5ea6"/>
+  <path d="M148 240 Q126 220 132 178" stroke="#7a5ea6" stroke-width="26" stroke-linecap="round" fill="none"/>
+  <circle cx="132" cy="166" r="15" fill="#caa27c"/>
+  <circle cx="200" cy="152" r="44" fill="#caa27c"/>
+  <path d="M200 100 Q146 108 152 174 Q148 196 158 206 Q144 152 168 130 Q156 180 168 192 Q160 138 200 128 Q240 138 232 192 Q244 180 232 130 Q256 152 242 206 Q252 196 248 174 Q254 108 200 100 Z" fill="#9b7fc4"/>
+  <circle cx="184" cy="152" r="5" fill="#2b2b2b"/>
+  <circle cx="216" cy="152" r="5" fill="#2b2b2b"/>
+  <path d="M184 172 Q200 184 216 172" stroke="#2b2b2b" stroke-width="5" stroke-linecap="round" fill="none"/>
+</svg>

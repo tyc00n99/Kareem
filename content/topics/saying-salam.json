@@ -4,37 +4,71 @@
   "summary": "What Muslims say when they meet.",
   "order": 60,
   "status": "draft",
-  "picture": { "emoji": "👋", "alt": "A hand waving hello" },
+  "picture": {
+    "src": "/content/images/salam/wave.svg",
+    "alt": "A boy in a white cap waving hello"
+  },
   "screens": [
     {
       "type": "learn",
       "text": "Muslims greet each other with salam.",
-      "picture": { "emoji": "🤝", "alt": "Two people meeting" }
+      "picture": {
+        "src": "/content/images/salam/meeting.svg",
+        "alt": "A boy and a girl meeting and smiling"
+      }
     },
     {
       "type": "learn",
       "text": "When you meet someone, you say: Assalamu alaykum.",
-      "picture": { "emoji": "👋", "alt": "A hand waving hello" },
-      "arabic": { "text": "السَّلَامُ عَلَيْكُمْ", "say": "Assalamu alaykum" }
+      "picture": {
+        "src": "/content/images/salam/wave.svg",
+        "alt": "A boy in a white cap waving hello"
+      },
+      "arabic": {
+        "text": "السَّلَامُ عَلَيْكُمْ",
+        "say": "Assalamu alaykum"
+      }
     },
     {
       "type": "learn",
       "text": "It means: peace be with you.",
-      "picture": { "emoji": "🕊️", "alt": "A white dove, a sign of peace" }
+      "picture": {
+        "src": "/content/images/salam/dove.svg",
+        "alt": "A white dove, a sign of peace"
+      }
     },
     {
       "type": "learn",
       "text": "The other person says back: Wa alaykum assalam.",
-      "picture": { "emoji": "😊", "alt": "A smiling face" },
-      "arabic": { "text": "وَعَلَيْكُمُ السَّلَامُ", "say": "Wa alaykum assalam" }
+      "picture": {
+        "src": "/content/images/salam/reply.svg",
+        "alt": "A girl in a hijab smiling and waving back"
+      },
+      "arabic": {
+        "text": "وَعَلَيْكُمُ السَّلَامُ",
+        "say": "Wa alaykum assalam"
+      }
     },
     {
       "type": "check",
       "question": "You meet someone. What do you say?",
       "showAgain": 2,
       "answers": [
-        { "label": "Assalamu alaykum", "picture": { "emoji": "👋", "alt": "A hand waving hello" }, "correct": true },
-        { "label": "Goodnight", "picture": { "emoji": "🌙", "alt": "The moon at night" } }
+        {
+          "label": "Assalamu alaykum",
+          "picture": {
+            "src": "/content/images/salam/wave.svg",
+            "alt": "A boy waving hello"
+          },
+          "correct": true
+        },
+        {
+          "label": "Goodnight",
+          "picture": {
+            "src": "/content/images/salam/night.svg",
+            "alt": "The moon at night"
+          }
+        }
       ]
     }
   ]

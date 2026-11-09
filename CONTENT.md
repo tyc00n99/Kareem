@@ -64,3 +64,11 @@ Put pictures in `public/content/images/` and recordings in `public/content/audio
 - Give 2 or 3 answers. Exactly one has `"correct": true`.
 - `showAgain` is the number of the screen to show again after a wrong answer (the first screen is 1).
 - There is no score. A wrong answer shows the idea again kindly, then the learner tries again.
+
+## Pictures and characters
+
+- The app is children-first. Lesson pictures are warm, flat illustrations of everyday Muslim children.
+  The two recurring characters are **Kareem** (a boy in a white kufi cap) and **Noor** (a girl in a hijab).
+- **Never draw Allah, the Prophet (peace be upon him), other prophets, angels, or companions.**
+  Show the Kaaba, mosques, nature, everyday scenes, and the child characters instead.
+- Pictures are SVG files in `public/content/images/<topic>/`. Keep them calm: soft flat colours, no flashing, nothing busy.

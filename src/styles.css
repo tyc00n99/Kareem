@@ -1,7 +1,7 @@
 /* Calm, low-stimulus, predictable. Same layout on every screen. */
 
 :root {
-  --bg: #f4f1ea;
+  --bg: #eaf4f9;
   --surface: #ffffff;
   --text: #1f2a2a;
   --muted: #55605f;
@@ -11,7 +11,7 @@
   --soft: #e7efe9;
   --right: #2f6f62;
   --radius: 22px;
-  --pic-bg: #fbf3e4;
+  --pic-bg: #dff0f7;
   font-size: 18px;
 }
 

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#dff0f7"/>
+  <path d="M0 262 Q100 236 200 256 T400 252 V300 H0 Z" fill="#cfe8d8"/>
+  <!-- Kareem, a Muslim boy, meets Noor, a Muslim girl -->
+  <path d="M66 298 Q64 224 110 220 Q156 224 154 298 Z" fill="#2f6f62"/>
+  <path d="M154 254 Q176 240 186 214" stroke="#2f6f62" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <circle cx="190" cy="206" r="12" fill="#e8b48a"/>
+  <circle cx="110" cy="172" r="38" fill="#e8b48a"/>
+  <path d="M72 164 A38 38 0 0 1 148 164 L142 144 Q110 124 78 144 Z" fill="#ffffff"/>
+  <circle cx="97" cy="172" r="4.5" fill="#2b2b2b"/>
+  <circle cx="123" cy="172" r="4.5" fill="#2b2b2b"/>
+  <path d="M98 189 Q110 198 122 189" stroke="#2b2b2b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M246 298 Q244 224 290 220 Q336 224 334 298 Z" fill="#7a5ea6"/>
+  <path d="M246 254 Q224 240 214 214" stroke="#7a5ea6" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <circle cx="210" cy="206" r="12" fill="#caa27c"/>
+  <circle cx="290" cy="172" r="38" fill="#caa27c"/>
+  <path d="M290 126 Q242 134 248 192 Q244 210 252 218 Q240 170 262 152 Q252 196 262 206 Q254 160 290 150 Q326 160 318 206 Q328 196 318 152 Q340 170 328 218 Q336 210 332 192 Q338 134 290 126 Z" fill="#9b7fc4"/>
+  <circle cx="277" cy="172" r="4.5" fill="#2b2b2b"/>
+  <circle cx="303" cy="172" r="4.5" fill="#2b2b2b"/>
+  <path d="M278 189 Q290 198 302 189" stroke="#2b2b2b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+</svg>

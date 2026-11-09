@@ -2,8 +2,8 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 import { load, save } from './storage';
 
 export type Settings = {
-  /** Chosen on first launch; null until then. */
-  look: 'child' | 'adult' | null;
+  /** Child is the default. A grown-up can switch in Settings. */
+  look: 'child' | 'adult';
   sound: boolean;
   speechRate: 'slow' | 'normal';
   motion: boolean;
@@ -13,7 +13,7 @@ export type Settings = {
 };
 
 const defaults: Settings = {
-  look: null,
+  look: 'child',
   sound: true,
   speechRate: 'slow',
   motion: false,
@@ -33,7 +33,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     save(KEY, settings);
     const root = document.documentElement;
-    root.dataset.look = settings.look ?? 'adult';
+    root.dataset.look = settings.look;
     root.dataset.contrast = settings.highContrast ? 'high' : 'normal';
     root.dataset.text = settings.textSize;
     root.dataset.motion = settings.motion ? 'on' : 'off';
