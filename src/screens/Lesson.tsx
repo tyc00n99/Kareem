@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from 'react';
 import { Btn, Frame, KidTools, Pic } from '../components';
 import type { CheckScreen, LearnScreen, Topic } from '../lib/content';
 import { ArabicCard, Bubble, OrderCard, Words } from '../lesson-parts';
-import { playSound, stopSound } from '../lib/audio';
+import { playSound, playTwo, stopSound, type PlayOptions } from '../lib/audio';
+import { arabicClip, screenClip } from '../lib/clips';
 import { markFinished, recordCheck, recordOpen, recordScreen } from '../lib/progress';
 import { go } from '../lib/route';
 import { useSettings } from '../lib/settings';
@@ -50,25 +51,35 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   const reviewScreen =
     screen.type === 'check' ? (topic.screens[screen.showAgain - 1] as LearnScreen | undefined) : undefined;
 
+  /** Say a learn screen: a recorded clip when there is one, then the Arabic phrase in its own clip. */
+  const sayLearn = (s: LearnScreen, n: number, extra?: Partial<PlayOptions>, prefix = '') => {
+    const clip = s.audio ?? screenClip(topic.id, n);
+    const ar = s.arabic && arabicClip(s.arabic.say);
+    const base = { rate: settings.speechRate, ...extra };
+    if (s.arabic && (clip || ar)) {
+      playTwo(
+        { ...base, text: prefix + s.text, audio: clip },
+        { ...base, text: `${s.arabic.say}.`, audio: ar, offset: s.text.length + 1 },
+      );
+    } else playSound({ ...base, text: prefix + speechFor(s), audio: prefix ? undefined : clip });
+  };
+
   const hear = () => {
     if (!settings.sound) return;
     if (screen.type === 'learn') {
-      playSound({
-        text: speechFor(screen),
-        audio: screen.audio,
-        rate: settings.speechRate,
-        onWord: setAt,
-        onEnd: () => setAt(null),
-      });
+      sayLearn(screen, i, { onWord: setAt, onEnd: () => setAt(null) });
     } else if (screen.type === 'order') {
       const all = orderDone ? ` ${screen.items.map((x) => x.label).join('. ')}.` : '';
-      playSound({ text: `${screen.question}${all}`, audio: orderDone ? undefined : screen.audio, rate: settings.speechRate });
+      playSound({ text: `${screen.question}${all}`, audio: orderDone ? undefined : (screen.audio ?? screenClip(topic.id, i)), rate: settings.speechRate });
     } else if (answer === 'retry' && reviewScreen) {
-      playSound({ text: `Let's look again. ${speechFor(reviewScreen)}`, audio: reviewScreen.audio, rate: settings.speechRate });
+      const back = screen.showAgain - 1;
+      if (screenClip(topic.id, back) || reviewScreen.audio) {
+        playTwo({ text: "Let's look again.", rate: settings.speechRate }, { text: reviewScreen.text, audio: reviewScreen.audio ?? screenClip(topic.id, back), rate: settings.speechRate, offset: 0 });
+      } else sayLearn(reviewScreen, back, undefined, "Let's look again. ");
     } else if (answer === 'right') {
       playSound({ text: 'Yes. That is right.', rate: settings.speechRate });
     } else {
-      playSound({ text: screen.question, audio: screen.audio, rate: settings.speechRate });
+      playSound({ text: screen.question, audio: screen.audio ?? screenClip(topic.id, i), rate: settings.speechRate });
     }
   };
 
