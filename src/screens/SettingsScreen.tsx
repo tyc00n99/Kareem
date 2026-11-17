@@ -1,5 +1,5 @@
-import type { ReactNode } from 'react';
-import { canSpeak } from '../lib/audio';
+import { useEffect, useState, type ReactNode } from 'react';
+import { canSpeak, goodVoices, onVoices, playSound } from '../lib/audio';
 import { go } from '../lib/route';
 import { useSettings, type Settings } from '../lib/settings';
 
@@ -68,6 +68,7 @@ export function SettingsScreen() {
           <Choice name="sound" label="Sound" options={onOff('On', 'Off')} />
           {!canSpeak() && <p className="hint">This device cannot read words aloud.</p>}
           <Choice name="speechRate" label="Reading speed" options={[{ value: 'slow', text: 'Slow' }, { value: 'normal', text: 'Normal' }]} />
+          {canSpeak() && <VoicePick />}
         </Section>
         <Section>
           <Choice name="textSize" label="Text size" options={[{ value: 'normal', text: 'Normal' }, { value: 'large', text: 'Large' }, { value: 'larger', text: 'Larger' }]} />
@@ -77,6 +78,38 @@ export function SettingsScreen() {
         </Section>
       </main>
     </div>
+  );
+}
+
+function niceName(v: SpeechSynthesisVoice): string {
+  return v.name.replace(/^(Microsoft|Google|Apple)\s+/i, '').replace(/\s*\((?:Natural|Enhanced|Premium)\)/i, ' ★').replace(/\s*-\s*English.*$/i, '');
+}
+
+/** Choose the reading voice from the most natural ones on this device. */
+function VoicePick() {
+  const { settings, update } = useSettings();
+  const [voices, setVoices] = useState(() => goodVoices().slice(0, 10));
+  useEffect(() => onVoices(() => setVoices(goodVoices().slice(0, 10))), []);
+  const tryIt = () => playSound({ text: 'Assalamu alaykum! I am Kareem. Let us learn together.', rate: settings.speechRate });
+  if (!voices.length) return null;
+  return (
+    <fieldset className="setting">
+      <legend>Reading voice</legend>
+      <div className="voice-row">
+        <select className="voice-select" value={settings.voice} onChange={(e) => update({ voice: e.target.value })} aria-label="Reading voice">
+          <option value="">Most natural on this device ({niceName(voices[0])})</option>
+          {voices.map((v) => (
+            <option key={v.voiceURI} value={v.voiceURI}>
+              {niceName(v)} · {v.lang}
+            </option>
+          ))}
+        </select>
+        <button type="button" className="btn btn-plain" onClick={tryIt} disabled={!settings.sound}>
+          🔊 Try it
+        </button>
+      </div>
+      <p className="hint">Voices come from your phone or computer. Ones marked ★ sound most human. On iPhone and iPad you can download nicer voices in Settings, Accessibility, Spoken Content, Voices.</p>
+    </fieldset>
   );
 }
 

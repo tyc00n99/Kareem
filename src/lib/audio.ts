@@ -17,9 +17,70 @@ export type PlayOptions = {
   onWord?: (charIndex: number) => void;
   /** Called once when the sound ends or is stopped. */
   onEnd?: () => void;
+  /** 'ar' speaks the text with an Arabic voice when the device has one. */
+  lang?: 'ar';
 };
 
 let pendingEnd: (() => void) | undefined;
+
+// ── Choosing a voice ──
+// Browsers ship many voices; the first one is often the flattest. We rank them
+// and pick the most natural English voice, unless a grown-up chose one.
+
+let chosenVoice = '';
+export function setVoicePref(uri: string): void {
+  chosenVoice = uri;
+}
+
+const NOVELTY = /albert|bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|junior|ralph|fred|kathy|grandma|grandpa|eddy|flo|reed|rocko|sandy|shelley/i;
+
+function score(v: SpeechSynthesisVoice): number {
+  const n = v.name;
+  let s = 0;
+  if (/^en[-_](GB|IE|ZA|AU|IN)/i.test(v.lang)) s += 3;
+  else if (/^en/i.test(v.lang)) s += 2;
+  else return -100;
+  if (/natural|neural|premium|enhanced|wavenet|online/i.test(n)) s += 10;
+  if (/google/i.test(n)) s += 6;
+  if (/siri|samantha|serena|karen|moira|tessa|daniel|libby|sonia|aria|jenny|ava|zoe|martha|stephanie|catherine|arthur|kate|oliver/i.test(n)) s += 5;
+  if (/microsoft (david|zira|mark|hazel|george|susan)(?! .*natural)/i.test(n)) s -= 3;
+  if (/espeak|compact/i.test(n)) s -= 8;
+  if (NOVELTY.test(n)) s -= 50;
+  if (v.localService) s += 1; // works offline
+  return s;
+}
+
+/** English voices on this device, best first. */
+export function goodVoices(): SpeechSynthesisVoice[] {
+  if (!canSpeak()) return [];
+  return window.speechSynthesis
+    .getVoices()
+    .filter((v) => score(v) > -10)
+    .sort((a, b) => score(b) - score(a));
+}
+
+function arabicVoice(): SpeechSynthesisVoice | undefined {
+  if (!canSpeak()) return undefined;
+  const ar = window.speechSynthesis.getVoices().filter((v) => /^ar/i.test(v.lang));
+  return ar.find((v) => /natural|neural|premium|enhanced|google|online|maged|laila|majed|tarik|hamed|zariyah/i.test(v.name)) ?? ar[0];
+}
+
+/** True when this device can say Arabic words in an Arabic voice. */
+export function hasArabicVoice(): boolean {
+  return !!arabicVoice();
+}
+
+function pickVoice(): SpeechSynthesisVoice | undefined {
+  const all = window.speechSynthesis.getVoices();
+  return all.find((v) => v.voiceURI === chosenVoice) ?? goodVoices()[0];
+}
+
+/** Voices load late on some browsers. Call back when they are ready. */
+export function onVoices(cb: () => void): () => void {
+  if (!canSpeak()) return () => {};
+  window.speechSynthesis.addEventListener('voiceschanged', cb);
+  return () => window.speechSynthesis.removeEventListener('voiceschanged', cb);
+}
 
 export function stopSound(): void {
   session++;
@@ -109,8 +170,17 @@ export function playSound(opts: PlayOptions): void {
 function speak(opts: PlayOptions, mine: number): void {
   if (!('speechSynthesis' in window)) return finish(mine);
   const u = new SpeechSynthesisUtterance(opts.text);
-  u.rate = opts.rate === 'slow' ? 0.8 : 1;
-  u.lang = 'en-GB';
+  const ar = opts.lang === 'ar' ? arabicVoice() : undefined;
+  const voice = ar ?? pickVoice();
+  try {
+    if (voice) u.voice = voice;
+  } catch {
+    /* keep the default voice */
+  }
+  u.lang = voice?.lang ?? 'en-GB';
+  // A little slower and warmer than the default sounds more like a teacher.
+  u.rate = (opts.rate === 'slow' ? 0.82 : 0.95) * (ar ? 0.85 : 1);
+  u.pitch = 1.03;
   let gotBoundary = false;
   u.onboundary = (e) => {
     if (mine !== session || e.name !== 'word') return;

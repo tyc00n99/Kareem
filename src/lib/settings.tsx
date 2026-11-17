@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import { load, save } from './storage';
+import { setVoicePref } from './audio';
 
 export type Settings = {
   /** Child is the default. A grown-up can switch in Settings. */
@@ -14,6 +15,8 @@ export type Settings = {
   calm: boolean;
   /** Dim the whole screen for children who are sensitive to bright light. */
   dim: 'off' | 'some' | 'more';
+  /** The reading voice chosen on this device ('' picks the most natural one). */
+  voice: string;
 };
 
 const defaults: Settings = {
@@ -26,6 +29,7 @@ const defaults: Settings = {
   celebration: 'picture',
   calm: false,
   dim: 'off',
+  voice: '',
 };
 
 const KEY = 'deen-steps:settings';
@@ -45,6 +49,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     root.dataset.motion = settings.motion && !settings.calm ? 'on' : 'off';
     root.dataset.calm = settings.calm ? 'on' : 'off';
     root.dataset.dim = settings.dim;
+    setVoicePref(settings.voice);
   }, [settings]);
 
   const update = (patch: Partial<Settings>) => setSettings((s) => ({ ...s, ...patch }));
