@@ -1,9 +1,10 @@
 import { useState } from 'react';
+import { childPrefs } from '../lib/plan';
 import { allTopics, getTopic, getWorld, topics, topicsIn, worlds } from '../lib/content';
 import { clearRecordsOnline, getAccount, joinClass } from '../lib/cloud';
 import { AVATARS, getChild, getPeople, removeChild, setActiveChild, updateChild, type ChildProfile } from '../lib/people';
 import { clearRecords, getRecords, statusOf, type Status } from '../lib/progress';
-import { go } from '../lib/route';
+import { go, href } from '../lib/route';
 import { useSettings } from '../lib/settings';
 import { niceDate } from './Dashboard';
 import { GrownUpShell } from './Shell';
@@ -15,7 +16,6 @@ const STATUS: Record<Status, { label: string; cls: string; help: string }> = {
   mastered: { label: 'Mastered', cls: 'st-mastered', help: 'Finished at least twice, last time with every question right first try.' },
 };
 
-const TAGS = ['light-sensitive', 'sound-sensitive', 'prefers quiet', 'needs movement breaks', 'likes music', 'hands-on', 'non-speaking', 'uses AAC', 'routine helps'];
 
 export function ChildPage({ childId }: { childId: string }) {
   const [, refresh] = useState(0);
@@ -43,20 +43,10 @@ export function ChildPage({ childId }: { childId: string }) {
     updateChild(child.id, { profile: { ...p, ...patch } });
     redraw();
   };
-  const toggleTag = (tag: string) => {
-    const tags = new Set(p.tags ?? []);
-    if (tags.has(tag)) tags.delete(tag);
-    else tags.add(tag);
-    // Helpful defaults: light-sensitive dims the screen, sound-sensitive slows speech and calms things down.
-    const extra: Partial<ChildProfile> = {};
-    if (tag === 'light-sensitive' && tags.has(tag) && (!p.dim || p.dim === 'off')) extra.dim = 'some';
-    if (tag === 'sound-sensitive' && tags.has(tag)) extra.calm = true;
-    setProfile({ tags: [...tags], ...extra });
-  };
 
   const startLearning = () => {
     setActiveChild(child.id);
-    const { tags: _t, notes: _n, ...prefs } = child.profile;
+    const prefs = childPrefs(child.profile);
     if (Object.keys(prefs).length) update(prefs);
     go({ name: 'home' });
   };
@@ -127,39 +117,15 @@ export function ChildPage({ childId }: { childId: string }) {
 
       <Picked childId={child.id} name={child.name} assigned={p.assigned ?? []} onChange={(assigned) => setProfile({ assigned })} />
 
-      <div className="gu-two gu-space">
-        <section className="gu-card gu-form">
-          <h2 className="gu-h2">Learning profile</h2>
-          <p className="gu-muted">What helps {child.name}? Tap all that fit. Some set helpful options below.</p>
-          <div className="tag-row">
-            {TAGS.map((tag) => (
-              <button key={tag} type="button" className={`tag${p.tags?.includes(tag) ? ' on' : ''}`} aria-pressed={!!p.tags?.includes(tag)} onClick={() => toggleTag(tag)}>
-                {tag}
-              </button>
-            ))}
-          </div>
-          <label className="gu-label">
-            Notes for anyone helping
-            <textarea
-              className="gu-input gu-textarea"
-              value={p.notes ?? ''}
-              placeholder="e.g. Loves the moon. Gets upset with loud water. Use a calm voice."
-              onChange={(e) => setProfile({ notes: e.target.value })}
-            />
-          </label>
-        </section>
-
-        <section className="gu-card gu-form">
-          <h2 className="gu-h2">Sensory settings</h2>
-          <p className="gu-muted">These switch on when {child.name} starts learning on this device.</p>
-          <Seg label="Dim the light" value={p.dim ?? 'off'} options={[['off', 'Off'], ['some', 'A little'], ['more', 'More']]} onChange={(v) => setProfile({ dim: v })} />
-          <Seg label="Calm mode" value={p.calm ? 'on' : 'off'} options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => setProfile({ calm: v === 'on' })} />
-          <Seg label="Sound" value={p.sound === false ? 'off' : 'on'} options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => setProfile({ sound: v === 'on' })} />
-          <Seg label="Reading speed" value={p.speechRate ?? 'slow'} options={[['slow', 'Slow'], ['normal', 'Normal']]} onChange={(v) => setProfile({ speechRate: v })} />
-          <Seg label="Text size" value={p.textSize ?? 'normal'} options={[['normal', 'Normal'], ['large', 'Large'], ['larger', 'Larger']]} onChange={(v) => setProfile({ textSize: v })} />
-          <Seg label="Strong colours" value={p.highContrast ? 'on' : 'off'} options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => setProfile({ highContrast: v === 'on' })} />
-        </section>
-      </div>
+      <a className="gu-card plan-link gu-space" href={href({ name: 'plan', childId: child.id })}>
+        <span>
+          <strong className="gu-h2">Learning plan and settings</strong>
+          <span className="gu-muted gu-block">
+            What helps {child.name}, how much help to give in lessons, screen and sound settings, Talk buttons and goals.
+          </span>
+        </span>
+        <span className="gu-go">Open →</span>
+      </a>
 
       <section className="gu-card gu-form gu-space">
         <h2 className="gu-h2">Picture and name</h2>
@@ -208,20 +174,6 @@ export function ChildPage({ childId }: { childId: string }) {
   );
 }
 
-function Seg<T extends string>({ label, value, options, onChange }: { label: string; value: T; options: [T, string][]; onChange: (v: T) => void }) {
-  return (
-    <fieldset className="gu-seg">
-      <legend>{label}</legend>
-      <div className="seg">
-        {options.map(([v, text]) => (
-          <button key={v} type="button" className={`seg-btn${value === v ? ' on' : ''}`} aria-pressed={value === v} onClick={() => onChange(v)}>
-            {text}
-          </button>
-        ))}
-      </div>
-    </fieldset>
-  );
-}
 
 /** Lessons a grown-up picks. They come first on the child's First / Then schedule, in this order. */
 function Picked({ childId, name, assigned, onChange }: { childId: string; name: string; assigned: string[]; onChange: (a: string[]) => void }) {
