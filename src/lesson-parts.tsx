@@ -5,6 +5,7 @@ import { useMemo, useState } from 'react';
 import { Pic } from './components';
 import type { Arabic, OrderScreen, Speaker } from './lib/content';
 import { hasArabicVoice, playSound, wordStarts } from './lib/audio';
+import { arabicClip } from './lib/clips';
 import { useSettings } from './lib/settings';
 
 export const characters: Record<Speaker, { name: string; src: string; alt: string }> = {
@@ -139,7 +140,7 @@ export function ArabicCard({
   const sayArabic = () => {
     if (!settings.sound) return;
     setArLit(true);
-    playSound({ text: arabic.text, rate: 'slow', lang: 'ar', onEnd: () => setArLit(false) });
+    playSound({ text: arabic.text, audio: arabicClip(arabic.say), rate: 'slow', lang: 'ar', onEnd: () => setArLit(false) });
   };
 
   return (
@@ -172,7 +173,7 @@ export function ArabicCard({
               🔊 Say it slowly
             </button>
           )}
-          {settings.sound && hasArabicVoice() && (
+          {settings.sound && (arabicClip(arabic.say) || hasArabicVoice()) && (
             <button type="button" className="turn" onClick={sayArabic}>
               🔊 Hear it in Arabic
             </button>

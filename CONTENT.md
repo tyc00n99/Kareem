@@ -94,6 +94,16 @@ Put pictures in `public/content/images/` and recordings in `public/content/audio
   Show the Kaaba, mosques, nature, everyday scenes, and the child characters instead.
 - The picture style is a soft storybook watercolor, like the art in `public/content/images/art/` (the original artwork from the Lovable prototype). New pictures should match it: gentle colours, one clear subject, nothing busy or flashing.
 
+## Voice clips
+
+The app plays recorded clips when they exist, and reads the text aloud otherwise. Put MP3 files in `public/content/audio/` with these names (no need to edit the lesson files):
+
+- `<topic id>/<NN>.mp3`: the sentence (or question) on screen NN, e.g. `wudu/03.mp3`. Say only the English sentence.
+- `arabic/<phrase>.mp3`: an Arabic phrase, named from its English letters in lower case with dashes, e.g. `arabic/assalamu-alaykum.mp3`. It plays right after the sentence. Best recorded by a real person.
+- `common/yes-right.mp3`, `common/not-yet.mp3`, `common/look-again.mp3`, `common/right-order.mp3`.
+
+`npm run make-voice -- --voice "<ElevenLabs voice>"` makes any missing clips with ElevenLabs (needs an API key). The build lists the clips that exist in `src/audio-files.json`.
+
 ## Learning worlds
 
 The home map shows learning worlds: Why We Pray, Wudu, How to Pray, Duas, Quran, Stories, Seerah, Manners and Everyday tasks.
