@@ -6,6 +6,7 @@ import { playSound, playTwo, stopSound, type PlayOptions } from '../lib/audio';
 import { arabicClip, screenClip } from '../lib/clips';
 import { markFinished, recordCheck, recordOpen, recordScreen } from '../lib/progress';
 import { go } from '../lib/route';
+import { activePlan, helpFor } from '../lib/plan';
 import { useSettings } from '../lib/settings';
 
 function speechFor(s: LearnScreen): string {
@@ -103,9 +104,21 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   };
 
   // World lessons: "Which picture shows this step?" under each picture, with emoji from the same lesson.
+  // The child's learning plan decides the answer type and how much help to give.
+  const plan = activePlan();
+  const tapMode = plan.answerMode === 'tap' || (plan.answerMode === 'both' && topic.world === 'everyday');
   const choices = screen.type === 'learn' && topic.pickStep ? stepChoices(topic, i) : null;
   const [stepPicked, setStepPicked] = useState<{ n: number; right: boolean } | null>(null);
-  useEffect(() => setStepPicked(null), [topic.id, i]);
+  // Gently show the right picture after the wait time (a gestural prompt), until that help has faded.
+  const [hint, setHint] = useState(false);
+  useEffect(() => {
+    setStepPicked(null);
+    setHint(false);
+    if (!choices || tapMode || !helpFor(plan, topic.id)) return;
+    const t = setTimeout(() => setHint(true), plan.waitSec * 1000);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [topic.id, i]);
 
   const nextBlocked =
     (screen.type === 'check' && answer !== 'right') ||
@@ -150,13 +163,18 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
             {choices && (
               <PickStep
                 choices={choices}
+                answer={screen.picture.emoji!}
+                tap={tapMode}
+                hint={hint}
                 picked={stepPicked}
                 onPick={(n) => {
-                  const right = choices[n] === screen.picture.emoji;
-                  if (!stepPicked) recordCheck(topic.id, right);
+                  const right = n < 0 || choices[n] === screen.picture.emoji;
+                  if (n >= 0 && !stepPicked) recordCheck(topic.id, right);
                   if (!right) clean.current = false;
+                  if (!right && plan.errorless) setHint(true);
                   setStepPicked({ n, right });
-                  if (settings.sound) playSound({ text: right ? 'Yes!' : 'Not yet. Look at the big picture.', rate: settings.speechRate });
+                  const say = right ? (plan.praise ? 'Yes!' : '') : 'Not yet. Look at the big picture.';
+                  if (settings.sound && say) playSound({ text: say, rate: settings.speechRate });
                 }}
               />
             )}
@@ -212,13 +230,33 @@ function stepChoices(topic: Topic, i: number): string[] | null {
 
 function PickStep({
   choices,
+  answer,
+  tap,
+  hint,
   picked,
   onPick,
 }: {
   choices: string[];
+  answer: string;
+  tap: boolean;
+  hint: boolean;
   picked: { n: number; right: boolean } | null;
+  /** Index of the picture, or -1 for "I did it". */
   onPick: (n: number) => void;
 }) {
+  if (tap) {
+    return (
+      <div className="pick-step">
+        <p className="pick-q">
+          <img className="pick-moon" src="/content/images/characters/moon.png" alt="" />
+          <span>{picked ? 'Well done 😊' : 'Do this step. Then tap “I did it”.'}</span>
+        </p>
+        <button type="button" className={`btn btn-main did-it${picked ? ' pick-right' : ''}`} onClick={() => onPick(-1)} disabled={!!picked}>
+          ✋ I did it
+        </button>
+      </div>
+    );
+  }
   return (
     <div className="pick-step">
       <p className="pick-q">
@@ -230,7 +268,7 @@ function PickStep({
           <button
             key={n}
             type="button"
-            className={`pick-btn${picked?.n === n ? (picked.right ? ' pick-right' : ' pick-wrong') : ''}`}
+            className={`pick-btn${picked?.n === n ? (picked.right ? ' pick-right' : ' pick-wrong') : hint && !picked?.right && e === answer ? ' pick-hint' : ''}`}
             onClick={() => onPick(n)}
             disabled={!!picked?.right}
             aria-label={`Picture ${n + 1}`}

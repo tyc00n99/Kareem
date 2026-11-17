@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { playSound, stopSound } from '../lib/audio';
 import { goBack } from '../lib/route';
 import { useSettings } from '../lib/settings';
+import { activePlan } from '../lib/plan';
 
 const BOARD = [
   { emoji: '🙋', label: 'Help', say: 'I need help, please.' },
@@ -19,6 +20,8 @@ const BOARD = [
 export function Talk() {
   const { settings } = useSettings();
   const [said, setSaid] = useState<(typeof BOARD)[number] | null>(null);
+  // Extra buttons a grown-up added to this child's plan.
+  const board = [...BOARD, ...activePlan().talkButtons.map((b) => ({ emoji: b.emoji, label: b.label, say: `${b.label}.` }))];
   const tap = (b: (typeof BOARD)[number]) => {
     setSaid(b);
     if (b.label === 'Stop') stopSound();
@@ -44,7 +47,7 @@ export function Talk() {
           )}
         </p>
         <div className="talk-grid">
-          {BOARD.map((b) => (
+          {board.map((b) => (
             <button key={b.label} type="button" className={`talk-btn${said?.label === b.label ? ' talk-on' : ''}`} onClick={() => tap(b)}>
               <span className="talk-emoji" aria-hidden>{b.emoji}</span>
               <span>{b.label}</span>

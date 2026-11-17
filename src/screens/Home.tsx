@@ -5,6 +5,7 @@ import { getFinished } from '../lib/progress';
 import { activeChild } from '../lib/people';
 import { href } from '../lib/route';
 import { useSettings } from '../lib/settings';
+import { activePlan } from '../lib/plan';
 
 /** Where each world sits on the Learning worlds map (percent of map width and height). */
 const PINS: Record<string, [number, number]> = {
@@ -56,7 +57,8 @@ export function Home() {
   const order = [...picked, ...topics.filter((t) => !picked.includes(t))];
   const todo = order.filter((t) => !finished[t.id]);
   const plan = (todo.length ? todo : order).slice(0, 4);
-  const [first, then, ...after] = plan;
+  const simple = activePlan().simpleHome;
+  const [first, then, ...after] = simple ? plan.slice(0, 2) : plan;
   const hello = kid ? `Assalamu alaykum, ${kid.name}!` : 'Assalamu alaykum!';
   const greeting = adult ? `${hello} What would you like to learn today?` : `${hello} Ready for an adventure?`;
 
@@ -121,44 +123,48 @@ export function Home() {
           </section>
         )}
 
-        <section className="block">
-          <h2 className="h2">🗺️ Learning worlds</h2>
-          <div className="map">
-            <img className="map-img" src="/content/images/art/world-map.jpg" alt="A storybook map with hills, a river and palm trees" />
-            {worlds.map((w) => {
-              const [x, y] = PINS[w.id] ?? [50, 50];
-              return (
-                <a key={w.id} className="pin" href={openWorld(w)} style={{ left: `${x}%`, top: `${y}%` }}>
-                  <span className="pin-ring">
-                    <WorldThumb world={w} className="pin-pic" />
-                  </span>
-                  <span className="pin-label">{w.title}</span>
-                </a>
-              );
-            })}
-          </div>
-        </section>
+        {!simple && (
+          <>
+            <section className="block">
+              <h2 className="h2">🗺️ Learning worlds</h2>
+              <div className="map">
+                <img className="map-img" src="/content/images/art/world-map.jpg" alt="A storybook map with hills, a river and palm trees" />
+                {worlds.map((w) => {
+                  const [x, y] = PINS[w.id] ?? [50, 50];
+                  return (
+                    <a key={w.id} className="pin" href={openWorld(w)} style={{ left: `${x}%`, top: `${y}%` }}>
+                      <span className="pin-ring">
+                        <WorldThumb world={w} className="pin-pic" />
+                      </span>
+                      <span className="pin-label">{w.title}</span>
+                    </a>
+                  );
+                })}
+              </div>
+            </section>
 
-        <section className="block">
-          <h2 className="h2">Everything to learn</h2>
-          <ul className="topic-grid">
-            {worlds.map((w) => {
-              const list = topicsIn(w.id);
-              return (
-                <li key={w.id}>
-                  <a className="topic-card" href={openWorld(w)}>
-                    <WorldThumb world={w} className="topic-pic" />
-                    <span className="topic-body">
-                      <span className="topic-title">{w.title}</span>
-                      <span className="topic-summary">{w.summary}</span>
-                      <span className="topic-summary">{list.length} lessons</span>
-                    </span>
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
+            <section className="block">
+              <h2 className="h2">Everything to learn</h2>
+              <ul className="topic-grid">
+                {worlds.map((w) => {
+                  const list = topicsIn(w.id);
+                  return (
+                    <li key={w.id}>
+                      <a className="topic-card" href={openWorld(w)}>
+                        <WorldThumb world={w} className="topic-pic" />
+                        <span className="topic-body">
+                          <span className="topic-title">{w.title}</span>
+                          <span className="topic-summary">{w.summary}</span>
+                          <span className="topic-summary">{list.length} lessons</span>
+                        </span>
+                      </a>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          </>
+        )}
 
         <p className="hint foot-link">
           <a href="#/sign-in/kid">{kid ? `${kid.avatar} Not ${kid.name}? Change` : '😊 Who is learning?'}</a>

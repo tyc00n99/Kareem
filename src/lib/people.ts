@@ -4,6 +4,7 @@
 import { load, save } from './storage';
 import { queueChild, queueClass, queueRemoveChild, queueRemoveClass } from './sync-queue';
 import type { Settings } from './settings';
+import type { Plan } from './plan';
 
 export type Role = 'parent' | 'teacher';
 export type GrownUp = { name: string; role: Role; pinHash: string };
@@ -15,6 +16,8 @@ export type ChildProfile = Partial<Pick<Settings, 'sound' | 'speechRate' | 'text
   notes?: string;
   /** Lessons a grown-up picked. They come first on the child's First / Then schedule. */
   assigned?: string[];
+  /** The learning plan (see plan.ts). */
+  plan?: Partial<Plan>;
 };
 
 export type Child = {

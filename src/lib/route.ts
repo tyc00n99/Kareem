@@ -13,6 +13,7 @@ export type Route =
   | { name: 'tips' }
   | { name: 'ai' }
   | { name: 'child'; childId: string }
+  | { name: 'plan'; childId: string }
   | { name: 'world'; worldId: string }
   | { name: 'learn'; topicId: string; index: number }
   | { name: 'done'; topicId: string };
@@ -25,7 +26,7 @@ export function parse(hash: string): Route {
   if (parts[0] === 'grown-up') {
     if (parts[1] === 'tips') return { name: 'tips' };
     if (parts[1] === 'helper') return { name: 'ai' };
-    if (parts[1] === 'child' && parts[2]) return { name: 'child', childId: parts[2] };
+    if (parts[1] === 'child' && parts[2]) return parts[3] === 'plan' ? { name: 'plan', childId: parts[2] } : { name: 'child', childId: parts[2] };
     return { name: 'grown' };
   }
   if (parts[0] === 'world' && parts[1]) return { name: 'world', worldId: parts[1] };
@@ -57,6 +58,8 @@ export function href(route: Route): string {
       return '#/grown-up/helper';
     case 'child':
       return `#/grown-up/child/${route.childId}`;
+    case 'plan':
+      return `#/grown-up/child/${route.childId}/plan`;
     case 'talk':
       return '#/talk';
     case 'break':
@@ -80,7 +83,7 @@ export function go(route: Route): void {
 /** After signing in, stay on the grown-up page that was asked for, or open the dashboard. */
 export function goGrownUp(): void {
   const here = parse(window.location.hash);
-  go(['grown', 'tips', 'child', 'ai'].includes(here.name) ? here : { name: 'grown' });
+  go(['grown', 'tips', 'child', 'plan', 'ai'].includes(here.name) ? here : { name: 'grown' });
 }
 
 export function useRoute(): Route {

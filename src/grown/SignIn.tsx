@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { childPrefs } from '../lib/plan';
 import { cloudAvailable, createAccount, getAccount, signInAccount } from '../lib/cloud';
 import { checkPin, createGrownUp, forgetGrownUp, getPeople, setActiveChild, signIn, type Role } from '../lib/people';
 import { go, goGrownUp } from '../lib/route';
@@ -37,7 +38,7 @@ function KidPick() {
     setActiveChild(id);
     const child = kids.find((k) => k.id === id);
     if (child) {
-      const { tags: _t, notes: _n, ...prefs } = child.profile;
+      const prefs = childPrefs(child.profile);
       if (Object.keys(prefs).length) update(prefs);
     }
     go({ name: 'home' });
