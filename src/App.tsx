@@ -9,6 +9,9 @@ import { SettingsScreen } from './screens/SettingsScreen';
 import { Talk } from './screens/Talk';
 import { Break } from './screens/Break';
 import { WorldScreen } from './screens/World';
+import { Play } from './screens/Play';
+import { ArabicPath, Games } from './screens/Games';
+import { getActivity } from './lib/activities';
 import { SignIn } from './grown/SignIn';
 import { Dashboard } from './grown/Dashboard';
 import { ChildPage } from './grown/ChildPage';
@@ -41,6 +44,12 @@ export function App() {
     if (route.name === 'plan') return <PlanPage key={route.childId} childId={route.childId} />;
     if (route.name === 'child') return <ChildPage key={route.childId} childId={route.childId} />;
     return <Dashboard />;
+  }
+  if (route.name === 'games') return <Games />;
+  if (route.name === 'arabic') return <ArabicPath />;
+  if (route.name === 'play') {
+    const activity = getActivity(route.id);
+    return activity ? <Play key={route.id} id={route.id} activity={activity} /> : <Home />;
   }
   if (route.name === 'world') {
     const world = getWorld(route.worldId);

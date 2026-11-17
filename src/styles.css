@@ -808,3 +808,25 @@ a.child-card:hover { border-color: var(--accent); }
 .talk-emoji-in { width: 64px; flex: none; text-align: center; }
 .pick-hint { border-color: var(--accent); box-shadow: 0 0 0 4px var(--soft); }
 .did-it { width: 100%; }
+
+/* Games and the Arabic path */
+.play-how { text-align: center; color: var(--muted); margin: 0 0 8px; font-weight: 700; }
+.play-big { display: grid; place-items: center; }
+.play-arabic { font-size: clamp(3.5rem, 18vw, 6rem); line-height: 1.4; font-family: 'Amiri', 'Noto Naskh Arabic', 'Geeza Pro', serif; text-align: center; padding: 0 12px; }
+.play-prompt { font-size: 1.35rem; }
+.play-opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; width: 100%; }
+.play-opts-4 { grid-template-columns: repeat(2, 1fr); }
+.opt-emoji { font-size: 2.4rem; line-height: 1.2; }
+.opt-arabic { font-size: 2.6rem; line-height: 1.5; font-family: 'Amiri', 'Noto Naskh Arabic', 'Geeza Pro', serif; }
+.opt-label { font-weight: 800; font-size: 1rem; }
+.play-wrong { opacity: 0.45; border-style: dashed; }
+.play-used { opacity: 0.35; }
+.play-arabic-thumb { font-family: 'Amiri', 'Noto Naskh Arabic', serif; font-size: 1.6rem; }
+.order-done { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 0 0 10px; min-height: 40px; justify-content: center; }
+.order-done li { background: var(--soft); border-radius: 14px; padding: 4px 10px; display: flex; gap: 6px; align-items: center; font-weight: 700; }
+.order-done .opt-emoji { font-size: 1.4rem; }
+.memory-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; }
+.memory-card { aspect-ratio: 1; border-radius: 18px; border: 3px solid var(--line); background: var(--soft); font-size: 2.2rem; cursor: pointer; }
+.memory-card.up { background: var(--surface); border-color: var(--accent); }
+.play-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.topic-pic.play-arabic-thumb { font-size: 3rem; }
