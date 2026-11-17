@@ -12,6 +12,8 @@ export type Settings = {
   celebration: 'words' | 'picture';
   /** Calm mode: softer, dimmer colours and no movement. */
   calm: boolean;
+  /** Dim the whole screen for children who are sensitive to bright light. */
+  dim: 'off' | 'some' | 'more';
 };
 
 const defaults: Settings = {
@@ -23,6 +25,7 @@ const defaults: Settings = {
   textSize: 'normal',
   celebration: 'picture',
   calm: false,
+  dim: 'off',
 };
 
 const KEY = 'deen-steps:settings';
@@ -41,6 +44,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     root.dataset.text = settings.textSize;
     root.dataset.motion = settings.motion && !settings.calm ? 'on' : 'off';
     root.dataset.calm = settings.calm ? 'on' : 'off';
+    root.dataset.dim = settings.dim;
   }, [settings]);
 
   const update = (patch: Partial<Settings>) => setSettings((s) => ({ ...s, ...patch }));

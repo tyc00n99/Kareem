@@ -64,8 +64,12 @@ export function KidTools({ compact = false }: { compact?: boolean }) {
         type="button"
         className={`pill${settings.calm ? ' pill-on' : ''}`}
         aria-pressed={settings.calm}
-        aria-label="Calm mode"
-        onClick={() => update({ calm: !settings.calm })}
+        aria-label="Calm mode: dim light, soft colours, no movement"
+        onClick={() =>
+          settings.calm
+            ? update({ calm: false, dim: settings.dim === 'some' ? 'off' : settings.dim })
+            : update({ calm: true, dim: settings.dim === 'off' ? 'some' : settings.dim })
+        }
       >
         <span aria-hidden>{settings.calm ? '🌙' : '😌'}</span>
         <span className="pill-text">Calm</span>

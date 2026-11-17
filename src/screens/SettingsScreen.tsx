@@ -50,6 +50,18 @@ export function SettingsScreen() {
       </header>
       <main className="settings">
         <Section>
+          <Choice
+            name="dim"
+            label="Dim the light"
+            options={[{ value: 'off', text: 'Off' }, { value: 'some', text: 'A little' }, { value: 'more', text: 'More' }]}
+          />
+          <p className="hint">
+            For children who find bright screens hard, such as many autistic children and children with developmental or
+            intellectual disabilities. Calm mode also softens colours and stops movement.
+          </p>
+          <Choice name="calm" label="Calm mode" options={onOff('On', 'Off')} />
+        </Section>
+        <Section>
           <Choice name="look" label="Who is learning?" options={[{ value: 'child', text: 'A child' }, { value: 'adult', text: 'An adult' }]} />
         </Section>
         <Section>
@@ -61,7 +73,6 @@ export function SettingsScreen() {
           <Choice name="textSize" label="Text size" options={[{ value: 'normal', text: 'Normal' }, { value: 'large', text: 'Large' }, { value: 'larger', text: 'Larger' }]} />
           <Choice name="highContrast" label="Strong colours" options={onOff('On', 'Off')} />
           <Choice name="motion" label="Movement on screen" options={onOff('On', 'Off')} />
-          <Choice name="calm" label="Calm mode (softer colours, no movement)" options={onOff('On', 'Off')} />
           <Choice name="celebration" label="When you finish" options={[{ value: 'picture', text: 'Words and a star' }, { value: 'words', text: 'Just words' }]} />
         </Section>
       </main>
