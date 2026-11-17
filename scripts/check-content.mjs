@@ -6,6 +6,7 @@ import { join } from 'node:path';
 const dir = new URL('../content/topics/', import.meta.url).pathname;
 const publicDir = new URL('../public', import.meta.url).pathname;
 const problems = [];
+const SPEAKERS = ['kareem', 'noor'];
 const ids = new Set();
 
 function checkPicture(p, where) {
@@ -51,6 +52,9 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
       checkPicture(s.picture, w);
       if (s.adultPicture) checkPicture(s.adultPicture, `${w} adultPicture`);
       if (s.arabic && (!s.arabic.text || !s.arabic.say)) problems.push(`${w}: "arabic" needs "text" and "say"`);
+      if (s.arabic?.chunks && (!Array.isArray(s.arabic.chunks) || s.arabic.chunks.some((c) => typeof c !== 'string' || !c)))
+        problems.push(`${w}: "arabic.chunks" must be a list of words`);
+      if (s.speaker && !SPEAKERS.includes(s.speaker)) problems.push(`${w}: "speaker" must be one of ${SPEAKERS.join(', ')}`);
       checkAudio(s.audio, w);
     } else if (s.type === 'check') {
       if (!s.question) problems.push(`${w}: needs "question"`);
@@ -66,8 +70,19 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
       const target = t.screens[s.showAgain - 1];
       if (!target || target.type !== 'learn') problems.push(`${w}: "showAgain" must be the number of a learn screen`);
       checkAudio(s.audio, w);
+    } else if (s.type === 'order') {
+      if (!s.question) problems.push(`${w}: needs "question"`);
+      if (!Array.isArray(s.items) || s.items.length < 2 || s.items.length > 4) problems.push(`${w}: needs 2 to 4 items`);
+      else
+        s.items.forEach((it, n) => {
+          if (!it.label) problems.push(`${w} item ${n + 1}: needs "label"`);
+          if (it.picture) checkPicture(it.picture, `${w} item ${n + 1}`);
+          if (it.speaker && !SPEAKERS.includes(it.speaker)) problems.push(`${w} item ${n + 1}: unknown "speaker"`);
+          if (!it.picture && !it.speaker) problems.push(`${w} item ${n + 1}: needs a "picture" or a "speaker"`);
+        });
+      checkAudio(s.audio, w);
     } else {
-      problems.push(`${w}: "type" must be "learn" or "check"`);
+      problems.push(`${w}: "type" must be "learn", "check" or "order"`);
     }
   });
 }

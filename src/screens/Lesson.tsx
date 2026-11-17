@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Btn, Frame, Pic } from '../components';
 import type { CheckScreen, LearnScreen, Topic } from '../lib/content';
+import { ArabicCard, Bubble, OrderCard, Words } from '../lesson-parts';
 import { playSound, stopSound } from '../lib/audio';
 import { markFinished } from '../lib/progress';
 import { go } from '../lib/route';
@@ -9,6 +10,9 @@ import { useSettings } from '../lib/settings';
 function speechFor(s: LearnScreen): string {
   return s.arabic ? `${s.text} ${s.arabic.say}.` : s.text;
 }
+
+/** Called when a word is tapped: say just that word and light it up. */
+type WordTap = (word: string, charIndex: number) => void;
 
 export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   const { settings } = useSettings();
@@ -19,9 +23,13 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   // Check state resets whenever the screen changes.
   const [answer, setAnswer] = useState<'none' | 'right' | 'retry'>('none');
   const [picked, setPicked] = useState<number | null>(null);
+  const [orderDone, setOrderDone] = useState(false);
+  // Character index of the word being spoken right now, for the light-up words.
+  const [at, setAt] = useState<number | null>(null);
   useEffect(() => {
     setAnswer('none');
     setPicked(null);
+    setOrderDone(false);
     stopSound();
     window.scrollTo(0, 0);
   }, [topic.id, i]);
@@ -33,7 +41,16 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   const hear = () => {
     if (!settings.sound) return;
     if (screen.type === 'learn') {
-      playSound({ text: speechFor(screen), audio: screen.audio, rate: settings.speechRate });
+      playSound({
+        text: speechFor(screen),
+        audio: screen.audio,
+        rate: settings.speechRate,
+        onWord: setAt,
+        onEnd: () => setAt(null),
+      });
+    } else if (screen.type === 'order') {
+      const all = orderDone ? ` ${screen.items.map((x) => x.label).join('. ')}.` : '';
+      playSound({ text: `${screen.question}${all}`, audio: orderDone ? undefined : screen.audio, rate: settings.speechRate });
     } else if (answer === 'retry' && reviewScreen) {
       playSound({ text: `Let's look again. ${speechFor(reviewScreen)}`, audio: reviewScreen.audio, rate: settings.speechRate });
     } else if (answer === 'right') {
@@ -56,7 +73,13 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
     else go({ name: 'learn', topicId: topic.id, index: i - 1 });
   };
 
-  const nextBlocked = screen.type === 'check' && answer !== 'right';
+  const tapWord: WordTap = (word, charIndex) => {
+    if (!settings.sound) return;
+    setAt(charIndex);
+    playSound({ text: word, rate: settings.speechRate, onEnd: () => setAt(null) });
+  };
+
+  const nextBlocked = (screen.type === 'check' && answer !== 'right') || (screen.type === 'order' && !orderDone);
 
   return (
     <Frame
@@ -85,7 +108,9 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
     >
       <div className="card" key={`${topic.id}-${i}`}>
         {screen.type === 'learn' ? (
-          <LearnCard screen={screen} />
+          <LearnCard screen={screen} at={at} onWord={settings.sound ? tapWord : undefined} onPicture={hear} showHint={i === 0} />
+        ) : screen.type === 'order' ? (
+          <OrderCard screen={screen} onDone={() => setOrderDone(true)} />
         ) : (
           <CheckCard
             screen={screen}
@@ -107,17 +132,33 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   );
 }
 
-function LearnCard({ screen }: { screen: LearnScreen }) {
+function LearnCard({
+  screen,
+  at = null,
+  onWord,
+  onPicture,
+  showHint = false,
+}: {
+  screen: LearnScreen;
+  at?: number | null;
+  onWord?: WordTap;
+  onPicture?: () => void;
+  showHint?: boolean;
+}) {
+  const sentence = <Words text={screen.text} at={at} onWord={onWord} className={screen.speaker ? 'bubble-text' : 'sentence'} />;
+  const pic = <Pic picture={screen.picture} adultPicture={screen.adultPicture} />;
   return (
     <>
-      <Pic picture={screen.picture} adultPicture={screen.adultPicture} />
-      {screen.arabic && (
-        <div className="arabic">
-          <span lang="ar" dir="rtl" className="arabic-text">{screen.arabic.text}</span>
-          <span className="arabic-say">{screen.arabic.say}</span>
-        </div>
+      {onPicture ? (
+        <button type="button" className="pic-button" onClick={onPicture} aria-label={`${screen.picture.alt}. Tap to hear.`}>
+          {pic}
+        </button>
+      ) : (
+        pic
       )}
-      <p className="sentence">{screen.text}</p>
+      {screen.speaker ? <Bubble speaker={screen.speaker}>{sentence}</Bubble> : sentence}
+      {screen.arabic && <ArabicCard arabic={screen.arabic} at={at} offset={screen.text.length + 1} onWord={onWord} />}
+      {showHint && onWord && <p className="hint tap-hint">Tap a word or the picture to hear it.</p>}
     </>
   );
 }

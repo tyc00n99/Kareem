@@ -19,35 +19,71 @@
     },
     {
       "type": "learn",
-      "text": "When you meet someone, you say: Assalamu alaykum.",
+      "text": "When I meet a friend, I say: Assalamu alaykum.",
       "picture": {
         "src": "/content/images/art/together.jpg",
         "alt": "Two children sitting together on a prayer mat under the moon"
       },
       "arabic": {
         "text": "السَّلَامُ عَلَيْكُمْ",
-        "say": "Assalamu alaykum"
-      }
+        "say": "Assalamu alaykum",
+        "chunks": [
+          "As",
+          "sa",
+          "laa",
+          "mu",
+          "a",
+          "lay",
+          "kum"
+        ],
+        "meaning": "Peace be with you."
+      },
+      "speaker": "kareem"
     },
     {
       "type": "learn",
       "text": "It means: peace be with you.",
       "picture": {
-        "src": "/content/images/salam/dove.svg",
-        "alt": "A white dove, a sign of peace"
+        "src": "/content/images/art/makkah-peace.jpg",
+        "alt": "White doves flying over a calm, peaceful courtyard"
       }
     },
     {
       "type": "learn",
-      "text": "The other person says back: Wa alaykum assalam.",
+      "text": "I say back: Wa alaykum assalam.",
       "picture": {
-        "src": "/content/images/salam/reply.svg",
-        "alt": "A girl in a hijab smiling and waving back"
+        "src": "/content/images/salam/noor-reply.jpg",
+        "alt": "Noor, a girl in a pink hijab, smiling back"
       },
       "arabic": {
         "text": "وَعَلَيْكُمُ السَّلَامُ",
-        "say": "Wa alaykum assalam"
-      }
+        "say": "Wa alaykum assalam",
+        "chunks": [
+          "Wa",
+          "a",
+          "lay",
+          "kum",
+          "as",
+          "sa",
+          "laam"
+        ],
+        "meaning": "And peace be with you too."
+      },
+      "speaker": "noor"
+    },
+    {
+      "type": "order",
+      "question": "Kareem meets Noor. Tap what they say, in order.",
+      "items": [
+        {
+          "label": "Assalamu alaykum",
+          "speaker": "kareem"
+        },
+        {
+          "label": "Wa alaykum assalam",
+          "speaker": "noor"
+        }
+      ]
     },
     {
       "type": "check",

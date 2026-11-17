@@ -42,7 +42,11 @@ You can add or change lessons without touching any code. Run `npm run check-cont
 
 - `adultPicture` is optional. Adult learners see it instead of `picture`.
 - `arabic` is optional. Use it for words the learner should say.
-- `audio` is optional. Without it, the device reads the text aloud.
+- `audio` is optional. Without it, the device reads the text aloud. While it plays, each word lights up; the learner can also tap any word, or the picture, to hear it.
+- `speaker` is optional: `"kareem"` or `"noor"`. The sentence then appears in that character's speech bubble. Write it in their voice ("I say back: ...").
+- `arabic` can also have `chunks` and `meaning`. They show on the back of the Arabic flip card:
+  `"arabic": { "text": "...", "say": "Assalamu alaykum", "chunks": ["As", "sa", "laa", "mu", "a", "lay", "kum"], "meaning": "Peace be with you." }`
+  Without `chunks`, the card splits `say` into words.
 - Until a real picture exists you can use an emoji: `"picture": { "emoji": "🙌", "alt": "Two hands" }`.
 
 Put pictures in `public/content/images/` and recordings in `public/content/audio/`.
@@ -65,10 +69,27 @@ Put pictures in `public/content/images/` and recordings in `public/content/audio
 - `showAgain` is the number of the screen to show again after a wrong answer (the first screen is 1).
 - There is no score. A wrong answer shows the idea again kindly, then the learner tries again.
 
+## A put-it-in-order screen
+
+```json
+{
+  "type": "order",
+  "question": "Kareem meets Noor. Tap what they say, in order.",
+  "items": [
+    { "label": "Assalamu alaykum", "speaker": "kareem" },
+    { "label": "Wa alaykum assalam", "speaker": "noor" }
+  ]
+}
+```
+
+- List 2 to 4 `items` in the **right** order. The app mixes them up.
+- Each item needs a `picture` or a `speaker`. Items with a speaker build up a little conversation.
+- There is no score. A wrong tap just says "Not yet. Try another one."
+
 ## Pictures and characters
 
 - The app is children-first. Lesson pictures are warm, flat illustrations of everyday Muslim children.
-  The two recurring characters are **Kareem** (a boy in a white kufi cap) and **Noor** (a girl in a hijab).
+  The two recurring characters are **Kareem** (a boy in a blue kufi cap) and **Noor** (a girl in a pink hijab), as drawn in `art/manners.jpg`. Their faces for speech bubbles are in `public/content/images/characters/`.
 - **Never draw Allah, the Prophet (peace be upon him), other prophets, angels, or companions.**
   Show the Kaaba, mosques, nature, everyday scenes, and the child characters instead.
-- The picture style is a soft storybook watercolor, like the reference art in `public/content/images/art/` (taken from the Lovable prototype). New pictures should match it: gentle colours, one clear subject, nothing busy or flashing.
+- The picture style is a soft storybook watercolor, like the art in `public/content/images/art/` (the original artwork from the Lovable prototype). New pictures should match it: gentle colours, one clear subject, nothing busy or flashing.
