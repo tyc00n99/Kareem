@@ -760,3 +760,9 @@ a.child-card:hover { border-color: var(--accent); }
   .gu-h1 { font-size: 1.4rem; }
   .msg { max-width: 100%; }
 }
+
+/* Reading voice chooser */
+.voice-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.voice-select { flex: 1 1 220px; min-height: 52px; padding: 8px 14px; border: 2px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--text); font: inherit; }
+.arabic-lit { background: var(--lit); border-radius: 12px; }
+:root[data-contrast='high'] .arabic-lit { background: #000; color: #fff; }

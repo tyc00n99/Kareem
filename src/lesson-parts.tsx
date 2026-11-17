@@ -4,7 +4,7 @@
 import { useMemo, useState } from 'react';
 import { Pic } from './components';
 import type { Arabic, OrderScreen, Speaker } from './lib/content';
-import { playSound, wordStarts } from './lib/audio';
+import { hasArabicVoice, playSound, wordStarts } from './lib/audio';
 import { useSettings } from './lib/settings';
 
 export const characters: Record<Speaker, { name: string; src: string; alt: string }> = {
@@ -105,6 +105,7 @@ export function ArabicCard({
   const { settings } = useSettings();
   const [turned, setTurned] = useState(false);
   const [lit, setLit] = useState<number | null>(null);
+  const [arLit, setArLit] = useState(false);
   const chunks = arabic.chunks?.length ? arabic.chunks : defaultChunks(arabic.say);
 
   const sayChunk = (k: number) => {
@@ -135,11 +136,17 @@ export function ArabicCard({
     });
   };
 
+  const sayArabic = () => {
+    if (!settings.sound) return;
+    setArLit(true);
+    playSound({ text: arabic.text, rate: 'slow', lang: 'ar', onEnd: () => setArLit(false) });
+  };
+
   return (
     <div className={`flip${turned ? ' flip-turned' : ''}`}>
       <div className="flip-inner">
         <div className="flip-face flip-front" inert={turned}>
-          <span lang="ar" dir="rtl" className="arabic-text">{arabic.text}</span>
+          <span lang="ar" dir="rtl" className={`arabic-text${arLit ? ' arabic-lit' : ''}`}>{arabic.text}</span>
           <Words text={arabic.say} at={at} offset={offset} className="arabic-say" onWord={onWord} />
           <button type="button" className="turn" onClick={() => setTurned(true)}>
             ↻ Turn the card
@@ -163,6 +170,11 @@ export function ArabicCard({
           {settings.sound && (
             <button type="button" className="turn" onClick={sayAll}>
               🔊 Say it slowly
+            </button>
+          )}
+          {settings.sound && hasArabicVoice() && (
+            <button type="button" className="turn" onClick={sayArabic}>
+              🔊 Hear it in Arabic
             </button>
           )}
           {arabic.meaning && <p className="meaning">It means: {arabic.meaning}</p>}
