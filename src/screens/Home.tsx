@@ -1,21 +1,35 @@
 import { KidTools, Mascot } from '../components';
-import { topics, type Topic } from '../lib/content';
+import { topics, topicsIn, worlds, type Topic, type World } from '../lib/content';
 import { playSound } from '../lib/audio';
 import { getFinished } from '../lib/progress';
 import { activeChild } from '../lib/people';
 import { href } from '../lib/route';
 import { useSettings } from '../lib/settings';
 
-/** Where each topic sits on the Learning worlds map (percent of map width and height). */
+/** Where each world sits on the Learning worlds map (percent of map width and height). */
 const PINS: Record<string, [number, number]> = {
-  'islam-basics': [52, 17],
-  'good-manners': [18, 30],
-  salah: [30, 52],
-  wudu: [62, 56],
-  duas: [15, 74],
-  'saying-salam': [82, 34],
-  'five-pillars': [80, 72],
+  'why-pray': [50, 13],
+  manners: [18, 27],
+  seerah: [82, 28],
+  prayer: [32, 47],
+  wudu: [66, 50],
+  duas: [15, 68],
+  quran: [50, 72],
+  stories: [84, 70],
+  everyday: [32, 89],
 };
+
+const openWorld = (w: World) => href({ name: 'world', worldId: w.id });
+
+function WorldThumb({ world, className }: { world: World; className: string }) {
+  return world.picture.src ? (
+    <img className={className} src={world.picture.src} alt="" loading="lazy" />
+  ) : (
+    <span className={`${className} thumb-emoji`} aria-hidden>
+      {world.picture.emoji}
+    </span>
+  );
+}
 
 const learn = (t: Topic) => href({ name: 'learn', topicId: t.id, index: 0 });
 const picOf = (t: Topic, adult: boolean) => (adult && t.adultPicture ? t.adultPicture : t.picture);
@@ -108,19 +122,14 @@ export function Home() {
           <h2 className="h2">🗺️ Learning worlds</h2>
           <div className="map">
             <img className="map-img" src="/content/images/art/world-map.jpg" alt="A storybook map with hills, a river and palm trees" />
-            {topics.map((t) => {
-              const [x, y] = PINS[t.id] ?? [50, 50];
+            {worlds.map((w) => {
+              const [x, y] = PINS[w.id] ?? [50, 50];
               return (
-                <a key={t.id} className="pin" href={learn(t)} style={{ left: `${x}%`, top: `${y}%` }}>
+                <a key={w.id} className="pin" href={openWorld(w)} style={{ left: `${x}%`, top: `${y}%` }}>
                   <span className="pin-ring">
-                    <Thumb topic={t} adult={adult} className="pin-pic" />
-                    {finished[t.id] && (
-                      <span className="pin-done" aria-label="finished">
-                        ✓
-                      </span>
-                    )}
+                    <WorldThumb world={w} className="pin-pic" />
                   </span>
-                  <span className="pin-label">{t.title}</span>
+                  <span className="pin-label">{w.title}</span>
                 </a>
               );
             })}
@@ -130,18 +139,21 @@ export function Home() {
         <section className="block">
           <h2 className="h2">Everything to learn</h2>
           <ul className="topic-grid">
-            {topics.map((t) => (
-              <li key={t.id}>
-                <a className="topic-card" href={learn(t)}>
-                  <Thumb topic={t} adult={adult} className="topic-pic" />
-                  <span className="topic-body">
-                    <span className="topic-title">{t.title}</span>
-                    <span className="topic-summary">{t.summary}</span>
-                    {finished[t.id] && <span className="tick">✓ Finished</span>}
-                  </span>
-                </a>
-              </li>
-            ))}
+            {worlds.map((w) => {
+              const list = topicsIn(w.id);
+              return (
+                <li key={w.id}>
+                  <a className="topic-card" href={openWorld(w)}>
+                    <WorldThumb world={w} className="topic-pic" />
+                    <span className="topic-body">
+                      <span className="topic-title">{w.title}</span>
+                      <span className="topic-summary">{w.summary}</span>
+                      <span className="topic-summary">{list.length} lessons</span>
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
 

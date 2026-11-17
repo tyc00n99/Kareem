@@ -92,7 +92,7 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   };
   const back = () => {
     stopSound();
-    if (i === 0) go({ name: 'home' });
+    if (i === 0) go(topic.world ? { name: 'world', worldId: topic.world } : { name: 'home' });
     else go({ name: 'learn', topicId: topic.id, index: i - 1 });
   };
 

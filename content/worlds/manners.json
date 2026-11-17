@@ -1,0 +1,1648 @@
+{
+  "id": "manners",
+  "title": "Manners",
+  "summary": "Being kind like a Muslim",
+  "order": 80,
+  "picture": {
+    "src": "/content/images/art/manners.jpg",
+    "alt": "Manners"
+  },
+  "lessons": [
+    {
+      "id": "manners-salam",
+      "title": "Saying salam",
+      "emoji": "👋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see my friend.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I see my friend."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Assalamu alaykum.",
+          "picture": {
+            "emoji": "👋",
+            "alt": "I say Assalamu alaykum."
+          },
+          "arabic": {
+            "text": "السَّلَامُ عَلَيْكُمْ",
+            "say": "Assalamu 'alaykum"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "My friend says Wa alaykum assalam.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "My friend says Wa alaykum assalam."
+          },
+          "arabic": {
+            "text": "وَعَلَيْكُمُ السَّلَامُ",
+            "say": "Wa 'alaykum assalam"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Salam means peace. I wish my friend peace.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Salam means peace. I wish my friend peace."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-sharing",
+      "title": "Sharing",
+      "emoji": "🤝",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I am playing with my toy.",
+          "picture": {
+            "emoji": "🧸",
+            "alt": "I am playing with my toy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "My friend wants a turn.",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "My friend wants a turn."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can say: You can have it after me.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "I can say: You can have it after me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I give my friend a turn. Sharing makes Allah happy.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "I give my friend a turn. Sharing makes Allah happy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-thanks",
+      "title": "Saying thank you",
+      "emoji": "🎁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone helps me or gives me something.",
+          "picture": {
+            "emoji": "🎁",
+            "alt": "Someone helps me or gives me something."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say JazakAllahu khayran. It means: May Allah reward you with good.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say JazakAllahu khayran. It means: May Allah reward you with good."
+          },
+          "arabic": {
+            "text": "جَزَاكَ اللَّهُ خَيْرًا",
+            "say": "JazakAllahu khayran"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Saying thank you is kind.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Saying thank you is kind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-parents",
+      "title": "Being kind to parents",
+      "emoji": "👨‍👩‍👧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I listen when my mom or dad talks to me.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "I listen when my mom or dad talks to me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I help them at home.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "I help them at home."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I use a gentle voice.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I use a gentle voice."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves when I am kind to my parents.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah loves when I am kind to my parents."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x1",
+      "title": "Saying please",
+      "emoji": "🙏",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I want something.",
+          "picture": {
+            "emoji": "🍪",
+            "alt": "I want something."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say please.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say please."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Polite words are kind.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Polite words are kind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x2",
+      "title": "Saying sorry",
+      "emoji": "😔",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I made a mistake.",
+          "picture": {
+            "emoji": "😟",
+            "alt": "I made a mistake."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say I am sorry.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say I am sorry."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We can be friends again.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "We can be friends again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x3",
+      "title": "Waiting my turn",
+      "emoji": "🚶",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone is going first.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "Someone is going first."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wait.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "I wait."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then it is my turn.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Then it is my turn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x4",
+      "title": "Inside voice",
+      "emoji": "🤫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I am inside.",
+          "picture": {
+            "emoji": "🏠",
+            "alt": "I am inside."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I use a quiet voice.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I use a quiet voice."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Inside voices are kind.",
+          "picture": {
+            "emoji": "👍",
+            "alt": "Inside voices are kind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x5",
+      "title": "Listening",
+      "emoji": "👂",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I look at the person talking.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I look at the person talking."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am quiet.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I am quiet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I listen with my ears.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "I listen with my ears."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x6",
+      "title": "Cleaning up",
+      "emoji": "🧹",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I finished playing.",
+          "picture": {
+            "emoji": "🧸",
+            "alt": "I finished playing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put my toys away.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "I put my toys away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Clean is from iman.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Clean is from iman."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x7",
+      "title": "Eating with right hand",
+      "emoji": "🍽️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I use my right hand.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "I use my right hand."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I eat from what is near me.",
+          "picture": {
+            "emoji": "🍽️",
+            "alt": "I eat from what is near me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Bismillah.",
+          "picture": {
+            "emoji": "😋",
+            "alt": "I say Bismillah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x8",
+      "title": "Drinking sitting down",
+      "emoji": "💧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I sit down.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "I sit down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I drink slowly in 3 sips.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I drink slowly in 3 sips."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Alhamdulillah.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Alhamdulillah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x9",
+      "title": "Respecting elders",
+      "emoji": "👵",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see an older person.",
+          "picture": {
+            "emoji": "👵",
+            "alt": "I see an older person."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say salam first.",
+          "picture": {
+            "emoji": "👋",
+            "alt": "I say salam first."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I help them.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I help them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x10",
+      "title": "Being gentle with little kids",
+      "emoji": "🧒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Small kids are little.",
+          "picture": {
+            "emoji": "👶",
+            "alt": "Small kids are little."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I use gentle hands.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I use gentle hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I play nicely.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I play nicely."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x11",
+      "title": "Kind to animals",
+      "emoji": "🐱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see a cat.",
+          "picture": {
+            "emoji": "🐱",
+            "alt": "I see a cat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am gentle.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I am gentle."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I make sure it has water.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I make sure it has water."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x12",
+      "title": "Caring for nature",
+      "emoji": "🌳",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah made the trees and flowers.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Allah made the trees and flowers."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put trash in the bin.",
+          "picture": {
+            "emoji": "🚮",
+            "alt": "I put trash in the bin."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I take care of the earth.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "I take care of the earth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x13",
+      "title": "Telling the truth",
+      "emoji": "🤥",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone asks me something.",
+          "picture": {
+            "emoji": "💬",
+            "alt": "Someone asks me something."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I tell the truth.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I tell the truth."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Honesty makes Allah happy.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Honesty makes Allah happy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x14",
+      "title": "Giving gifts",
+      "emoji": "🎁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I give a small gift.",
+          "picture": {
+            "emoji": "🎁",
+            "alt": "I give a small gift."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It makes my friend happy.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "It makes my friend happy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Gifts bring love.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Gifts bring love."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x15",
+      "title": "Knocking on doors",
+      "emoji": "🏠",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I want to come in.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "I want to come in."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I knock and wait.",
+          "picture": {
+            "emoji": "✊",
+            "alt": "I knock and wait."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say salam and ask to enter.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say salam and ask to enter."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x16",
+      "title": "Helping others",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone needs help.",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "Someone needs help."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask: Can I help?",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "I ask: Can I help?"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Helping is a good deed.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Helping is a good deed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x17",
+      "title": "Smiling",
+      "emoji": "😊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I smile at my friend.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I smile at my friend."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ said a smile is charity.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "The Prophet ﷺ said a smile is charity."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It is an easy good deed.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "It is an easy good deed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x18",
+      "title": "Respecting privacy",
+      "emoji": "🧕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A door is closed.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "A door is closed."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't open it.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "I don't open it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I knock first.",
+          "picture": {
+            "emoji": "✊",
+            "alt": "I knock first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x19",
+      "title": "Greeting guests",
+      "emoji": "👋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Guests come over.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "Guests come over."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Assalamu alaykum.",
+          "picture": {
+            "emoji": "👋",
+            "alt": "I say Assalamu alaykum."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I share snacks.",
+          "picture": {
+            "emoji": "🍪",
+            "alt": "I share snacks."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x20",
+      "title": "Patience",
+      "emoji": "🙌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sometimes I have to wait.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "Sometimes I have to wait."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I take a deep breath.",
+          "picture": {
+            "emoji": "😮‍💨",
+            "alt": "I take a deep breath."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves patient people.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah loves patient people."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-x21",
+      "title": "Keeping the masjid clean",
+      "emoji": "🗑️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put my shoes on the rack.",
+          "picture": {
+            "emoji": "👟",
+            "alt": "I put my shoes on the rack."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I keep things tidy.",
+          "picture": {
+            "emoji": "🧹",
+            "alt": "I keep things tidy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The masjid stays nice.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "The masjid stays nice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y1",
+      "title": "Not wasting food",
+      "emoji": "🍞",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I take a little food.",
+          "picture": {
+            "emoji": "🍞",
+            "alt": "I take a little food."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I finish my plate.",
+          "picture": {
+            "emoji": "😋",
+            "alt": "I finish my plate."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah doesn't like waste.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "Allah doesn't like waste."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y2",
+      "title": "Making my bed",
+      "emoji": "🛏️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I wake up.",
+          "picture": {
+            "emoji": "🛏️",
+            "alt": "I wake up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pull up the blanket.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "I pull up the blanket."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "My room looks nice.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "My room looks nice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y3",
+      "title": "Not interrupting",
+      "emoji": "👂",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone is talking.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Someone is talking."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wait until they stop.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "I wait until they stop."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I talk.",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "Then I talk."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y4",
+      "title": "Raising my hand",
+      "emoji": "🙋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "In class I want to talk.",
+          "picture": {
+            "emoji": "🏫",
+            "alt": "In class I want to talk."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I raise my hand.",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "I raise my hand."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wait to be called.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "I wait to be called."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y5",
+      "title": "Walking calmly",
+      "emoji": "🚶",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I walk inside.",
+          "picture": {
+            "emoji": "🚶",
+            "alt": "I walk inside."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I run outside.",
+          "picture": {
+            "emoji": "🏃",
+            "alt": "I run outside."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Calm feet keep us safe.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Calm feet keep us safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y6",
+      "title": "Gentle hands",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I keep my hands to myself.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "I keep my hands to myself."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask before a hug.",
+          "picture": {
+            "emoji": "🤗",
+            "alt": "I ask before a hug."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Gentle is kind.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Gentle is kind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y7",
+      "title": "Picking up trash",
+      "emoji": "🗑️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see trash.",
+          "picture": {
+            "emoji": "🗑️",
+            "alt": "I see trash."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pick it up.",
+          "picture": {
+            "emoji": "🤏",
+            "alt": "I pick it up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Removing harm is charity.",
+          "picture": {
+            "emoji": "🚮",
+            "alt": "Removing harm is charity."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y8",
+      "title": "Accepting a gift",
+      "emoji": "🎁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone gives me a gift.",
+          "picture": {
+            "emoji": "🎁",
+            "alt": "Someone gives me a gift."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "JazakAllahu khayran.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "JazakAllahu khayran."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Even if it's not my favorite.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Even if it's not my favorite."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y9",
+      "title": "Losing a game",
+      "emoji": "😤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I lost the game.",
+          "picture": {
+            "emoji": "🎲",
+            "alt": "I lost the game."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I take a breath.",
+          "picture": {
+            "emoji": "😮‍💨",
+            "alt": "I take a breath."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say good game.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "I say good game."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y10",
+      "title": "Winning nicely",
+      "emoji": "🏆",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I won!",
+          "picture": {
+            "emoji": "🏆",
+            "alt": "I won!"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say good game.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "I say good game."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't brag.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I don't brag."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y11",
+      "title": "Including others",
+      "emoji": "🧑‍🤝‍🧑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone is alone.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "Someone is alone."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say: Want to play?",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "I say: Want to play?"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now we both have fun.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Now we both have fun."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y12",
+      "title": "Keeping secrets kind",
+      "emoji": "🤫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Some things are private.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "Some things are private."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't tell others' secrets.",
+          "picture": {
+            "emoji": "🚫",
+            "alt": "I don't tell others' secrets."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Unless someone is in danger.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Unless someone is in danger."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y13",
+      "title": "Kind words only",
+      "emoji": "🗣️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I feel upset.",
+          "picture": {
+            "emoji": "😡",
+            "alt": "I feel upset."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't say mean words.",
+          "picture": {
+            "emoji": "🤐",
+            "alt": "I don't say mean words."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say: I feel upset.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say: I feel upset."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y14",
+      "title": "Helping grandparents",
+      "emoji": "🧓",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Grandma needs help.",
+          "picture": {
+            "emoji": "🧓",
+            "alt": "Grandma needs help."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I carry a bag.",
+          "picture": {
+            "emoji": "🛍️",
+            "alt": "I carry a bag."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves this.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah loves this."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y15",
+      "title": "Eating together",
+      "emoji": "🍽️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "We eat as a family.",
+          "picture": {
+            "emoji": "👨‍👩‍👧",
+            "alt": "We eat as a family."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bismillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Bismillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We talk nicely.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "We talk nicely."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y16",
+      "title": "Taking care of things",
+      "emoji": "🧳",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put books back.",
+          "picture": {
+            "emoji": "📚",
+            "alt": "I put books back."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't break toys.",
+          "picture": {
+            "emoji": "🧸",
+            "alt": "I don't break toys."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Things are blessings.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Things are blessings."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y17",
+      "title": "Screen time manners",
+      "emoji": "📱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Time is up.",
+          "picture": {
+            "emoji": "📱",
+            "alt": "Time is up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I give back the tablet.",
+          "picture": {
+            "emoji": "📴",
+            "alt": "I give back the tablet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "First listen, then reward.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "First listen, then reward."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y18",
+      "title": "Respecting teachers",
+      "emoji": "🙇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My teacher talks.",
+          "picture": {
+            "emoji": "🧑‍🏫",
+            "alt": "My teacher talks."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I look and listen.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I look and listen."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Teachers help me learn.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Teachers help me learn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y19",
+      "title": "Kind to everyone",
+      "emoji": "🧑‍🦽",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People are all different.",
+          "picture": {
+            "emoji": "🧑‍🦽",
+            "alt": "People are all different."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made us all.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah made us all."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am kind to all.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I am kind to all."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y20",
+      "title": "Personal space",
+      "emoji": "🙅",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I stand an arm away.",
+          "picture": {
+            "emoji": "📏",
+            "alt": "I stand an arm away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I give people space.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I give people space."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They feel comfy.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "They feel comfy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y21",
+      "title": "Being happy for others",
+      "emoji": "🎂",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My friend got something good.",
+          "picture": {
+            "emoji": "🎉",
+            "alt": "My friend got something good."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say MashaAllah.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I say MashaAllah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am happy for them.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I am happy for them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y22",
+      "title": "Not hurting bugs",
+      "emoji": "🐾",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see an ant.",
+          "picture": {
+            "emoji": "🐜",
+            "alt": "I see an ant."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I walk around it.",
+          "picture": {
+            "emoji": "🚶",
+            "alt": "I walk around it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made it too.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah made it too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y23",
+      "title": "Keeping promises",
+      "emoji": "🔁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I promised to help.",
+          "picture": {
+            "emoji": "🤞",
+            "alt": "I promised to help."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do it.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I do it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Muslims keep promises.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Muslims keep promises."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y24",
+      "title": "Not taking without asking",
+      "emoji": "🛍️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I want my friend's toy.",
+          "picture": {
+            "emoji": "🧸",
+            "alt": "I want my friend's toy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask: Can I use it?",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I ask: Can I use it?"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wait for yes.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "I wait for yes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "manners-y25",
+      "title": "Ramadan manners",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Some people are fasting.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "Some people are fasting."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't eat in front of them to tease.",
+          "picture": {
+            "emoji": "🍪",
+            "alt": "I don't eat in front of them to tease."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am kind.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I am kind."
+          }
+        }
+      ]
+    }
+  ]
+}

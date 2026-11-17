@@ -1,4 +1,4 @@
-import { getTopic } from './lib/content';
+import { getTopic, getWorld } from './lib/content';
 import { isSignedIn } from './lib/people';
 import { useRoute } from './lib/route';
 import { Done } from './screens/Done';
@@ -7,6 +7,7 @@ import { Lesson } from './screens/Lesson';
 import { SettingsScreen } from './screens/SettingsScreen';
 import { Talk } from './screens/Talk';
 import { Break } from './screens/Break';
+import { WorldScreen } from './screens/World';
 import { SignIn } from './grown/SignIn';
 import { Dashboard } from './grown/Dashboard';
 import { ChildPage } from './grown/ChildPage';
@@ -26,6 +27,10 @@ export function App() {
     if (route.name === 'ai') return <HelperChat />;
     if (route.name === 'child') return <ChildPage key={route.childId} childId={route.childId} />;
     return <Dashboard />;
+  }
+  if (route.name === 'world') {
+    const world = getWorld(route.worldId);
+    return world ? <WorldScreen key={world.id} world={world} /> : <Home />;
   }
   if (route.name === 'learn' || route.name === 'done') {
     const topic = getTopic(route.topicId);

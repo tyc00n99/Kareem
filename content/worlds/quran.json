@@ -1,0 +1,1880 @@
+{
+  "id": "quran",
+  "title": "Quran",
+  "summary": "Letters and short surahs",
+  "order": 50,
+  "picture": {
+    "src": "/content/images/art/quran.jpg",
+    "alt": "Quran"
+  },
+  "lessons": [
+    {
+      "id": "quran-letters",
+      "title": "Arabic letters",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Quran is written in Arabic. We read from right to left.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "The Quran is written in Arabic. We read from right to left."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Alif.",
+          "picture": {
+            "emoji": "1️⃣",
+            "alt": "This is Alif."
+          },
+          "arabic": {
+            "text": "ا",
+            "say": "Alif"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Ba.",
+          "picture": {
+            "emoji": "2️⃣",
+            "alt": "This is Ba."
+          },
+          "arabic": {
+            "text": "ب",
+            "say": "Ba"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Ta.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "This is Ta."
+          },
+          "arabic": {
+            "text": "ت",
+            "say": "Ta"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Tha.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "This is Tha."
+          },
+          "arabic": {
+            "text": "ث",
+            "say": "Tha"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Jeem.",
+          "picture": {
+            "emoji": "5️⃣",
+            "alt": "This is Jeem."
+          },
+          "arabic": {
+            "text": "ج",
+            "say": "Jeem"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Haa.",
+          "picture": {
+            "emoji": "6️⃣",
+            "alt": "This is Haa."
+          },
+          "arabic": {
+            "text": "ح",
+            "say": "Haa"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is Khaa.",
+          "picture": {
+            "emoji": "7️⃣",
+            "alt": "This is Khaa."
+          },
+          "arabic": {
+            "text": "خ",
+            "say": "Khaa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah-ikhlas",
+      "title": "Surah Al-Ikhlas",
+      "emoji": "☝️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Say: He is Allah, the One.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "Say: He is Allah, the One."
+          },
+          "arabic": {
+            "text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+            "say": "Qul huwa Allahu ahad"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah needs no one.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah needs no one."
+          },
+          "arabic": {
+            "text": "اللَّهُ الصَّمَدُ",
+            "say": "Allahus-samad"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He has no children and no parents.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "He has no children and no parents."
+          },
+          "arabic": {
+            "text": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+            "say": "Lam yalid wa lam yulad"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Nothing is like Allah.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "Nothing is like Allah."
+          },
+          "arabic": {
+            "text": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
+            "say": "Wa lam yakul-lahu kufuwan ahad"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah-falaq",
+      "title": "Surah Al-Falaq",
+      "emoji": "🌄",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Say: I ask the Lord of the morning to keep me safe.",
+          "picture": {
+            "emoji": "🌄",
+            "alt": "Say: I ask the Lord of the morning to keep me safe."
+          },
+          "arabic": {
+            "text": "قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ",
+            "say": "Qul a'udhu bi Rabbil-falaq"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "From bad things He made.",
+          "picture": {
+            "emoji": "🛡️",
+            "alt": "From bad things He made."
+          },
+          "arabic": {
+            "text": "مِن شَرِّ مَا خَلَقَ",
+            "say": "Min sharri ma khalaq"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "From the dark night.",
+          "picture": {
+            "emoji": "🌑",
+            "alt": "From the dark night."
+          },
+          "arabic": {
+            "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+            "say": "Wa min sharri ghasiqin idha waqab"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "From those who blow on knots.",
+          "picture": {
+            "emoji": "🪢",
+            "alt": "From those who blow on knots."
+          },
+          "arabic": {
+            "text": "وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ",
+            "say": "Wa min sharrin-naffathati fil-'uqad"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "From people who are jealous.",
+          "picture": {
+            "emoji": "😠",
+            "alt": "From people who are jealous."
+          },
+          "arabic": {
+            "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+            "say": "Wa min sharri hasidin idha hasad"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah-nas",
+      "title": "Surah An-Nas",
+      "emoji": "👨‍👩‍👧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Say: I ask the Lord of people to keep me safe.",
+          "picture": {
+            "emoji": "🛡️",
+            "alt": "Say: I ask the Lord of people to keep me safe."
+          },
+          "arabic": {
+            "text": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
+            "say": "Qul a'udhu bi Rabbin-nas"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The King of people.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "The King of people."
+          },
+          "arabic": {
+            "text": "مَلِكِ النَّاسِ",
+            "say": "Malikin-nas"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The God of people.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "The God of people."
+          },
+          "arabic": {
+            "text": "إِلَٰهِ النَّاسِ",
+            "say": "Ilahin-nas"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "From the bad whispers.",
+          "picture": {
+            "emoji": "🙈",
+            "alt": "From the bad whispers."
+          },
+          "arabic": {
+            "text": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
+            "say": "Min sharril-waswasil-khannas"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "That whisper in people's hearts.",
+          "picture": {
+            "emoji": "💭",
+            "alt": "That whisper in people's hearts."
+          },
+          "arabic": {
+            "text": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
+            "say": "Alladhi yuwaswisu fi sudurin-nas"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "From jinn and people.",
+          "picture": {
+            "emoji": "👥",
+            "alt": "From jinn and people."
+          },
+          "arabic": {
+            "text": "مِنَ الْجِنَّةِ وَالنَّاسِ",
+            "say": "Minal-jinnati wan-nas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "surah-fatiha",
+      "title": "Surah Al-Fatiha",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "In the name of Allah, the Kind, the Caring.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "In the name of Allah, the Kind, the Caring."
+          },
+          "arabic": {
+            "text": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+            "say": "Bismillahir-Rahmanir-Rahim"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "All thanks to Allah, Lord of everything.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "All thanks to Allah, Lord of everything."
+          },
+          "arabic": {
+            "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+            "say": "Alhamdu lillahi Rabbil-'alamin"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Kind, the Caring.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "The Kind, the Caring."
+          },
+          "arabic": {
+            "text": "الرَّحْمَٰنِ الرَّحِيمِ",
+            "say": "Ar-Rahmanir-Rahim"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "King of the Last Day.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "King of the Last Day."
+          },
+          "arabic": {
+            "text": "مَالِكِ يَوْمِ الدِّينِ",
+            "say": "Maliki yawmid-din"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Only You we worship, only You we ask for help.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "Only You we worship, only You we ask for help."
+          },
+          "arabic": {
+            "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "say": "Iyyaka na'budu wa iyyaka nasta'in"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Show us the straight path.",
+          "picture": {
+            "emoji": "🛤️",
+            "alt": "Show us the straight path."
+          },
+          "arabic": {
+            "text": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+            "say": "Ihdinas-siratal-mustaqim"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The path of people You blessed.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "The path of people You blessed."
+          },
+          "arabic": {
+            "text": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+            "say": "Siratal-ladhina an'amta 'alayhim, ghayril-maghdubi 'alayhim wa lad-dallin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x1",
+      "title": "What is the Quran",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Quran is Allah's words.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "The Quran is Allah's words."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Angel Jibreel brought it to the Prophet ﷺ.",
+          "picture": {
+            "emoji": "👼",
+            "alt": "Angel Jibreel brought it to the Prophet ﷺ."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We read it with love.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "We read it with love."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x2",
+      "title": "Holding the Quran",
+      "emoji": "🧼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I have wudu.",
+          "picture": {
+            "emoji": "🧼",
+            "alt": "I have wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I hold the Quran gently.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "I hold the Quran gently."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put it up high when I am done.",
+          "picture": {
+            "emoji": "📚",
+            "alt": "I put it up high when I am done."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x3",
+      "title": "Saying A'udhu",
+      "emoji": "🗣️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Before I read.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "Before I read."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A'udhu billahi minash shaytanir rajeem.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "A'udhu billahi minash shaytanir rajeem."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bismillahir rahmanir raheem.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Bismillahir rahmanir raheem."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x4",
+      "title": "Reading right to left",
+      "emoji": "↔️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Arabic starts on the right.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "Arabic starts on the right."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I read toward the left.",
+          "picture": {
+            "emoji": "👈",
+            "alt": "I read toward the left."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The book opens the other way.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "The book opens the other way."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x5",
+      "title": "Letters Alif Ba Ta",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Alif ا",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Alif ا"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ba ب",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ba ب"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ta ت",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ta ت"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Tha ث",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Tha ث"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x6",
+      "title": "Letters Jeem Haa Khaa",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Jeem ج",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Jeem ج"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Haa ح",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Haa ح"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Khaa خ",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Khaa خ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x7",
+      "title": "Letters Dal Dhal Ra Zay",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Dal د",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Dal د"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dhal ذ",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Dhal ذ"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ra ر",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ra ر"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Zay ز",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Zay ز"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x8",
+      "title": "Letters Seen Sheen",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Seen س",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Seen س"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sheen ش",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Sheen ش"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sheen sounds like shh.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "Sheen sounds like shh."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x9",
+      "title": "Letters Sad Dad Taa Dhaa",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sad ص",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Sad ص"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dad ض",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Dad ض"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Taa ط",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Taa ط"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dhaa ظ",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Dhaa ظ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x10",
+      "title": "Letters Ayn Ghayn",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ayn ع",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ayn ع"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ghayn غ",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ghayn غ"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "These sounds come from the throat.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "These sounds come from the throat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x11",
+      "title": "Letters Fa Qaf Kaf",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Fa ف",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Fa ف"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Qaf ق",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Qaf ق"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Kaf ك",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Kaf ك"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x12",
+      "title": "Letters Lam Meem Noon",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Lam ل",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Lam ل"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Meem م",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Meem م"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Noon ن",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Noon ن"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x13",
+      "title": "Letters Ha Waw Ya",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ha ه",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ha ه"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Waw و",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Waw و"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ya ي",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "Ya ي"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I know all the letters!",
+          "picture": {
+            "emoji": "🎉",
+            "alt": "I know all the letters!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x14",
+      "title": "Fatha says a",
+      "emoji": "➖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A little line on top is fatha.",
+          "picture": {
+            "emoji": "➖",
+            "alt": "A little line on top is fatha."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It says a.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "It says a."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "بَ says ba.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "بَ says ba."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x15",
+      "title": "Kasra says i",
+      "emoji": "➖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A little line under is kasra.",
+          "picture": {
+            "emoji": "➖",
+            "alt": "A little line under is kasra."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It says i.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "It says i."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "بِ says bi.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "بِ says bi."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x16",
+      "title": "Damma says u",
+      "emoji": "➰",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A little curl on top is damma.",
+          "picture": {
+            "emoji": "➰",
+            "alt": "A little curl on top is damma."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It says u.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "It says u."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "بُ says bu.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "بُ says bu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x17",
+      "title": "Sukoon stops",
+      "emoji": "⭕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A little circle is sukoon.",
+          "picture": {
+            "emoji": "⭕",
+            "alt": "A little circle is sukoon."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It means stop the sound.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "It means stop the sound."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "اَبْ says ab.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "اَبْ says ab."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x18",
+      "title": "Surah Al-Kawthar",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It is the shortest surah.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "It is the shortest surah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Inna a'tainakal kawthar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Inna a'tainakal kawthar."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gave the Prophet ﷺ so much good.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah gave the Prophet ﷺ so much good."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x19",
+      "title": "Surah An-Nasr",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Idha ja'a nasrullahi wal fath.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Idha ja'a nasrullahi wal fath."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "People came to Islam in big groups.",
+          "picture": {
+            "emoji": "👥",
+            "alt": "People came to Islam in big groups."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We say thank you to Allah.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "We say thank you to Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-x20",
+      "title": "Surah Al-Asr",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Al-Asr means time.",
+          "picture": {
+            "emoji": "⏰",
+            "alt": "Al-Asr means time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Wal 'asr.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Wal 'asr."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Use time for good deeds.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Use time for good deeds."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y1",
+      "title": "Surah Al-Ma'un",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It talks about helping others.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "It talks about helping others."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Feed people who need it.",
+          "picture": {
+            "emoji": "🍞",
+            "alt": "Feed people who need it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be kind.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Be kind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y2",
+      "title": "Surah Quraysh",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It is about the people of Makkah.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "It is about the people of Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah fed them and kept them safe.",
+          "picture": {
+            "emoji": "🍞",
+            "alt": "Allah fed them and kept them safe."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "So worship Allah.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "So worship Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y3",
+      "title": "Surah Al-Fil",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The story of the elephant army.",
+          "picture": {
+            "emoji": "🐘",
+            "alt": "The story of the elephant army."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Birds stopped them.",
+          "picture": {
+            "emoji": "🐦",
+            "alt": "Birds stopped them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah protected the Kaaba.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Allah protected the Kaaba."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y4",
+      "title": "Surah Al-Humazah",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Don't make fun of people.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Don't make fun of people."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Money is not everything.",
+          "picture": {
+            "emoji": "💰",
+            "alt": "Money is not everything."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be kind with words.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Be kind with words."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y5",
+      "title": "Surah At-Takathur",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Don't just want more and more.",
+          "picture": {
+            "emoji": "🏠",
+            "alt": "Don't just want more and more."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We will be asked about blessings.",
+          "picture": {
+            "emoji": "⚖️",
+            "alt": "We will be asked about blessings."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be thankful.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "Be thankful."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y6",
+      "title": "Surah Al-Qari'ah",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "On the Last Day deeds are weighed.",
+          "picture": {
+            "emoji": "⚖️",
+            "alt": "On the Last Day deeds are weighed."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Good deeds are heavy.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Good deeds are heavy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Do good.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Do good."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y7",
+      "title": "Surah Al-'Adiyat",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It talks about running horses.",
+          "picture": {
+            "emoji": "🐎",
+            "alt": "It talks about running horses."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "People should be thankful.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "People should be thankful."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah knows all.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah knows all."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y8",
+      "title": "Surah Az-Zalzalah",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The earth will shake.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "The earth will shake."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Even a tiny good deed counts.",
+          "picture": {
+            "emoji": "⚛️",
+            "alt": "Even a tiny good deed counts."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "So does a tiny bad deed.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "So does a tiny bad deed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y9",
+      "title": "Surah Al-Bayyinah",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A clear sign came.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "A clear sign came."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Worship Allah sincerely.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "Worship Allah sincerely."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Good people go to Jannah.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Good people go to Jannah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y10",
+      "title": "Surah Al-Qadr",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Night of Power.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "The Night of Power."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Better than 1000 months.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Better than 1000 months."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Angels come down.",
+          "picture": {
+            "emoji": "👼",
+            "alt": "Angels come down."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y11",
+      "title": "Surah Al-'Alaq",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The first words: Iqra! Read!",
+          "picture": {
+            "emoji": "📖",
+            "alt": "The first words: Iqra! Read!"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah taught with the pen.",
+          "picture": {
+            "emoji": "✍️",
+            "alt": "Allah taught with the pen."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Learning is important.",
+          "picture": {
+            "emoji": "🧠",
+            "alt": "Learning is important."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y12",
+      "title": "Surah At-Tin",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "By the fig and the olive.",
+          "picture": {
+            "emoji": "🫒",
+            "alt": "By the fig and the olive."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made people in the best shape.",
+          "picture": {
+            "emoji": "👤",
+            "alt": "Allah made people in the best shape."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Do good deeds.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Do good deeds."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y13",
+      "title": "Surah Ash-Sharh",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "With hardship comes ease.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "With hardship comes ease."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah says it twice.",
+          "picture": {
+            "emoji": "🔁",
+            "alt": "Allah says it twice."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Hard times get easier.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Hard times get easier."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y14",
+      "title": "Surah Ad-Duha",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "By the morning light.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "By the morning light."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah has not left you.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah has not left you."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be kind to orphans.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "Be kind to orphans."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y15",
+      "title": "Surah Ash-Shams",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "By the sun and the moon.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "By the sun and the moon."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Keep your heart clean.",
+          "picture": {
+            "emoji": "🧼",
+            "alt": "Keep your heart clean."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "That is success.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "That is success."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y16",
+      "title": "Ayat al-Kursi",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The greatest ayah.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "The greatest ayah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We read it before sleep.",
+          "picture": {
+            "emoji": "🛡️",
+            "alt": "We read it before sleep."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah protects us.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah protects us."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y17",
+      "title": "Letters that join",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Most letters join to the next one.",
+          "picture": {
+            "emoji": "🔗",
+            "alt": "Most letters join to the next one."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "بـ in the start.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "بـ in the start."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "ـب at the end.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "ـب at the end."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y18",
+      "title": "Letters that don't join after",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "ا د ذ ر ز و",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "ا د ذ ر ز و"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They don't join to the next letter.",
+          "picture": {
+            "emoji": "🚫",
+            "alt": "They don't join to the next letter."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Look for the gap.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "Look for the gap."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y19",
+      "title": "Tanween",
+      "emoji": "➖➖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Two fathas say an.",
+          "picture": {
+            "emoji": "➖➖",
+            "alt": "Two fathas say an."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Two kasras say in.",
+          "picture": {
+            "emoji": "➖➖",
+            "alt": "Two kasras say in."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Two dammas say un.",
+          "picture": {
+            "emoji": "➰➰",
+            "alt": "Two dammas say un."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y20",
+      "title": "Shaddah",
+      "emoji": "〰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A little w on top is shaddah.",
+          "picture": {
+            "emoji": "〰️",
+            "alt": "A little w on top is shaddah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It doubles the letter.",
+          "picture": {
+            "emoji": "🔁",
+            "alt": "It doubles the letter."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "رَبَّ says rabba.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "رَبَّ says rabba."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y21",
+      "title": "Madd long sounds",
+      "emoji": "🔤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "ا makes a long aa.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "ا makes a long aa."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "و makes a long uu.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "و makes a long uu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "ي makes a long ii.",
+          "picture": {
+            "emoji": "🔤",
+            "alt": "ي makes a long ii."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y22",
+      "title": "Listening to Quran",
+      "emoji": "👂",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I listen to Quran.",
+          "picture": {
+            "emoji": "🎧",
+            "alt": "I listen to Quran."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am quiet.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I am quiet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It calms my heart.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "It calms my heart."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y23",
+      "title": "Reading with a teacher",
+      "emoji": "🎙️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My teacher reads.",
+          "picture": {
+            "emoji": "🧑‍🏫",
+            "alt": "My teacher reads."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I repeat after.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I repeat after."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We do it again.",
+          "picture": {
+            "emoji": "🔁",
+            "alt": "We do it again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y24",
+      "title": "One ayah a day",
+      "emoji": "📝",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I learn one ayah each day.",
+          "picture": {
+            "emoji": "📅",
+            "alt": "I learn one ayah each day."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I repeat it 5 times.",
+          "picture": {
+            "emoji": "🔁",
+            "alt": "I repeat it 5 times."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Soon I know the surah!",
+          "picture": {
+            "emoji": "🏆",
+            "alt": "Soon I know the surah!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "quran-y25",
+      "title": "Reviewing my surahs",
+      "emoji": "🏆",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I say Al-Fatiha.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "I say Al-Fatiha."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Al-Ikhlas.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "I say Al-Ikhlas."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say An-Nas and Al-Falaq.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "I say An-Nas and Al-Falaq."
+          }
+        }
+      ]
+    }
+  ]
+}

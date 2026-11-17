@@ -83,6 +83,30 @@ export type Topic = {
   /** "draft" until a scholar and an easy-read reviewer have checked it. */
   status: 'draft' | 'reviewed';
   screens: Screen[];
+  /** The learning world this topic belongs to (see content/worlds). */
+  world?: string;
+  /** Optional sub-heading inside the world, e.g. "Daily living". */
+  group?: string;
+};
+
+/** One lesson inside a world file. It becomes a topic with the world's id. */
+export type WorldLesson = {
+  id: string;
+  title: string;
+  emoji: string;
+  group?: string;
+  status: 'draft' | 'reviewed';
+  screens: Screen[];
+};
+
+/** A learning world: a big area on the map, with many short lessons. */
+export type World = {
+  id: string;
+  title: string;
+  summary: string;
+  order: number;
+  picture: Picture;
+  lessons: WorldLesson[];
 };
 
 const modules = import.meta.glob<Topic>('../../content/topics/*.json', {
@@ -90,8 +114,52 @@ const modules = import.meta.glob<Topic>('../../content/topics/*.json', {
   import: 'default',
 });
 
+/** The hand-made topics. They come first: on the home schedule and at the top of their world. */
 export const topics: Topic[] = Object.values(modules).sort((a, b) => a.order - b.order);
 
+const worldModules = import.meta.glob<World>('../../content/worlds/*.json', {
+  eager: true,
+  import: 'default',
+});
+
+export const worlds: World[] = Object.values(worldModules).sort((a, b) => a.order - b.order);
+
+/** Every world lesson as a topic, so the same lesson screens and progress records work for all of them. */
+export const worldTopics: Topic[] = worlds.flatMap((w) =>
+  w.lessons.map((l, i) => ({
+    id: l.id,
+    title: l.title,
+    summary: w.title,
+    picture: { emoji: l.emoji, alt: l.title },
+    order: w.order * 1000 + i,
+    status: l.status,
+    screens: l.screens,
+    world: w.id,
+    group: l.group,
+  })),
+);
+
+/** Hand-made topics and every world lesson. */
+export const allTopics: Topic[] = [...topics, ...worldTopics];
+const byId = new Map(allTopics.map((t) => [t.id, t]));
+
 export function getTopic(id: string): Topic | undefined {
-  return topics.find((t) => t.id === id);
+  return byId.get(id);
+}
+
+export function getWorld(id: string): World | undefined {
+  return worlds.find((w) => w.id === id);
+}
+
+/** All topics in a world: the hand-made ones first, then the world's own lessons. */
+export function topicsIn(worldId: string): Topic[] {
+  return allTopics.filter((t) => t.world === worldId);
+}
+
+/** The lesson after this one in the same world, if there is one. */
+export function nextInWorld(topic: Topic): Topic | undefined {
+  if (!topic.world) return undefined;
+  const list = topicsIn(topic.world);
+  const i = list.findIndex((t) => t.id === topic.id);
+  return i >= 0 ? list[i + 1] : undefined;
 }

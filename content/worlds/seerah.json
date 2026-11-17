@@ -1,0 +1,1704 @@
+{
+  "id": "seerah",
+  "title": "Seerah",
+  "summary": "The life of Prophet Muhammad ﷺ",
+  "order": 70,
+  "picture": {
+    "src": "/content/images/art/seerah.jpg",
+    "alt": "Seerah"
+  },
+  "lessons": [
+    {
+      "id": "seerah-birth",
+      "title": "A special baby in Makkah",
+      "emoji": "🍼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Long ago, a baby was born in the city of Makkah.",
+          "picture": {
+            "emoji": "🏜️",
+            "alt": "Long ago, a baby was born in the city of Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "His name was Muhammad, peace be upon him.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "His name was Muhammad, peace be upon him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "His father Abdullah died before he was born.",
+          "picture": {
+            "emoji": "💔",
+            "alt": "His father Abdullah died before he was born."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He lived in the desert with a kind lady named Halimah. He helped look after sheep.",
+          "picture": {
+            "emoji": "🐑",
+            "alt": "He lived in the desert with a kind lady named Halimah. He helped look after sheep."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "His grandfather, and then his uncle Abu Talib, took care of him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "His grandfather, and then his uncle Abu Talib, took care of him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-amin",
+      "title": "The honest one",
+      "emoji": "🤝",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Muhammad, peace be upon him, never told lies.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Muhammad, peace be upon him, never told lies."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "People gave him their special things to keep safe.",
+          "picture": {
+            "emoji": "💎",
+            "alt": "People gave him their special things to keep safe."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They called him Al-Amin. It means the trustworthy one.",
+          "picture": {
+            "emoji": "🏷️",
+            "alt": "They called him Al-Amin. It means the trustworthy one."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He worked as a trader for a kind lady named Khadijah.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "He worked as a trader for a kind lady named Khadijah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Later they got married. She was the first person to believe in him.",
+          "picture": {
+            "emoji": "💍",
+            "alt": "Later they got married. She was the first person to believe in him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-hira",
+      "title": "The cave of Hira",
+      "emoji": "⛰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He liked to sit quietly in a cave on a mountain. It was called Hira.",
+          "picture": {
+            "emoji": "⛰️",
+            "alt": "He liked to sit quietly in a cave on a mountain. It was called Hira."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "One night the angel Jibreel came to him.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "One night the angel Jibreel came to him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Jibreel said: Read! Iqra!",
+          "picture": {
+            "emoji": "📖",
+            "alt": "Jibreel said: Read! Iqra!"
+          },
+          "arabic": {
+            "text": "اقْرَأْ",
+            "say": "Iqra"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was scared and went home to Khadijah.",
+          "picture": {
+            "emoji": "😟",
+            "alt": "He was scared and went home to Khadijah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Khadijah hugged him and said: Allah will take care of you.",
+          "picture": {
+            "emoji": "🤗",
+            "alt": "Khadijah hugged him and said: Allah will take care of you."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This was the first part of the Quran. He was now a prophet.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "This was the first part of the Quran. He was now a prophet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-hijrah",
+      "title": "The journey to Madinah",
+      "emoji": "🐪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Some people in Makkah were mean to the Muslims.",
+          "picture": {
+            "emoji": "😠",
+            "alt": "Some people in Makkah were mean to the Muslims."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah told the Prophet to move to the city of Madinah.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "Allah told the Prophet to move to the city of Madinah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He hid in a cave called Thawr with his friend Abu Bakr.",
+          "picture": {
+            "emoji": "🕳️",
+            "alt": "He hid in a cave called Thawr with his friend Abu Bakr."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A spider made a web and a bird made a nest at the door. The bad people walked away!",
+          "picture": {
+            "emoji": "👣",
+            "alt": "A spider made a web and a bird made a nest at the door. The bad people walked away!"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The people of Madinah were so happy. They sang to welcome him.",
+          "picture": {
+            "emoji": "🎉",
+            "alt": "The people of Madinah were so happy. They sang to welcome him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-masjid",
+      "title": "Building the masjid",
+      "emoji": "🕌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "In Madinah, his camel sat down at one spot.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "In Madinah, his camel sat down at one spot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Everyone worked together to build a masjid there.",
+          "picture": {
+            "emoji": "🧱",
+            "alt": "Everyone worked together to build a masjid there."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet carried bricks too. He helped like everyone else.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "The Prophet carried bricks too. He helped like everyone else."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The people of Madinah shared their homes and food with the Muslims from Makkah.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "The people of Madinah shared their homes and food with the Muslims from Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sharing and helping each other makes Allah happy.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Sharing and helping each other makes Allah happy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-makkah",
+      "title": "Going home to Makkah",
+      "emoji": "🕋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Years later, the Prophet and the Muslims went back to Makkah.",
+          "picture": {
+            "emoji": "👣",
+            "alt": "Years later, the Prophet and the Muslims went back to Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The people who were mean to him were scared.",
+          "picture": {
+            "emoji": "😮",
+            "alt": "The people who were mean to him were scared."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said: Go, you are free. He forgave them.",
+          "picture": {
+            "emoji": "🕊️",
+            "alt": "He said: Go, you are free. He forgave them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Kaaba was cleaned so people could worship only Allah.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "The Kaaba was cleaned so people could worship only Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can forgive people too, like the Prophet did.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I can forgive people too, like the Prophet did."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-kindness",
+      "title": "His kindness",
+      "emoji": "😊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Prophet smiled at people a lot. Smiling is a charity.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "The Prophet smiled at people a lot. Smiling is a charity."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He played with children and said salam to them.",
+          "picture": {
+            "emoji": "🎈",
+            "alt": "He played with children and said salam to them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was gentle with animals, like cats and camels.",
+          "picture": {
+            "emoji": "🐈",
+            "alt": "He was gentle with animals, like cats and camels."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He helped at home and fixed his own clothes.",
+          "picture": {
+            "emoji": "🧹",
+            "alt": "He helped at home and fixed his own clothes."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can be kind like the Prophet, peace be upon him.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "I can be kind like the Prophet, peace be upon him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x1",
+      "title": "Year of the Elephant",
+      "emoji": "🐘",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "An army with elephants came to Makkah.",
+          "picture": {
+            "emoji": "🐘",
+            "alt": "An army with elephants came to Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah sent birds to stop them.",
+          "picture": {
+            "emoji": "🐦",
+            "alt": "Allah sent birds to stop them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "That year the Prophet ﷺ was born.",
+          "picture": {
+            "emoji": "🍼",
+            "alt": "That year the Prophet ﷺ was born."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x2",
+      "title": "The shepherd boy",
+      "emoji": "🐐",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ looked after sheep.",
+          "picture": {
+            "emoji": "🐐",
+            "alt": "The Prophet ﷺ looked after sheep."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was gentle and patient.",
+          "picture": {
+            "emoji": "🌄",
+            "alt": "He was gentle and patient."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Many prophets were shepherds.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Many prophets were shepherds."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x3",
+      "title": "Grandfather Abdul Muttalib",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "His grandpa took care of him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "His grandpa took care of him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He loved him very much.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He loved him very much."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah always took care of him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah always took care of him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x4",
+      "title": "Uncle Abu Talib",
+      "emoji": "🧳",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Then his uncle took care of him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Then his uncle took care of him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He traveled with his uncle.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "He traveled with his uncle."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "His uncle protected him.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "His uncle protected him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x5",
+      "title": "The black stone",
+      "emoji": "🧱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People argued about the black stone.",
+          "picture": {
+            "emoji": "🧱",
+            "alt": "People argued about the black stone."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He put it on a cloth.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "He put it on a cloth."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Everyone lifted it together.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "Everyone lifted it together."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x6",
+      "title": "Marrying Khadijah",
+      "emoji": "💍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Khadijah was kind and wise.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Khadijah was kind and wise."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She married the Prophet ﷺ.",
+          "picture": {
+            "emoji": "💍",
+            "alt": "She married the Prophet ﷺ."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She believed in him first.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "She believed in him first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x7",
+      "title": "The kind neighbor",
+      "emoji": "🌳",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A woman threw trash on his path.",
+          "picture": {
+            "emoji": "🗑️",
+            "alt": "A woman threw trash on his path."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "One day she was sick.",
+          "picture": {
+            "emoji": "🤒",
+            "alt": "One day she was sick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He visited her. She became Muslim.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He visited her. She became Muslim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x8",
+      "title": "Going to Ta'if",
+      "emoji": "⛰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People in Ta'if were mean to him.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "People in Ta'if were mean to him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He made dua for them.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He made dua for them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He did not get angry.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He did not get angry."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x9",
+      "title": "Night journey",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He rode the Buraq to Jerusalem.",
+          "picture": {
+            "emoji": "🐎",
+            "alt": "He rode the Buraq to Jerusalem."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He went up to the heavens.",
+          "picture": {
+            "emoji": "⬆️",
+            "alt": "He went up to the heavens."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gave us 5 prayers.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "Allah gave us 5 prayers."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x10",
+      "title": "The cave of Thawr",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He left Makkah with Abu Bakr.",
+          "picture": {
+            "emoji": "🏃",
+            "alt": "He left Makkah with Abu Bakr."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A spider made a web at the cave.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "A spider made a web at the cave."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah kept them safe.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah kept them safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x11",
+      "title": "Arriving in Madinah",
+      "emoji": "🌴",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People sang Tala'al badru 'alayna.",
+          "picture": {
+            "emoji": "🎶",
+            "alt": "People sang Tala'al badru 'alayna."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They were so happy.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "They were so happy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Madinah became his home.",
+          "picture": {
+            "emoji": "🏡",
+            "alt": "Madinah became his home."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x13",
+      "title": "Brothers in Madinah",
+      "emoji": "🤝",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People from Makkah had nothing.",
+          "picture": {
+            "emoji": "🧳",
+            "alt": "People from Makkah had nothing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Ansar shared their homes.",
+          "picture": {
+            "emoji": "🏠",
+            "alt": "The Ansar shared their homes."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They became brothers.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They became brothers."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x14",
+      "title": "Abu Hurayrah's cat",
+      "emoji": "🐱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Abu Hurayrah loved cats.",
+          "picture": {
+            "emoji": "🐱",
+            "alt": "Abu Hurayrah loved cats."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ was kind to animals.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "The Prophet ﷺ was kind to animals."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We are kind to animals too.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "We are kind to animals too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x15",
+      "title": "Kind to children",
+      "emoji": "🎈",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He played with children.",
+          "picture": {
+            "emoji": "🎈",
+            "alt": "He played with children."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He carried his grandsons on his back.",
+          "picture": {
+            "emoji": "🐫",
+            "alt": "He carried his grandsons on his back."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said salam to kids.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "He said salam to kids."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x16",
+      "title": "Returning to Makkah",
+      "emoji": "🕋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He came back to Makkah peacefully.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "He came back to Makkah peacefully."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He forgave everyone.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "He forgave everyone."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Forgiveness is strong.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Forgiveness is strong."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x17",
+      "title": "His last speech",
+      "emoji": "🗣️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He spoke at Mount Arafat.",
+          "picture": {
+            "emoji": "⛰️",
+            "alt": "He spoke at Mount Arafat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "All people are equal.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "All people are equal."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be kind to each other.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Be kind to each other."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-x18",
+      "title": "His smile",
+      "emoji": "😊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ smiled a lot.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "The Prophet ﷺ smiled a lot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Smiling is charity.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Smiling is charity."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can smile too.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I can smile too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y1",
+      "title": "Baby with Halimah",
+      "emoji": "🍼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Baby Muhammad ﷺ lived with Halimah.",
+          "picture": {
+            "emoji": "🏜️",
+            "alt": "Baby Muhammad ﷺ lived with Halimah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Her animals gave more milk.",
+          "picture": {
+            "emoji": "🐐",
+            "alt": "Her animals gave more milk."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Blessings came.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Blessings came."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y2",
+      "title": "Mother Aminah",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "His mother was Aminah.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "His mother was Aminah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She passed away when he was 6.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "She passed away when he was 6."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah took care of him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah took care of him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y3",
+      "title": "Dua for rain",
+      "emoji": "🌧️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "There was no rain.",
+          "picture": {
+            "emoji": "🌵",
+            "alt": "There was no rain."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ made dua.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "The Prophet ﷺ made dua."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rain came.",
+          "picture": {
+            "emoji": "🌧️",
+            "alt": "Rain came."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y4",
+      "title": "Trading for Khadijah",
+      "emoji": "🐫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He took Khadijah's goods to sell.",
+          "picture": {
+            "emoji": "🐫",
+            "alt": "He took Khadijah's goods to sell."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was honest.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "He was honest."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It went very well.",
+          "picture": {
+            "emoji": "💰",
+            "alt": "It went very well."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y5",
+      "title": "Family in Makkah",
+      "emoji": "🏠",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He had daughters like Fatimah.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "He had daughters like Fatimah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He loved them very much.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He loved them very much."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He stood when Fatimah came in.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "He stood when Fatimah came in."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y6",
+      "title": "Cave Hira",
+      "emoji": "🕳️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He went to think in Cave Hira.",
+          "picture": {
+            "emoji": "🕳️",
+            "alt": "He went to think in Cave Hira."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Jibreel came.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Jibreel came."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Iqra! The first revelation.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "Iqra! The first revelation."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y7",
+      "title": "Khadijah comforts him",
+      "emoji": "🧣",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He came home scared.",
+          "picture": {
+            "emoji": "😟",
+            "alt": "He came home scared."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Khadijah wrapped him up.",
+          "picture": {
+            "emoji": "🧣",
+            "alt": "Khadijah wrapped him up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She said: Allah will never let you down.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "She said: Allah will never let you down."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y8",
+      "title": "Ali believes",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ali was a young boy.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Ali was a young boy."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He believed right away.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "He believed right away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Kids can be brave too.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Kids can be brave too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y9",
+      "title": "Abu Bakr believes",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Abu Bakr was his best friend.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Abu Bakr was his best friend."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He believed right away.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "He believed right away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was called As-Siddiq.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He was called As-Siddiq."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y10",
+      "title": "On Mount Safa",
+      "emoji": "⛰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He called people on Safa.",
+          "picture": {
+            "emoji": "⛰️",
+            "alt": "He called people on Safa."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Would you believe me?",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Would you believe me?"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Yes, you always tell the truth.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Yes, you always tell the truth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y11",
+      "title": "Bilal's courage",
+      "emoji": "💪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Bilal was hurt for believing.",
+          "picture": {
+            "emoji": "🪨",
+            "alt": "Bilal was hurt for believing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said: Ahad, Ahad.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "He said: Ahad, Ahad."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is One.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah is One."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y12",
+      "title": "Bilal's adhan",
+      "emoji": "🔊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Bilal had a beautiful voice.",
+          "picture": {
+            "emoji": "🔊",
+            "alt": "Bilal had a beautiful voice."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He made the first adhan.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "He made the first adhan."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Everyone came to pray.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Everyone came to pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y13",
+      "title": "Hijrah to Abyssinia",
+      "emoji": "🌍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Some Muslims went to Abyssinia.",
+          "picture": {
+            "emoji": "🚢",
+            "alt": "Some Muslims went to Abyssinia."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A kind king protected them.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "A kind king protected them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Kindness is everywhere.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Kindness is everywhere."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y14",
+      "title": "Year of Sadness",
+      "emoji": "😢",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Khadijah and Abu Talib passed away.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "Khadijah and Abu Talib passed away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was very sad.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He was very sad."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah comforted him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah comforted him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y15",
+      "title": "The camel chooses",
+      "emoji": "🐪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "In Madinah everyone wanted him.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "In Madinah everyone wanted him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "His camel sat down at one spot.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "His camel sat down at one spot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "There they built the masjid.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "There they built the masjid."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y16",
+      "title": "The crying tree",
+      "emoji": "🌴",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He used to lean on a palm trunk.",
+          "picture": {
+            "emoji": "🌴",
+            "alt": "He used to lean on a palm trunk."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "When he got a minbar, the trunk cried.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "When he got a minbar, the trunk cried."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He hugged it.",
+          "picture": {
+            "emoji": "🤗",
+            "alt": "He hugged it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y17",
+      "title": "Sharing food",
+      "emoji": "🍲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A little food was shared.",
+          "picture": {
+            "emoji": "🍲",
+            "alt": "A little food was shared."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah blessed it.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Allah blessed it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Many people ate.",
+          "picture": {
+            "emoji": "👥",
+            "alt": "Many people ate."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y18",
+      "title": "Water from his fingers",
+      "emoji": "💧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "There was little water.",
+          "picture": {
+            "emoji": "🏜️",
+            "alt": "There was little water."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Water came from his fingers.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Water came from his fingers."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A miracle from Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "A miracle from Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y19",
+      "title": "The sad camel",
+      "emoji": "🐫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A camel was tired and hungry.",
+          "picture": {
+            "emoji": "🐫",
+            "alt": "A camel was tired and hungry."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ told the owner to be kind.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "The Prophet ﷺ told the owner to be kind."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Animals have feelings.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Animals have feelings."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y20",
+      "title": "The mother bird",
+      "emoji": "🐦",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone took baby birds.",
+          "picture": {
+            "emoji": "🐦",
+            "alt": "Someone took baby birds."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The mother bird was upset.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "The mother bird was upset."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said: Give them back.",
+          "picture": {
+            "emoji": "🪺",
+            "alt": "He said: Give them back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y21",
+      "title": "Helping at home",
+      "emoji": "🧹",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He helped with chores.",
+          "picture": {
+            "emoji": "🧹",
+            "alt": "He helped with chores."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He fixed his own clothes.",
+          "picture": {
+            "emoji": "🧵",
+            "alt": "He fixed his own clothes."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Helping is sunnah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Helping is sunnah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y22",
+      "title": "Treaty of Hudaybiyyah",
+      "emoji": "🤝",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He made peace with Makkah.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "He made peace with Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It seemed hard.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "It seemed hard."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It turned out to be good.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "It turned out to be good."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y23",
+      "title": "Cleaning the Kaaba",
+      "emoji": "🕋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Idols were around the Kaaba.",
+          "picture": {
+            "emoji": "🗿",
+            "alt": "Idols were around the Kaaba."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He removed them.",
+          "picture": {
+            "emoji": "🧹",
+            "alt": "He removed them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Only Allah is worshipped there.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "Only Allah is worshipped there."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y24",
+      "title": "His last days",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "He became sick.",
+          "picture": {
+            "emoji": "🤒",
+            "alt": "He became sick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said: Take care of prayer.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He said: Take care of prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He returned to Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He returned to Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "seerah-y25",
+      "title": "Loving the Prophet ﷺ",
+      "emoji": "💚",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "We love the Prophet ﷺ.",
+          "picture": {
+            "emoji": "💚",
+            "alt": "We love the Prophet ﷺ."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We say Sallallahu alayhi wa sallam.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "We say Sallallahu alayhi wa sallam."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We follow his sunnah.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "We follow his sunnah."
+          }
+        }
+      ]
+    }
+  ]
+}

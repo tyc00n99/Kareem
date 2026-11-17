@@ -1,0 +1,1672 @@
+{
+  "id": "wudu",
+  "title": "Wudu",
+  "summary": "Getting clean to pray",
+  "order": 20,
+  "picture": {
+    "src": "/content/images/art/wudu.jpg",
+    "alt": "Wudu"
+  },
+  "lessons": [
+    {
+      "id": "wudu-steps",
+      "title": "How to make wudu",
+      "emoji": "💧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I want to make wudu. I say Bismillah.",
+          "picture": {
+            "emoji": "💭",
+            "alt": "I want to make wudu. I say Bismillah."
+          },
+          "arabic": {
+            "text": "بِسْمِ اللَّهِ",
+            "say": "Bismillah"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my hands. One, two, three.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "I wash my hands. One, two, three."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I rinse my mouth. One, two, three.",
+          "picture": {
+            "emoji": "👄",
+            "alt": "I rinse my mouth. One, two, three."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I rinse my nose gently. One, two, three.",
+          "picture": {
+            "emoji": "👃",
+            "alt": "I rinse my nose gently. One, two, three."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my face. One, two, three.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I wash my face. One, two, three."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my right arm to the elbow, then my left arm. Three times each.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "I wash my right arm to the elbow, then my left arm. Three times each."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wipe my wet hands over my head. One time.",
+          "picture": {
+            "emoji": "🧑",
+            "alt": "I wipe my wet hands over my head. One time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wipe my ears. One time.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "I wipe my ears. One time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my right foot, then my left foot. Three times each.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "I wash my right foot, then my left foot. Three times each."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "All done! Now I am ready to pray.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "All done! Now I am ready to pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x1",
+      "title": "Niyyah for wudu",
+      "emoji": "💭",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I think: I am making wudu for Allah.",
+          "picture": {
+            "emoji": "💭",
+            "alt": "I think: I am making wudu for Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Bismillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Bismillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am ready to start.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I am ready to start."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x2",
+      "title": "Washing hands",
+      "emoji": "🙌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I turn on the water.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I turn on the water."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my hands 3 times.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "I wash my hands 3 times."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I clean between my fingers.",
+          "picture": {
+            "emoji": "🤏",
+            "alt": "I clean between my fingers."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x3",
+      "title": "Rinsing mouth",
+      "emoji": "👄",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put water in my mouth.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I put water in my mouth."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I swish it around.",
+          "picture": {
+            "emoji": "👄",
+            "alt": "I swish it around."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I spit it out. 3 times.",
+          "picture": {
+            "emoji": "💦",
+            "alt": "I spit it out. 3 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x4",
+      "title": "Cleaning nose",
+      "emoji": "👃",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I sniff a little water.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I sniff a little water."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I blow it out gently.",
+          "picture": {
+            "emoji": "👃",
+            "alt": "I blow it out gently."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do it 3 times.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "I do it 3 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x5",
+      "title": "Washing face",
+      "emoji": "😊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I take water in both hands.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I take water in both hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my whole face.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I wash my whole face."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "3 times, from forehead to chin.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "3 times, from forehead to chin."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x6",
+      "title": "Washing right arm",
+      "emoji": "💪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I start with my right arm.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "I start with my right arm."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash up to my elbow.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I wash up to my elbow."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do it 3 times.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "I do it 3 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x7",
+      "title": "Washing left arm",
+      "emoji": "💪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Now my left arm.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Now my left arm."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash up to my elbow.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I wash up to my elbow."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do it 3 times.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "I do it 3 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x8",
+      "title": "Wiping head",
+      "emoji": "🧑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I wet my hands.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "I wet my hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wipe my head from front to back.",
+          "picture": {
+            "emoji": "🧑",
+            "alt": "I wipe my head from front to back."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then back to the front.",
+          "picture": {
+            "emoji": "↩️",
+            "alt": "Then back to the front."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x9",
+      "title": "Wiping ears",
+      "emoji": "👂",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I use wet fingers.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I use wet fingers."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wipe inside and behind my ears.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "I wipe inside and behind my ears."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Once is enough.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Once is enough."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x10",
+      "title": "Washing right foot",
+      "emoji": "🦶",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I start with my right foot.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "I start with my right foot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash up to the ankle.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I wash up to the ankle."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I clean between my toes.",
+          "picture": {
+            "emoji": "🤏",
+            "alt": "I clean between my toes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x11",
+      "title": "Washing left foot",
+      "emoji": "🦶",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Now my left foot.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "Now my left foot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash up to the ankle.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I wash up to the ankle."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I clean between my toes.",
+          "picture": {
+            "emoji": "🤏",
+            "alt": "I clean between my toes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x12",
+      "title": "Dua after wudu",
+      "emoji": "☝️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I finished wudu.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I finished wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say the shahada.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "I say the shahada."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ash-hadu an la ilaha illallah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Ash-hadu an la ilaha illallah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x13",
+      "title": "Don't waste water",
+      "emoji": "💧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I use a little water.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I use a little water."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I turn off the tap when I am done.",
+          "picture": {
+            "emoji": "🔧",
+            "alt": "I turn off the tap when I am done."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah does not like waste.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "Allah does not like waste."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x14",
+      "title": "Right side first",
+      "emoji": "🟢",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I start with my right side.",
+          "picture": {
+            "emoji": "➡️",
+            "alt": "I start with my right side."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Right arm, then left arm.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Right arm, then left arm."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Right foot, then left foot.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "Right foot, then left foot."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x15",
+      "title": "Drying off",
+      "emoji": "🧻",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I can dry with a towel.",
+          "picture": {
+            "emoji": "🧻",
+            "alt": "I can dry with a towel."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I keep the floor dry.",
+          "picture": {
+            "emoji": "🧹",
+            "alt": "I keep the floor dry."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now I am clean.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Now I am clean."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x16",
+      "title": "What breaks wudu",
+      "emoji": "🚽",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Using the bathroom breaks wudu.",
+          "picture": {
+            "emoji": "🚽",
+            "alt": "Using the bathroom breaks wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Deep sleep breaks wudu.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "Deep sleep breaks wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I make wudu again.",
+          "picture": {
+            "emoji": "🔁",
+            "alt": "Then I make wudu again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x17",
+      "title": "Making wudu again",
+      "emoji": "🔁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I used the bathroom.",
+          "picture": {
+            "emoji": "🚽",
+            "alt": "I used the bathroom."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I make wudu again.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I make wudu again."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now I can pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Now I can pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x18",
+      "title": "Wudu keeps me clean",
+      "emoji": "🧼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Wudu washes my body.",
+          "picture": {
+            "emoji": "🧼",
+            "alt": "Wudu washes my body."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Wudu makes me feel fresh.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Wudu makes me feel fresh."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves clean people.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah loves clean people."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x19",
+      "title": "Water too hot or cold",
+      "emoji": "🌡️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I check the water with my hand.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "I check the water with my hand."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask for help if it is too hot.",
+          "picture": {
+            "emoji": "🌡️",
+            "alt": "I ask for help if it is too hot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Warm water is comfy.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Warm water is comfy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x20",
+      "title": "Wudu sitting or standing",
+      "emoji": "🧍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I can sit to wash my feet.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "I can sit to wash my feet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can ask a grown-up for help.",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "I can ask a grown-up for help."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It is okay to need help.",
+          "picture": {
+            "emoji": "👍",
+            "alt": "It is okay to need help."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x21",
+      "title": "Wudu sleeves",
+      "emoji": "🧺",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I roll up my sleeves.",
+          "picture": {
+            "emoji": "👕",
+            "alt": "I roll up my sleeves."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I roll up my pants.",
+          "picture": {
+            "emoji": "👖",
+            "alt": "I roll up my pants."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now I can wash easily.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "Now I can wash easily."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x22",
+      "title": "Wudu before every prayer",
+      "emoji": "⏱️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I hear it is prayer time.",
+          "picture": {
+            "emoji": "🔊",
+            "alt": "I hear it is prayer time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I check if I have wudu.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I check if I have wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I make wudu and pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I make wudu and pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x23",
+      "title": "Light on the Day",
+      "emoji": "✨",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ said wudu makes us shine.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "The Prophet ﷺ said wudu makes us shine."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Parts I wash will glow.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Parts I wash will glow."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I love making wudu.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I love making wudu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-x24",
+      "title": "Wudu picture order",
+      "emoji": "🖼️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Hands, mouth, nose.",
+          "picture": {
+            "emoji": "1️⃣",
+            "alt": "Hands, mouth, nose."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Face, arms, head.",
+          "picture": {
+            "emoji": "2️⃣",
+            "alt": "Face, arms, head."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ears, feet. Done!",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "Ears, feet. Done!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y1",
+      "title": "Ghusl is a full wash",
+      "emoji": "🚿",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ghusl means washing the whole body.",
+          "picture": {
+            "emoji": "🚿",
+            "alt": "Ghusl means washing the whole body."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I start with Bismillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I start with Bismillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Water reaches everywhere.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Water reaches everywhere."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y2",
+      "title": "Tayammum with clean earth",
+      "emoji": "🌫️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "If there is no water, we use clean earth.",
+          "picture": {
+            "emoji": "🏜️",
+            "alt": "If there is no water, we use clean earth."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pat it and wipe face and hands.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "I pat it and wipe face and hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah makes it easy.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah makes it easy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y3",
+      "title": "Wiping over socks",
+      "emoji": "🧦",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Some socks can be wiped over.",
+          "picture": {
+            "emoji": "🧦",
+            "alt": "Some socks can be wiped over."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wipe the top with wet hands.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I wipe the top with wet hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask a grown-up how.",
+          "picture": {
+            "emoji": "🧑‍🏫",
+            "alt": "I ask a grown-up how."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y4",
+      "title": "Using a miswak",
+      "emoji": "🦷",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A miswak is a tooth stick.",
+          "picture": {
+            "emoji": "🌿",
+            "alt": "A miswak is a tooth stick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ used it before prayer.",
+          "picture": {
+            "emoji": "🦷",
+            "alt": "The Prophet ﷺ used it before prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It cleans my teeth.",
+          "picture": {
+            "emoji": "😁",
+            "alt": "It cleans my teeth."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y5",
+      "title": "Clean before the masjid",
+      "emoji": "🧼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I am going to the masjid.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "I am going to the masjid."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I make wudu at home.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I make wudu at home."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am ready.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I am ready."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y6",
+      "title": "Quiet during wudu",
+      "emoji": "🔇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I make wudu calmly.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I make wudu calmly."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't play with water.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I don't play with water."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Slow and gentle.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "Slow and gentle."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y7",
+      "title": "Wudu with a helper",
+      "emoji": "🧒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A grown-up stands with me.",
+          "picture": {
+            "emoji": "🙋",
+            "alt": "A grown-up stands with me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They point to the next step.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "They point to the next step."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do it myself.",
+          "picture": {
+            "emoji": "👍",
+            "alt": "I do it myself."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y8",
+      "title": "Wudu chart by the sink",
+      "emoji": "🖼️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A picture chart is by the sink.",
+          "picture": {
+            "emoji": "🖼️",
+            "alt": "A picture chart is by the sink."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I look at the next picture.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I look at the next picture."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do that step.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I do that step."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y9",
+      "title": "Wudu takes a few minutes",
+      "emoji": "⏱️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Wudu is quick.",
+          "picture": {
+            "emoji": "⏱️",
+            "alt": "Wudu is quick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I count each wash: 1, 2, 3.",
+          "picture": {
+            "emoji": "🔢",
+            "alt": "I count each wash: 1, 2, 3."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Done!",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Done!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y10",
+      "title": "Water on the floor",
+      "emoji": "💧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Water splashed on the floor.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Water splashed on the floor."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I dry it with a towel.",
+          "picture": {
+            "emoji": "🧻",
+            "alt": "I dry it with a towel."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now it is safe.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Now it is safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y11",
+      "title": "Hijab and wudu",
+      "emoji": "🧕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I can take off or move my hijab.",
+          "picture": {
+            "emoji": "🧕",
+            "alt": "I can take off or move my hijab."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wipe my head.",
+          "picture": {
+            "emoji": "🧑",
+            "alt": "I wipe my head."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put it back on.",
+          "picture": {
+            "emoji": "🧕",
+            "alt": "I put it back on."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y12",
+      "title": "Rings and wudu",
+      "emoji": "💍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I move my ring.",
+          "picture": {
+            "emoji": "💍",
+            "alt": "I move my ring."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Water reaches under it.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Water reaches under it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Good wudu.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Good wudu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y13",
+      "title": "Paint or glue",
+      "emoji": "🎨",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Paint on my hands stops water.",
+          "picture": {
+            "emoji": "🎨",
+            "alt": "Paint on my hands stops water."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash it off first.",
+          "picture": {
+            "emoji": "🧼",
+            "alt": "I wash it off first."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I make wudu.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "Then I make wudu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y14",
+      "title": "Wudu is worship",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Wudu is a good deed by itself.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Wudu is a good deed by itself."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Small sins wash away.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Small sins wash away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I love wudu.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I love wudu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y15",
+      "title": "Heels matter",
+      "emoji": "🦶",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I wash my heels too.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "I wash my heels too."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I check they are wet.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I check they are wet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Feet are done.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Feet are done."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y16",
+      "title": "Elbows included",
+      "emoji": "💪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I wash past my elbows.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "I wash past my elbows."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I check the elbow is wet.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I check the elbow is wet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Arms are done.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Arms are done."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y17",
+      "title": "Ear to ear",
+      "emoji": "😊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Face is from ear to ear.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Face is from ear to ear."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "And forehead to chin.",
+          "picture": {
+            "emoji": "🧔",
+            "alt": "And forehead to chin."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash it all.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I wash it all."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y18",
+      "title": "Keeping wudu",
+      "emoji": "🔁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I prayed Dhuhr.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I prayed Dhuhr."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I still have wudu.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I still have wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can pray Asr with it.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I can pray Asr with it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y19",
+      "title": "Sleep and wudu",
+      "emoji": "😴",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I took a long nap.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "I took a long nap."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sleep breaks wudu.",
+          "picture": {
+            "emoji": "🔁",
+            "alt": "Sleep breaks wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I make wudu again.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I make wudu again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y20",
+      "title": "Clean clothes check",
+      "emoji": "🧽",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I check my clothes are clean.",
+          "picture": {
+            "emoji": "👕",
+            "alt": "I check my clothes are clean."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "If dirty, I change.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "If dirty, I change."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ready to pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Ready to pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y21",
+      "title": "Little water is enough",
+      "emoji": "🪣",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ used a small amount.",
+          "picture": {
+            "emoji": "🪣",
+            "alt": "The Prophet ﷺ used a small amount."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't need much.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I don't need much."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Save water.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "Save water."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y22",
+      "title": "Wait for the sink",
+      "emoji": "🧑‍🤝‍🧑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone is at the sink.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "Someone is at the sink."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wait my turn.",
+          "picture": {
+            "emoji": "⏳",
+            "alt": "I wait my turn."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I make wudu.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Then I make wudu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y23",
+      "title": "Bismillah first",
+      "emoji": "🗣️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I say Bismillah before wudu.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Bismillah before wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I start.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Then I start."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah blesses it.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah blesses it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y24",
+      "title": "Wudu song",
+      "emoji": "🎵",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Hands, mouth, nose.",
+          "picture": {
+            "emoji": "🎶",
+            "alt": "Hands, mouth, nose."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Face, arms, head.",
+          "picture": {
+            "emoji": "🎶",
+            "alt": "Face, arms, head."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ears and feet!",
+          "picture": {
+            "emoji": "🎶",
+            "alt": "Ears and feet!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wudu-y25",
+      "title": "Wudu by myself",
+      "emoji": "🏆",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I do every step alone.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I do every step alone."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A grown-up watches.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "A grown-up watches."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I did it all by myself!",
+          "picture": {
+            "emoji": "🏆",
+            "alt": "I did it all by myself!"
+          }
+        }
+      ]
+    }
+  ]
+}

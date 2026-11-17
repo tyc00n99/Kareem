@@ -103,3 +103,28 @@ The app plays recorded clips when they exist, and reads the text aloud otherwise
 - `common/yes-right.mp3`, `common/not-yet.mp3`, `common/look-again.mp3`, `common/right-order.mp3`.
 
 `npm run make-voice -- --voice "<ElevenLabs voice>"` makes any missing clips with ElevenLabs (needs an API key). The build lists the clips that exist in `src/audio-files.json`.
+
+## Learning worlds
+
+The home map shows learning worlds: Why We Pray, Wudu, How to Pray, Duas, Quran, Stories, Seerah, Manners and Everyday tasks.
+Each world is one file in `content/worlds/`, with many short lessons:
+
+```json
+{
+  "id": "wudu",
+  "title": "Wudu",
+  "summary": "Getting clean to pray",
+  "order": 20,
+  "picture": { "src": "/content/images/art/wudu.jpg", "alt": "Wudu" },
+  "lessons": [
+    { "id": "wudu-x1", "title": "Washing hands", "emoji": "🙌", "status": "draft", "screens": [ ... ] }
+  ]
+}
+```
+
+- A lesson's `screens` use the same screen types as a topic.
+- `group` is optional. Lessons with the same group show under one heading (used by Everyday tasks).
+- A topic file in `content/topics/` joins a world with `"world": "wudu"`. It shows at the top of that world.
+- Lesson ids must be different from every other lesson and topic id.
+- In the Stories and Seerah worlds, never use a picture or emoji of a person. Use objects and places (📜, 🕋, 🌊).
+- The world lessons came over from the first prototype. They are all `"draft"` until reviewed.
