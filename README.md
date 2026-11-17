@@ -1,4 +1,4 @@
-# Deen Steps
+# Kareem Learning Explorer
 
 An easy-read Islamic learning app for people with learning disabilities and autism, kids and adults.
 One idea per screen, a picture on every screen, tap-to-hear audio, and the learner sets the pace.

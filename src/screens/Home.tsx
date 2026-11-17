@@ -43,8 +43,12 @@ export function Home() {
   return (
     <div className="frame home-frame">
       <header className="bar top-bar home-bar">
-        <a className="brand" href="#/">
-          <span aria-hidden>🌙</span> Deen Steps
+        <a className="brand" href="#/" aria-label="Kareem Learning Explorer">
+          <span aria-hidden className="brand-moon">🌙</span>
+          <span className="brand-text">
+            <span className="brand-name">Kareem</span>
+            <span className="brand-sub">Learning Explorer</span>
+          </span>
         </a>
         <KidTools compact />
         <a className="pill pill-icon" href="#/settings" aria-label="Settings">
