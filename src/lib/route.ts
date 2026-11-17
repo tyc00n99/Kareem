@@ -15,6 +15,9 @@ export type Route =
   | { name: 'child'; childId: string }
   | { name: 'plan'; childId: string }
   | { name: 'world'; worldId: string }
+  | { name: 'games' }
+  | { name: 'arabic' }
+  | { name: 'play'; id: string }
   | { name: 'learn'; topicId: string; index: number }
   | { name: 'done'; topicId: string };
 
@@ -29,6 +32,9 @@ export function parse(hash: string): Route {
     if (parts[1] === 'child' && parts[2]) return parts[3] === 'plan' ? { name: 'plan', childId: parts[2] } : { name: 'child', childId: parts[2] };
     return { name: 'grown' };
   }
+  if (parts[0] === 'games') return { name: 'games' };
+  if (parts[0] === 'arabic') return { name: 'arabic' };
+  if (parts[0] === 'play' && parts[1]) return { name: 'play', id: parts[1] };
   if (parts[0] === 'world' && parts[1]) return { name: 'world', worldId: parts[1] };
   if (parts[0] === 'talk') return { name: 'talk' };
   if (parts[0] === 'break') return { name: 'break' };
@@ -64,6 +70,12 @@ export function href(route: Route): string {
       return '#/talk';
     case 'break':
       return '#/break';
+    case 'games':
+      return '#/games';
+    case 'arabic':
+      return '#/arabic';
+    case 'play':
+      return `#/play/${route.id}`;
     case 'world':
       return `#/world/${route.worldId}`;
     case 'learn':

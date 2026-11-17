@@ -144,6 +144,28 @@ export function Home() {
             </section>
 
             <section className="block">
+              <h2 className="h2">Play and practise</h2>
+              <div className="play-cards">
+                <a className="topic-card" href="#/games">
+                  <span className="topic-pic thumb-emoji" aria-hidden>🎮</span>
+                  <span className="topic-body">
+                    <span className="topic-title">Games</span>
+                    <span className="topic-summary">Calm games. No timers, no scores.</span>
+                  </span>
+                </a>
+                <a className="topic-card" href="#/arabic">
+                  <span className="topic-pic thumb-emoji play-arabic-thumb" aria-hidden lang="ar">
+                    ا ب ت
+                  </span>
+                  <span className="topic-body">
+                    <span className="topic-title">Arabic path</span>
+                    <span className="topic-summary">Letters, reading and Quran words</span>
+                  </span>
+                </a>
+              </div>
+            </section>
+
+            <section className="block">
               <h2 className="h2">Everything to learn</h2>
               <ul className="topic-grid">
                 {worlds.map((w) => {
