@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { allTopics, getWorld, topics } from '../lib/content';
+import { allTopics, getTopic, getWorld, topics, topicsIn, worlds } from '../lib/content';
+import { clearRecordsOnline, getAccount, joinClass } from '../lib/cloud';
 import { AVATARS, getChild, getPeople, removeChild, setActiveChild, updateChild, type ChildProfile } from '../lib/people';
 import { clearRecords, getRecords, statusOf, type Status } from '../lib/progress';
 import { go } from '../lib/route';
@@ -124,6 +125,8 @@ export function ChildPage({ childId }: { childId: string }) {
         </table>
       </div>
 
+      <Picked childId={child.id} name={child.name} assigned={p.assigned ?? []} onChange={(assigned) => setProfile({ assigned })} />
+
       <div className="gu-two gu-space">
         <section className="gu-card gu-form">
           <h2 className="gu-h2">Learning profile</h2>
@@ -171,6 +174,7 @@ export function ChildPage({ childId }: { childId: string }) {
             </button>
           ))}
         </div>
+        {getAccount() && !child.notMine && <JoinClass childId={child.id} name={child.name} current={klass?.name} onDone={redraw} />}
         <div className="class-actions">
           <button
             type="button"
@@ -178,6 +182,7 @@ export function ChildPage({ childId }: { childId: string }) {
             onClick={() => {
               if (window.confirm(`Clear ${child.name}'s learning records? This cannot be undone.`)) {
                 clearRecords(child.id);
+                void clearRecordsOnline(child.id);
                 redraw();
               }
             }}
@@ -188,14 +193,14 @@ export function ChildPage({ childId }: { childId: string }) {
             type="button"
             className="gu-link gu-danger"
             onClick={() => {
-              if (window.confirm(`Remove ${child.name} from this device?`)) {
+              if (window.confirm(child.notMine ? `Take ${child.name} out of your class?` : getAccount() ? `Remove ${child.name} and their learning from your account?` : `Remove ${child.name} from this device?`)) {
                 removeChild(child.id);
                 clearRecords(child.id);
                 go({ name: 'grown' });
               }
             }}
           >
-            Remove {child.name}
+            {child.notMine ? `Take ${child.name} out of my class` : `Remove ${child.name}`}
           </button>
         </div>
       </section>
@@ -215,5 +220,88 @@ function Seg<T extends string>({ label, value, options, onChange }: { label: str
         ))}
       </div>
     </fieldset>
+  );
+}
+
+/** Lessons a grown-up picks. They come first on the child's First / Then schedule, in this order. */
+function Picked({ childId, name, assigned, onChange }: { childId: string; name: string; assigned: string[]; onChange: (a: string[]) => void }) {
+  const [world, setWorld] = useState(worlds[0]?.id ?? '');
+  const finished = getRecords(childId);
+  const options = topicsIn(world).filter((t) => !assigned.includes(t.id));
+  return (
+    <section className="gu-card gu-form gu-space">
+      <h2 className="gu-h2">Lessons picked for {name}</h2>
+      <p className="gu-muted">These show first on {name}'s First / Then schedule. Finished ones move to the end.</p>
+      {assigned.length > 0 ? (
+        <ol className="picked">
+          {assigned.map((id, n) => {
+            const t = getTopic(id);
+            if (!t) return null;
+            return (
+              <li key={id}>
+                <span>
+                  {t.picture.emoji ?? '📘'} {t.title}
+                  {finished[id]?.finished ? <span className="gu-muted"> · finished</span> : null}
+                </span>
+                <span className="picked-actions">
+                  <button type="button" className="gu-link" disabled={n === 0} aria-label={`Move ${t.title} up`} onClick={() => { const a = [...assigned]; [a[n - 1], a[n]] = [a[n], a[n - 1]]; onChange(a); }}>↑</button>
+                  <button type="button" className="gu-link" aria-label={`Remove ${t.title}`} onClick={() => onChange(assigned.filter((x) => x !== id))}>Remove</button>
+                </span>
+              </li>
+            );
+          })}
+        </ol>
+      ) : (
+        <p className="gu-muted">Nothing picked yet. The schedule follows the usual order.</p>
+      )}
+      <div className="picked-add">
+        <select className="gu-input gu-select" value={world} onChange={(e) => setWorld(e.target.value)} aria-label="Learning world">
+          {worlds.map((w) => (
+            <option key={w.id} value={w.id}>{w.title}</option>
+          ))}
+        </select>
+        <select
+          className="gu-input gu-select"
+          value=""
+          aria-label="Add a lesson"
+          onChange={(e) => e.target.value && onChange([...assigned, e.target.value])}
+        >
+          <option value="">Add a lesson…</option>
+          {options.map((t) => (
+            <option key={t.id} value={t.id}>{t.picture.emoji ?? ''} {t.title}</option>
+          ))}
+        </select>
+      </div>
+    </section>
+  );
+}
+
+function JoinClass({ childId, name, current, onDone }: { childId: string; name: string; current?: string; onDone: () => void }) {
+  const [code, setCode] = useState('');
+  const [msg, setMsg] = useState('');
+  const [busy, setBusy] = useState(false);
+  return (
+    <form
+      className="join-class"
+      onSubmit={async (e) => {
+        e.preventDefault();
+        setBusy(true);
+        const err = await joinClass(childId, code);
+        setBusy(false);
+        setMsg(err ?? `${name} is now in the class.`);
+        if (!err) {
+          setCode('');
+          onDone();
+        }
+      }}
+    >
+      <label className="gu-label">
+        {current ? `${name} is in ${current}. Change class with a code:` : `Join a teacher's class with their class code`}
+        <input className="gu-input" value={code} onChange={(e) => setCode(e.target.value.toUpperCase())} placeholder="e.g. 7F3K2A" maxLength={6} />
+      </label>
+      <button type="submit" className="gu-btn" disabled={code.trim().length < 6 || busy}>Join class</button>
+      {msg && <p className="gu-muted" role="status">{msg}</p>}
+      <p className="gu-muted">The teacher can then see {name}'s learning and settings, and help with them.</p>
+    </form>
   );
 }

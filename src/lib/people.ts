@@ -1,6 +1,8 @@
-// Grown-ups, children and classes, kept on this device only. There are no online accounts:
-// the grown-up area is protected by a 4-digit PIN that never leaves the device.
+// Grown-ups, children and classes. They are kept on this device, and also in the grown-up's
+// online account when they have one (see cloud.ts). On the device, the grown-up area is
+// protected by a 4-digit PIN that never leaves the device.
 import { load, save } from './storage';
+import { queueChild, queueClass, queueRemoveChild, queueRemoveClass } from './sync-queue';
 import type { Settings } from './settings';
 
 export type Role = 'parent' | 'teacher';
@@ -11,12 +13,33 @@ export type ChildProfile = Partial<Pick<Settings, 'sound' | 'speechRate' | 'text
   /** Short notes on what helps, e.g. "light-sensitive", "prefers quiet". */
   tags?: string[];
   notes?: string;
+  /** Lessons a grown-up picked. They come first on the child's First / Then schedule. */
+  assigned?: string[];
 };
 
-export type Child = { id: string; name: string; avatar: string; classId?: string; profile: ChildProfile; added: string };
-export type Klass = { id: string; name: string };
+export type Child = {
+  id: string;
+  name: string;
+  avatar: string;
+  classId?: string;
+  profile: ChildProfile;
+  added: string;
+  /** Saved in the online account. */
+  cloud?: boolean;
+  /** Added by another grown-up (a teacher seeing a parent's child). Only that grown-up can remove them. */
+  notMine?: boolean;
+};
+export type Klass = {
+  id: string;
+  name: string;
+  cloud?: boolean;
+  /** Parents type this code to put their child in the class. */
+  code?: string;
+  /** A class the grown-up's child is in, run by someone else. */
+  notMine?: boolean;
+};
 
-type People = { grownUp?: GrownUp; children: Child[]; classes: Klass[]; active?: string };
+export type People = { grownUp?: GrownUp; children: Child[]; classes: Klass[]; active?: string };
 
 const KEY = 'deen-steps:people';
 const SESSION = 'deen-steps:grown-up-in';
@@ -26,11 +49,21 @@ export const AVATARS = ['🌙', '⭐', '🐱', '🦁', '🐢', '🦋', '🌸', '
 export function getPeople(): People {
   return load<People>(KEY, { children: [], classes: [] });
 }
-function put(p: People) {
+export function put(p: People) {
   save(KEY, p);
 }
 
-const newId = () => Math.random().toString(36).slice(2, 10);
+export const newId = (): string => {
+  try {
+    return crypto.randomUUID();
+  } catch {
+    // Older browsers: a random id in the same shape.
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (ch) => {
+      const r = (Math.random() * 16) | 0;
+      return (ch === 'x' ? r : (r & 3) | 8).toString(16);
+    });
+  }
+};
 
 async function hash(pin: string): Promise<string> {
   const data = new TextEncoder().encode(`kareem-learning-explorer:${pin}`);
@@ -90,24 +123,30 @@ export function addChild(name: string, avatar: string, classId?: string): Child 
   const c: Child = { id: newId(), name: name.trim(), avatar, classId, profile: {}, added: new Date().toISOString() };
   const p = getPeople();
   put({ ...p, children: [...p.children, c] });
+  queueChild(c.id);
   return c;
 }
 export function updateChild(id: string, patch: Partial<Child>) {
   const p = getPeople();
   put({ ...p, children: p.children.map((c) => (c.id === id ? { ...c, ...patch } : c)) });
+  queueChild(id);
 }
 export function removeChild(id: string) {
   const p = getPeople();
+  const child = p.children.find((c) => c.id === id);
   put({ ...p, children: p.children.filter((c) => c.id !== id), active: p.active === id ? undefined : p.active });
+  // Online, a teacher can't delete a parent's child: the child just leaves the teacher's class (see cloud.ts).
+  if (child) queueRemoveChild(id);
 }
 export function getChild(id: string): Child | undefined {
   return getPeople().children.find((c) => c.id === id);
 }
 
 export function addClass(name: string): Klass {
-  const k = { id: newId(), name: name.trim() };
+  const k: Klass = { id: newId(), name: name.trim() };
   const p = getPeople();
   put({ ...p, classes: [...p.classes, k] });
+  queueClass(k.id);
   return k;
 }
 export function removeClass(id: string) {
@@ -117,6 +156,7 @@ export function removeClass(id: string) {
     classes: p.classes.filter((k) => k.id !== id),
     children: p.children.map((c) => (c.classId === id ? { ...c, classId: undefined } : c)),
   });
+  queueRemoveClass(id);
 }
 
 /** Who is learning right now on this device. */

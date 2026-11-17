@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { cloudAvailable, getAccount, saveRole, signOutAccount, syncNow } from '../lib/cloud';
+import { AccountForm } from './SignIn';
 import { allTopics as topics } from '../lib/content';
 import { AVATARS, addChild, addClass, getPeople, removeClass, setRole, updateChild, type Child } from '../lib/people';
 import { getRecords, statusOf } from '../lib/progress';
@@ -25,16 +27,65 @@ export function Dashboard() {
   const people = getPeople();
   const role = people.grownUp?.role ?? 'parent';
   const redraw = () => refresh((n) => n + 1);
+  useEffect(() => {
+    void syncNow();
+  }, []);
   return (
     <GrownUpShell>
       {role === 'teacher' ? <Teacher redraw={redraw} /> : <Parent redraw={redraw} />}
+      <AccountCard redraw={redraw} />
       <p className="gu-switch">
         {role === 'teacher' ? 'Also a parent?' : 'Teaching a class?'}{' '}
-        <button type="button" className="gu-link" onClick={() => { setRole(role === 'teacher' ? 'parent' : 'teacher'); redraw(); }}>
+        <button type="button" className="gu-link" onClick={() => { const r = role === 'teacher' ? 'parent' : 'teacher'; setRole(r); void saveRole(r); redraw(); }}>
           Switch to the {role === 'teacher' ? 'parent' : 'teacher'} view
         </button>
       </p>
     </GrownUpShell>
+  );
+}
+
+function AccountCard({ redraw }: { redraw: () => void }) {
+  const [open, setOpen] = useState(false);
+  if (!cloudAvailable()) return null;
+  const a = getAccount();
+  if (a) {
+    return (
+      <section className="gu-card gu-space account-card">
+        <h2 className="gu-h2">Your account</h2>
+        <p className="gu-muted">
+          Signed in as {a.email}. Your children, classes and their learning are saved online and appear on every device
+          where you sign in.
+        </p>
+        <button
+          type="button"
+          className="gu-link"
+          onClick={async () => {
+            if (window.confirm('Sign out of your account on this device? Your children stay saved in the account, but leave this device.')) {
+              await signOutAccount();
+              redraw();
+            }
+          }}
+        >
+          Sign out of the account on this device
+        </button>
+      </section>
+    );
+  }
+  return (
+    <section className="gu-card gu-space account-card">
+      <h2 className="gu-h2">Save to an account</h2>
+      <p className="gu-muted">
+        Right now everything is saved on this device only. With a free account you can use other devices, and share a
+        child's learning with their teacher.
+      </p>
+      {open ? (
+        <AccountForm />
+      ) : (
+        <button type="button" className="gu-btn" onClick={() => setOpen(true)}>
+          Sign in or make an account
+        </button>
+      )}
+    </section>
   );
 }
 
@@ -110,7 +161,8 @@ function Parent({ redraw }: { redraw: () => void }) {
 }
 
 function Teacher({ redraw }: { redraw: () => void }) {
-  const { classes, children } = getPeople();
+  const { classes: allClasses, children } = getPeople();
+  const classes = allClasses.filter((k) => !k.notMine);
   const [name, setName] = useState('');
   const [adding, setAdding] = useState<string | null>(null);
   const unassigned = children.filter((c) => !c.classId || !classes.some((k) => k.id === c.classId));
@@ -130,6 +182,11 @@ function Teacher({ redraw }: { redraw: () => void }) {
                   {students.length} {students.length === 1 ? 'student' : 'students'}
                 </span>
               </div>
+              {k.code && (
+                <p className="gu-muted class-code">
+                  Class code <strong>{k.code}</strong>: parents type this on their child's page to join your class.
+                </p>
+              )}
               <div className="gu-grid">
                 {students.map((c) => (
                   <ChildCard key={c.id} c={c} compact />

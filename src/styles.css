@@ -775,3 +775,25 @@ a.child-card:hover { border-color: var(--accent); }
 .world-emoji { font-size: 1.8rem; }
 .world-tick { margin-left: auto; }
 .world-more { text-align: center; }
+
+/* "Which picture shows this step?" under world lesson pictures */
+.pick-step { width: 100%; margin-top: 14px; display: grid; gap: 10px; }
+.pick-q { display: flex; align-items: center; gap: 10px; margin: 0; font-weight: 800; }
+.pick-q span { background: var(--soft); border-radius: 18px; padding: 8px 14px; }
+.pick-moon { width: 40px; height: 40px; object-fit: contain; flex: none; }
+.pick-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.pick-btn { aspect-ratio: 1; border: 3px solid var(--line); border-radius: 22px; background: var(--surface); font-size: 2.6rem; cursor: pointer; display: grid; place-items: center; }
+.pick-btn:disabled { cursor: default; }
+.pick-right { border-color: var(--right); background: var(--soft); }
+.pick-wrong { border-style: dashed; opacity: 0.6; }
+.picked { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
+.picked li span:first-child { font-weight: 700; }
+.picked li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.picked li > span { display: inline-flex; gap: 8px; align-items: center; }
+.picked-actions { float: right; gap: 12px; }
+.picked-add { display: flex; gap: 10px; flex-wrap: wrap; }
+.picked-add .gu-select { flex: 1 1 200px; }
+.join-class { display: grid; gap: 8px; margin: 12px 0; }
+.class-code { margin: 4px 0 8px; }
+.auth-switch { display: block; margin: 14px auto 0; }
+.account-card { display: grid; gap: 10px; }

@@ -2,6 +2,7 @@
 // "guest" is used when nobody has picked who is learning.
 import { load, save } from './storage';
 import { activeChildId } from './people';
+import { queueRecord } from './sync-queue';
 
 export type TopicRecord = {
   /** How many times the topic was started from its first screen. */
@@ -19,7 +20,7 @@ export type TopicRecord = {
   lastFinishClean?: boolean;
 };
 
-type Store = Record<string, TopicRecord>;
+export type Store = Record<string, TopicRecord>;
 
 const OLD_KEY = 'deen-steps:progress';
 const keyFor = (childId: string) => `deen-steps:records:${childId}`;
@@ -42,6 +43,30 @@ function change(topicId: string, fn: (r: TopicRecord) => TopicRecord) {
   const store = getRecords(id);
   store[topicId] = fn({ ...empty(), ...store[topicId] });
   save(keyFor(id), store);
+  if (id !== 'guest') queueRecord(id, topicId);
+}
+
+/** Replace a child's records (used when they come back from the online account). */
+export function putRecords(childId: string, store: Store) {
+  save(keyFor(childId), store);
+}
+
+/** Put two records of the same lesson together, e.g. from two devices. Nothing is lost. */
+export function mergeRecord(a: TopicRecord | undefined, b: TopicRecord | undefined): TopicRecord {
+  if (!a) return { ...empty(), ...b };
+  if (!b) return { ...empty(), ...a };
+  const later = (x?: string, y?: string) => ((x ?? '') > (y ?? '') ? x : y);
+  const lastFinished = later(a.lastFinished, b.lastFinished);
+  return {
+    opened: Math.max(a.opened, b.opened),
+    lastOpened: later(a.lastOpened, b.lastOpened),
+    furthest: Math.max(a.furthest, b.furthest),
+    finished: Math.max(a.finished, b.finished),
+    lastFinished,
+    firstTry: Math.max(a.firstTry, b.firstTry),
+    tryAgain: Math.max(a.tryAgain, b.tryAgain),
+    lastFinishClean: lastFinished === a.lastFinished ? a.lastFinishClean : b.lastFinishClean,
+  };
 }
 
 const now = () => new Date().toISOString();

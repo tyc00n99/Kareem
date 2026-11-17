@@ -87,6 +87,8 @@ export type Topic = {
   world?: string;
   /** Optional sub-heading inside the world, e.g. "Daily living". */
   group?: string;
+  /** After each picture, ask "Which picture shows this step?" (world lessons). */
+  pickStep?: boolean;
 };
 
 /** One lesson inside a world file. It becomes a topic with the world's id. */
@@ -136,6 +138,7 @@ export const worldTopics: Topic[] = worlds.flatMap((w) =>
     screens: l.screens,
     world: w.id,
     group: l.group,
+    pickStep: true,
   })),
 );
 

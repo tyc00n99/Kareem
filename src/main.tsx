@@ -8,6 +8,7 @@ import '@fontsource/lora/700.css';
 import './styles.css';
 import { App } from './App';
 import { SettingsProvider } from './lib/settings';
+import { startCloud } from './lib/cloud';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -22,3 +23,5 @@ if (import.meta.env.PROD && 'serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').catch(() => {});
   });
 }
+
+void startCloud();

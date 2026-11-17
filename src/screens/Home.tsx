@@ -1,5 +1,5 @@
 import { KidTools, Mascot } from '../components';
-import { topics, topicsIn, worlds, type Topic, type World } from '../lib/content';
+import { getTopic, topics, topicsIn, worlds, type Topic, type World } from '../lib/content';
 import { playSound } from '../lib/audio';
 import { getFinished } from '../lib/progress';
 import { activeChild } from '../lib/people';
@@ -50,10 +50,13 @@ export function Home() {
   const adult = settings.look === 'adult';
   const finished = getFinished();
   // The picture schedule: what is not finished yet, in order. If everything is finished, start again from the top.
-  const todo = topics.filter((t) => !finished[t.id]);
-  const plan = (todo.length ? todo : topics).slice(0, 4);
-  const [first, then, ...after] = plan;
   const kid = activeChild();
+  // Lessons a grown-up picked come first, then the hand-made topics.
+  const picked = (kid?.profile.assigned ?? []).map(getTopic).filter((t): t is Topic => !!t);
+  const order = [...picked, ...topics.filter((t) => !picked.includes(t))];
+  const todo = order.filter((t) => !finished[t.id]);
+  const plan = (todo.length ? todo : order).slice(0, 4);
+  const [first, then, ...after] = plan;
   const hello = kid ? `Assalamu alaykum, ${kid.name}!` : 'Assalamu alaykum!';
   const greeting = adult ? `${hello} What would you like to learn today?` : `${hello} Ready for an adventure?`;
 
