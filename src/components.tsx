@@ -50,3 +50,46 @@ export function Btn({
     </button>
   );
 }
+
+/** Talk, Calm and Break: always one tap away. */
+export function KidTools({ compact = false }: { compact?: boolean }) {
+  const { settings, update } = useSettings();
+  return (
+    <div className={`kid-tools${compact ? ' kid-tools-compact' : ''}`}>
+      <a className="pill" href="#/talk" aria-label="Talk board">
+        <span aria-hidden>💬</span>
+        <span className="pill-text">Talk</span>
+      </a>
+      <button
+        type="button"
+        className={`pill${settings.calm ? ' pill-on' : ''}`}
+        aria-pressed={settings.calm}
+        aria-label="Calm mode"
+        onClick={() => update({ calm: !settings.calm })}
+      >
+        <span aria-hidden>{settings.calm ? '🌙' : '😌'}</span>
+        <span className="pill-text">Calm</span>
+      </button>
+      <a className="pill pill-break" href="#/break" aria-label="Take a break">
+        <span aria-hidden>✋</span>
+        <span className="pill-text">Break</span>
+      </a>
+    </div>
+  );
+}
+
+/** The friendly moon says something. Tap the bubble to hear it. */
+export function Mascot({ say, onHear }: { say: string; onHear?: () => void }) {
+  return (
+    <div className="mascot">
+      <img className="mascot-img" src="/content/images/characters/moon.png" alt="A smiling moon friend waving" />
+      {onHear ? (
+        <button type="button" className="mascot-say" onClick={onHear}>
+          {say}
+        </button>
+      ) : (
+        <p className="mascot-say">{say}</p>
+      )}
+    </div>
+  );
+}
