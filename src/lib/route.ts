@@ -13,6 +13,7 @@ export type Route =
   | { name: 'tips' }
   | { name: 'ai' }
   | { name: 'child'; childId: string }
+  | { name: 'world'; worldId: string }
   | { name: 'learn'; topicId: string; index: number }
   | { name: 'done'; topicId: string };
 
@@ -27,6 +28,7 @@ export function parse(hash: string): Route {
     if (parts[1] === 'child' && parts[2]) return { name: 'child', childId: parts[2] };
     return { name: 'grown' };
   }
+  if (parts[0] === 'world' && parts[1]) return { name: 'world', worldId: parts[1] };
   if (parts[0] === 'talk') return { name: 'talk' };
   if (parts[0] === 'break') return { name: 'break' };
   if (parts[0] === 'learn' && parts[1]) {
@@ -59,6 +61,8 @@ export function href(route: Route): string {
       return '#/talk';
     case 'break':
       return '#/break';
+    case 'world':
+      return `#/world/${route.worldId}`;
     case 'learn':
       return `#/learn/${route.topicId}/${route.index + 1}`;
     case 'done':

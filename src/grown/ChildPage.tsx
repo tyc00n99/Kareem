@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { topics } from '../lib/content';
+import { allTopics, getWorld, topics } from '../lib/content';
 import { AVATARS, getChild, getPeople, removeChild, setActiveChild, updateChild, type ChildProfile } from '../lib/people';
 import { clearRecords, getRecords, statusOf, type Status } from '../lib/progress';
 import { go } from '../lib/route';
@@ -30,7 +30,10 @@ export function ChildPage({ childId }: { childId: string }) {
     );
   }
   const recs = getRecords(child.id);
-  const rows = topics.map((t) => ({ t, r: recs[t.id], s: statusOf(recs[t.id]) }));
+  // The hand-made topics always show; world lessons show once the child has opened them.
+  const rows = allTopics
+    .filter((t) => topics.includes(t) || recs[t.id])
+    .map((t) => ({ t, r: recs[t.id], s: statusOf(recs[t.id]) }));
   const counts = rows.reduce((a, x) => ({ ...a, [x.s]: (a[x.s] ?? 0) + 1 }), {} as Record<Status, number>);
   const klass = getPeople().classes.find((k) => k.id === child.classId);
   const p = child.profile;
@@ -103,6 +106,7 @@ export function ChildPage({ childId }: { childId: string }) {
               <tr key={t.id}>
                 <td>
                   <strong>{t.title}</strong>
+                  {t.world && <span className="gu-muted gu-block">{getWorld(t.world)?.title}</span>}
                   {r?.lastOpened && <span className="gu-muted gu-block">Last opened {niceDate(r.lastOpened)}</span>}
                 </td>
                 <td>{r?.opened ?? 0}</td>

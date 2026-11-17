@@ -93,3 +93,28 @@ Put pictures in `public/content/images/` and recordings in `public/content/audio
 - **Never draw Allah, the Prophet (peace be upon him), other prophets, angels, or companions.**
   Show the Kaaba, mosques, nature, everyday scenes, and the child characters instead.
 - The picture style is a soft storybook watercolor, like the art in `public/content/images/art/` (the original artwork from the Lovable prototype). New pictures should match it: gentle colours, one clear subject, nothing busy or flashing.
+
+## Learning worlds
+
+The home map shows learning worlds: Why We Pray, Wudu, How to Pray, Duas, Quran, Stories, Seerah, Manners and Everyday tasks.
+Each world is one file in `content/worlds/`, with many short lessons:
+
+```json
+{
+  "id": "wudu",
+  "title": "Wudu",
+  "summary": "Getting clean to pray",
+  "order": 20,
+  "picture": { "src": "/content/images/art/wudu.jpg", "alt": "Wudu" },
+  "lessons": [
+    { "id": "wudu-x1", "title": "Washing hands", "emoji": "🙌", "status": "draft", "screens": [ ... ] }
+  ]
+}
+```
+
+- A lesson's `screens` use the same screen types as a topic.
+- `group` is optional. Lessons with the same group show under one heading (used by Everyday tasks).
+- A topic file in `content/topics/` joins a world with `"world": "wudu"`. It shows at the top of that world.
+- Lesson ids must be different from every other lesson and topic id.
+- In the Stories and Seerah worlds, never use a picture or emoji of a person. Use objects and places (📜, 🕋, 🌊).
+- The world lessons came over from the first prototype. They are all `"draft"` until reviewed.

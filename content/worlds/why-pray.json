@@ -1,0 +1,1672 @@
+{
+  "id": "why-pray",
+  "title": "Why We Pray",
+  "summary": "Talking to Allah",
+  "order": 10,
+  "picture": {
+    "src": "/content/images/art/why-we-pray.jpg",
+    "alt": "Why We Pray"
+  },
+  "lessons": [
+    {
+      "id": "why-allah",
+      "title": "Allah made everything",
+      "emoji": "🌍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah made the sun.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "Allah made the sun."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made the moon and the stars.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "Allah made the moon and the stars."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made the trees and the animals.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Allah made the trees and the animals."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made me, and Allah loves me.",
+          "picture": {
+            "emoji": "👧",
+            "alt": "Allah made me, and Allah loves me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say thank you to Allah. Alhamdulillah!",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I say thank you to Allah. Alhamdulillah!"
+          },
+          "arabic": {
+            "text": "الْحَمْدُ لِلَّهِ",
+            "say": "Alhamdulillah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-five",
+      "title": "Five prayers a day",
+      "emoji": "🕌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Praying is how we talk to Allah.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "Praying is how we talk to Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Fajr is the prayer when the sun is waking up.",
+          "picture": {
+            "emoji": "🌅",
+            "alt": "Fajr is the prayer when the sun is waking up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dhuhr is the prayer in the middle of the day.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "Dhuhr is the prayer in the middle of the day."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Asr is the prayer in the afternoon.",
+          "picture": {
+            "emoji": "🌤️",
+            "alt": "Asr is the prayer in the afternoon."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Maghrib is the prayer when the sun goes down.",
+          "picture": {
+            "emoji": "🌇",
+            "alt": "Maghrib is the prayer when the sun goes down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Isha is the prayer at night.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "Isha is the prayer at night."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "When I pray, I feel calm. Allah is happy with me.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "When I pray, I feel calm. Allah is happy with me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x1",
+      "title": "Prayer is talking to Allah",
+      "emoji": "💬",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "When I pray, I talk to Allah.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "When I pray, I talk to Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah always hears me.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "Allah always hears me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves when I talk to Him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah loves when I talk to Him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x2",
+      "title": "Saying thank you to Allah",
+      "emoji": "🎁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah gives me food.",
+          "picture": {
+            "emoji": "🍎",
+            "alt": "Allah gives me food."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gives me a home.",
+          "picture": {
+            "emoji": "🏠",
+            "alt": "Allah gives me a home."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray to say thank you to Allah.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "I pray to say thank you to Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x3",
+      "title": "Prayer makes me calm",
+      "emoji": "😌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sometimes I feel worried.",
+          "picture": {
+            "emoji": "😟",
+            "alt": "Sometimes I feel worried."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray and slow down.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray and slow down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Prayer helps my heart feel calm.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "Prayer helps my heart feel calm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x4",
+      "title": "Prayer has times",
+      "emoji": "🕰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Each prayer has its own time.",
+          "picture": {
+            "emoji": "⏰",
+            "alt": "Each prayer has its own time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The adhan tells us it is time.",
+          "picture": {
+            "emoji": "🔊",
+            "alt": "The adhan tells us it is time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "When it is time, I go pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "When it is time, I go pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x5",
+      "title": "The adhan",
+      "emoji": "🔊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The adhan is the call to prayer.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "The adhan is the call to prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It starts with Allahu Akbar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "It starts with Allahu Akbar."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "When I hear it, I get ready to pray.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "When I hear it, I get ready to pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x6",
+      "title": "Fajr prayer",
+      "emoji": "🌅",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Fajr is before the sun comes up.",
+          "picture": {
+            "emoji": "🌄",
+            "alt": "Fajr is before the sun comes up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Fajr has 2 rakahs.",
+          "picture": {
+            "emoji": "2️⃣",
+            "alt": "Fajr has 2 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I start my day with Allah.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I start my day with Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x7",
+      "title": "Dhuhr prayer",
+      "emoji": "☀️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Dhuhr is after the middle of the day.",
+          "picture": {
+            "emoji": "🕛",
+            "alt": "Dhuhr is after the middle of the day."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dhuhr has 4 rakahs.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "Dhuhr has 4 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pause what I am doing to pray.",
+          "picture": {
+            "emoji": "🍽️",
+            "alt": "I pause what I am doing to pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x8",
+      "title": "Asr prayer",
+      "emoji": "🌤️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Asr is in the afternoon.",
+          "picture": {
+            "emoji": "🌤️",
+            "alt": "Asr is in the afternoon."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Asr has 4 rakahs.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "Asr has 4 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I remember Allah in the afternoon.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I remember Allah in the afternoon."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x9",
+      "title": "Maghrib prayer",
+      "emoji": "🌇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Maghrib is when the sun goes down.",
+          "picture": {
+            "emoji": "🌇",
+            "alt": "Maghrib is when the sun goes down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Maghrib has 3 rakahs.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "Maghrib has 3 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray Maghrib with my family.",
+          "picture": {
+            "emoji": "🏠",
+            "alt": "I pray Maghrib with my family."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x10",
+      "title": "Isha prayer",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Isha is at night.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "Isha is at night."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Isha has 4 rakahs.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "Isha has 4 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I get ready for bed.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "Then I get ready for bed."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x11",
+      "title": "Facing the Kaaba",
+      "emoji": "🕋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Kaaba is in Makkah.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "The Kaaba is in Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "All Muslims face the Kaaba when they pray.",
+          "picture": {
+            "emoji": "🧭",
+            "alt": "All Muslims face the Kaaba when they pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We pray together all over the world.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "We pray together all over the world."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x12",
+      "title": "A clean place",
+      "emoji": "🧹",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I pray in a clean place.",
+          "picture": {
+            "emoji": "🧽",
+            "alt": "I pray in a clean place."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can use a prayer mat.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I can use a prayer mat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Clean is good for prayer.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Clean is good for prayer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x13",
+      "title": "Clean clothes",
+      "emoji": "👕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I wear clean clothes to pray.",
+          "picture": {
+            "emoji": "👕",
+            "alt": "I wear clean clothes to pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I cover my body nicely.",
+          "picture": {
+            "emoji": "🧕",
+            "alt": "I cover my body nicely."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am ready to pray.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I am ready to pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x14",
+      "title": "The masjid",
+      "emoji": "🕌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The masjid is Allah's house.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "The masjid is Allah's house."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I use a quiet voice there.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I use a quiet voice there."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "People pray together at the masjid.",
+          "picture": {
+            "emoji": "👥",
+            "alt": "People pray together at the masjid."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x15",
+      "title": "Praying together",
+      "emoji": "👥",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "We stand in a straight line.",
+          "picture": {
+            "emoji": "🧍🧍",
+            "alt": "We stand in a straight line."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The imam leads the prayer.",
+          "picture": {
+            "emoji": "👤",
+            "alt": "The imam leads the prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I follow the imam.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "I follow the imam."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x16",
+      "title": "Jumu'ah Friday",
+      "emoji": "🕌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Friday is a special day.",
+          "picture": {
+            "emoji": "📅",
+            "alt": "Friday is a special day."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Muslims go to the masjid for Jumu'ah.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "Muslims go to the masjid for Jumu'ah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We listen to the khutbah.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "We listen to the khutbah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x17",
+      "title": "Making dua after prayer",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I finish my prayer.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I finish my prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I raise my hands.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I raise my hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask Allah for good things.",
+          "picture": {
+            "emoji": "💬",
+            "alt": "I ask Allah for good things."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x18",
+      "title": "Allah knows everything",
+      "emoji": "🧠",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah knows what I feel.",
+          "picture": {
+            "emoji": "🧠",
+            "alt": "Allah knows what I feel."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Even when I am quiet, Allah knows.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "Even when I am quiet, Allah knows."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can tell Allah anything.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I can tell Allah anything."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x19",
+      "title": "Good deeds",
+      "emoji": "⭐",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Praying is a good deed.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Praying is a good deed."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah counts my good deeds.",
+          "picture": {
+            "emoji": "📝",
+            "alt": "Allah counts my good deeds."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Good deeds make me happy.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Good deeds make me happy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x20",
+      "title": "Praying with family",
+      "emoji": "👨‍👩‍👧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My dad or mom prays.",
+          "picture": {
+            "emoji": "👨",
+            "alt": "My dad or mom prays."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray next to them.",
+          "picture": {
+            "emoji": "🧒",
+            "alt": "I pray next to them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Our family loves Allah together.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Our family loves Allah together."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x21",
+      "title": "First pray, then play",
+      "emoji": "🏃",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "First I pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "First I pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I play.",
+          "picture": {
+            "emoji": "⚽",
+            "alt": "Then I play."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is first.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Allah is first."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x22",
+      "title": "Pray when it is hard",
+      "emoji": "🌧️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sometimes days are hard.",
+          "picture": {
+            "emoji": "🌧️",
+            "alt": "Sometimes days are hard."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can ask Allah for help.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I can ask Allah for help."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah helps me.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "Allah helps me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-x23",
+      "title": "Dhikr",
+      "emoji": "📿",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Dhikr is remembering Allah.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "Dhikr is remembering Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can say SubhanAllah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I can say SubhanAllah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can say Alhamdulillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I can say Alhamdulillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can say Allahu Akbar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I can say Allahu Akbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y1",
+      "title": "Allah made plants",
+      "emoji": "🌱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Seeds grow into plants.",
+          "picture": {
+            "emoji": "🌱",
+            "alt": "Seeds grow into plants."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah sends rain to help them.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Allah sends rain to help them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I thank Allah when I pray.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "I thank Allah when I pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y2",
+      "title": "Birds praise Allah",
+      "emoji": "🐦",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Birds fly in the sky.",
+          "picture": {
+            "emoji": "🐦",
+            "alt": "Birds fly in the sky."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Everything praises Allah in its own way.",
+          "picture": {
+            "emoji": "🎶",
+            "alt": "Everything praises Allah in its own way."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I praise Allah when I pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I praise Allah when I pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y3",
+      "title": "Allah made the sea",
+      "emoji": "🌊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The sea is big and blue.",
+          "picture": {
+            "emoji": "🌊",
+            "alt": "The sea is big and blue."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Fish live in it.",
+          "picture": {
+            "emoji": "🐟",
+            "alt": "Fish live in it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is the Creator.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah is the Creator."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y4",
+      "title": "Allah made mountains",
+      "emoji": "⛰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Mountains are tall and strong.",
+          "picture": {
+            "emoji": "⛰️",
+            "alt": "Mountains are tall and strong."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is stronger than everything.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Allah is stronger than everything."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray to the Strongest.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "I pray to the Strongest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y5",
+      "title": "Allah is Ar-Rahman",
+      "emoji": "❤️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ar-Rahman means the Most Kind.",
+          "picture": {
+            "emoji": "❤️",
+            "alt": "Ar-Rahman means the Most Kind."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is kind to everyone.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "Allah is kind to everyone."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray to the Most Kind.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray to the Most Kind."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y6",
+      "title": "Allah sees me",
+      "emoji": "👁️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah sees everything.",
+          "picture": {
+            "emoji": "👁️",
+            "alt": "Allah sees everything."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah sees when I do good.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Allah sees when I do good."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray even when no one is watching.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray even when no one is watching."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y7",
+      "title": "Prayer is a key",
+      "emoji": "🗝️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ said prayer is a key to Jannah.",
+          "picture": {
+            "emoji": "🗝️",
+            "alt": "The Prophet ﷺ said prayer is a key to Jannah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Jannah is a beautiful garden.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Jannah is a beautiful garden."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray to get there.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray to get there."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y8",
+      "title": "Prayer keeps me good",
+      "emoji": "📏",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Prayer helps me stay good.",
+          "picture": {
+            "emoji": "📏",
+            "alt": "Prayer helps me stay good."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It helps me stop bad things.",
+          "picture": {
+            "emoji": "🚫",
+            "alt": "It helps me stop bad things."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I feel proud.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I feel proud."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y9",
+      "title": "Pause and pray",
+      "emoji": "⏸️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I am playing.",
+          "picture": {
+            "emoji": "🎮",
+            "alt": "I am playing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I hear it is prayer time.",
+          "picture": {
+            "emoji": "🔊",
+            "alt": "I hear it is prayer time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pause my game and pray.",
+          "picture": {
+            "emoji": "⏸️",
+            "alt": "I pause my game and pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y10",
+      "title": "Muslims everywhere pray",
+      "emoji": "🌍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People pray in every country.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "People pray in every country."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Everyone faces the Kaaba.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "Everyone faces the Kaaba."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We are one family.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "We are one family."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y11",
+      "title": "Kids can pray too",
+      "emoji": "🧒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Even kids can pray.",
+          "picture": {
+            "emoji": "🧒",
+            "alt": "Even kids can pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Grown-ups help me learn.",
+          "picture": {
+            "emoji": "👨‍👩‍👧",
+            "alt": "Grown-ups help me learn."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves when I try.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Allah loves when I try."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y12",
+      "title": "Waiting for prayer",
+      "emoji": "🕰️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sometimes I wait for the time.",
+          "picture": {
+            "emoji": "🕰️",
+            "alt": "Sometimes I wait for the time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can say dhikr while I wait.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "I can say dhikr while I wait."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Then I pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y13",
+      "title": "Prayer is better than sleep",
+      "emoji": "💤",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "At Fajr the adhan says: prayer is better than sleep.",
+          "picture": {
+            "emoji": "🌅",
+            "alt": "At Fajr the adhan says: prayer is better than sleep."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I get up.",
+          "picture": {
+            "emoji": "🛏️",
+            "alt": "I get up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is happy with me.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah is happy with me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y14",
+      "title": "Ramadan prayers",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "In Ramadan we pray Taraweeh at night.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "In Ramadan we pray Taraweeh at night."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Many people go to the masjid.",
+          "picture": {
+            "emoji": "🕌",
+            "alt": "Many people go to the masjid."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It is a special time.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "It is a special time."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y15",
+      "title": "Eid prayer",
+      "emoji": "🎉",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "On Eid we pray a special prayer.",
+          "picture": {
+            "emoji": "🎉",
+            "alt": "On Eid we pray a special prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We wear nice clothes.",
+          "picture": {
+            "emoji": "👕",
+            "alt": "We wear nice clothes."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We hug and say Eid Mubarak.",
+          "picture": {
+            "emoji": "🤗",
+            "alt": "We hug and say Eid Mubarak."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y16",
+      "title": "Praying when sick",
+      "emoji": "🏥",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "If I am sick I can pray sitting.",
+          "picture": {
+            "emoji": "🤒",
+            "alt": "If I am sick I can pray sitting."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Or even lying down.",
+          "picture": {
+            "emoji": "🛏️",
+            "alt": "Or even lying down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah makes it easy.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah makes it easy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y17",
+      "title": "Praying when traveling",
+      "emoji": "🚗",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "When we travel we can shorten prayers.",
+          "picture": {
+            "emoji": "🚗",
+            "alt": "When we travel we can shorten prayers."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "4 rakahs become 2.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "4 rakahs become 2."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah makes it easy.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah makes it easy."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y18",
+      "title": "Allah hears my sad heart",
+      "emoji": "😢",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "When I am sad I can pray.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "When I am sad I can pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I tell Allah how I feel.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I tell Allah how I feel."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah comforts me.",
+          "picture": {
+            "emoji": "🫂",
+            "alt": "Allah comforts me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y19",
+      "title": "Allahu Akbar means",
+      "emoji": "🙌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allahu Akbar means Allah is the Greatest.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "Allahu Akbar means Allah is the Greatest."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bigger than everything.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "Bigger than everything."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say it in prayer.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I say it in prayer."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y20",
+      "title": "SubhanAllah means",
+      "emoji": "📿",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "SubhanAllah means Allah is perfect.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "SubhanAllah means Allah is perfect."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say it when I see something beautiful.",
+          "picture": {
+            "emoji": "🌸",
+            "alt": "I say it when I see something beautiful."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "SubhanAllah!",
+          "picture": {
+            "emoji": "😊",
+            "alt": "SubhanAllah!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y21",
+      "title": "Alhamdulillah means",
+      "emoji": "🙏",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Alhamdulillah means all praise is for Allah.",
+          "picture": {
+            "emoji": "🙏",
+            "alt": "Alhamdulillah means all praise is for Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say it when I am thankful.",
+          "picture": {
+            "emoji": "🍎",
+            "alt": "I say it when I am thankful."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Alhamdulillah!",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Alhamdulillah!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y22",
+      "title": "La ilaha illallah",
+      "emoji": "☝️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "There is no god but Allah.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "There is no god but Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It is the most important words.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "It is the most important words."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say it every day.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say it every day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y23",
+      "title": "Prayer is a pillar",
+      "emoji": "🧱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Islam has 5 pillars.",
+          "picture": {
+            "emoji": "🏛️",
+            "alt": "Islam has 5 pillars."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Prayer is one of them.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Prayer is one of them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Pillars hold up a house.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Pillars hold up a house."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y24",
+      "title": "The five pillars",
+      "emoji": "🏛️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Shahada. 🧎 Salah.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "Shahada. 🧎 Salah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Zakah. 🌙 Fasting.",
+          "picture": {
+            "emoji": "🪙",
+            "alt": "Zakah. 🌙 Fasting."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Hajj.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "Hajj."
+          }
+        }
+      ]
+    },
+    {
+      "id": "why-pray-y25",
+      "title": "Praying on time",
+      "emoji": "🌟",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The best deed is praying on time.",
+          "picture": {
+            "emoji": "⏰",
+            "alt": "The best deed is praying on time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I listen for the adhan.",
+          "picture": {
+            "emoji": "🔔",
+            "alt": "I listen for the adhan."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray right away.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray right away."
+          }
+        }
+      ]
+    }
+  ]
+}

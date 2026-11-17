@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { topics } from '../lib/content';
+import { allTopics as topics } from '../lib/content';
 import { AVATARS, addChild, addClass, getPeople, removeClass, setRole, updateChild, type Child } from '../lib/people';
 import { getRecords, statusOf } from '../lib/progress';
 import { href } from '../lib/route';

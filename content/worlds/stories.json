@@ -1,0 +1,1704 @@
+{
+  "id": "stories",
+  "title": "Stories",
+  "summary": "Stories of the prophets",
+  "order": 60,
+  "picture": {
+    "src": "/content/images/art/stories.jpg",
+    "alt": "Stories"
+  },
+  "lessons": [
+    {
+      "id": "story-adam",
+      "title": "Prophet Adam",
+      "emoji": "🌱",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah made the first person. His name was Adam, peace be upon him.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "Allah made the first person. His name was Adam, peace be upon him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Adam lived in a beautiful garden called Jannah.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Adam lived in a beautiful garden called Jannah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah said: Do not eat from one tree. Adam forgot and ate from it.",
+          "picture": {
+            "emoji": "🍎",
+            "alt": "Allah said: Do not eat from one tree. Adam forgot and ate from it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Adam felt sorry and said sorry to Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Adam felt sorry and said sorry to Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah forgave him. When we make a mistake, we can say sorry too.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah forgave him. When we make a mistake, we can say sorry too."
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-nuh",
+      "title": "Prophet Nuh and the ark",
+      "emoji": "🚢",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Prophet Nuh, peace be upon him, told people to love Allah.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Prophet Nuh, peace be upon him, told people to love Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah told Nuh to build a very big boat called an ark.",
+          "picture": {
+            "emoji": "🔨",
+            "alt": "Allah told Nuh to build a very big boat called an ark."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Animals came onto the ark, two by two.",
+          "picture": {
+            "emoji": "🐘",
+            "alt": "Animals came onto the ark, two by two."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Lots of rain came and water covered the land.",
+          "picture": {
+            "emoji": "🌧️",
+            "alt": "Lots of rain came and water covered the land."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The ark kept everyone safe. Allah takes care of those who trust Him.",
+          "picture": {
+            "emoji": "🌈",
+            "alt": "The ark kept everyone safe. Allah takes care of those who trust Him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-ibrahim",
+      "title": "Prophet Ibrahim and the Kaaba",
+      "emoji": "🕋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Prophet Ibrahim, peace be upon him, looked at the stars, moon and sun.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Prophet Ibrahim, peace be upon him, looked at the stars, moon and sun."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He knew only Allah made them all.",
+          "picture": {
+            "emoji": "💭",
+            "alt": "He knew only Allah made them all."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ibrahim and his son Ismail built the Kaaba with stones.",
+          "picture": {
+            "emoji": "🧱",
+            "alt": "Ibrahim and his son Ismail built the Kaaba with stones."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Today Muslims face the Kaaba when we pray.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "Today Muslims face the Kaaba when we pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-musa",
+      "title": "Prophet Musa and the sea",
+      "emoji": "🌊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A mean king called Firawn was hurting people.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "A mean king called Firawn was hurting people."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Prophet Musa, peace be upon him, led the people away.",
+          "picture": {
+            "emoji": "👣",
+            "alt": "Prophet Musa, peace be upon him, led the people away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They came to the sea. They were scared.",
+          "picture": {
+            "emoji": "🌊",
+            "alt": "They came to the sea. They were scared."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah told Musa to hit the sea with his stick. The sea opened!",
+          "picture": {
+            "emoji": "🪄",
+            "alt": "Allah told Musa to hit the sea with his stick. The sea opened!"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Everyone walked across safely. Allah always helps.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Everyone walked across safely. Allah always helps."
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-yunus",
+      "title": "Prophet Yunus and the whale",
+      "emoji": "🐋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Prophet Yunus, peace be upon him, went on a boat.",
+          "picture": {
+            "emoji": "⛵",
+            "alt": "Prophet Yunus, peace be upon him, went on a boat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He fell in the sea and a big whale swallowed him.",
+          "picture": {
+            "emoji": "🐋",
+            "alt": "He fell in the sea and a big whale swallowed him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It was dark inside the whale.",
+          "picture": {
+            "emoji": "🌑",
+            "alt": "It was dark inside the whale."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Yunus made dua to Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Yunus made dua to Allah."
+          },
+          "arabic": {
+            "text": "لَا إِلَٰهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+            "say": "La ilaha illa anta, subhanaka inni kuntu minaz-zalimin"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah heard him. The whale put him safely on the beach.",
+          "picture": {
+            "emoji": "🏖️",
+            "alt": "Allah heard him. The whale put him safely on the beach."
+          }
+        }
+      ]
+    },
+    {
+      "id": "story-muhammad",
+      "title": "Prophet Muhammad ﷺ",
+      "emoji": "🌟",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Prophet Muhammad, peace be upon him, was born in Makkah.",
+          "picture": {
+            "emoji": "🏜️",
+            "alt": "Prophet Muhammad, peace be upon him, was born in Makkah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He always told the truth. People called him Al-Amin, the honest one.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "He always told the truth. People called him Al-Amin, the honest one."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He smiled a lot and was kind to children and animals.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "He smiled a lot and was kind to children and animals."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah sent him the Quran to teach us.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "Allah sent him the Quran to teach us."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can be kind and honest like him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I can be kind and honest like him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x2",
+      "title": "Prophet Nuh's ark",
+      "emoji": "🚢",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Nuh built a big boat.",
+          "picture": {
+            "emoji": "🚢",
+            "alt": "Nuh built a big boat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Animals came two by two.",
+          "picture": {
+            "emoji": "🐘",
+            "alt": "Animals came two by two."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah kept them safe from the flood.",
+          "picture": {
+            "emoji": "🌊",
+            "alt": "Allah kept them safe from the flood."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x3",
+      "title": "Ibrahim and the fire",
+      "emoji": "🔥",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People put Ibrahim in a fire.",
+          "picture": {
+            "emoji": "🔥",
+            "alt": "People put Ibrahim in a fire."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made the fire cool.",
+          "picture": {
+            "emoji": "❄️",
+            "alt": "Allah made the fire cool."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah protects His friends.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah protects His friends."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x4",
+      "title": "Ibrahim builds the Kaaba",
+      "emoji": "🕋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ibrahim and Ismail built the Kaaba.",
+          "picture": {
+            "emoji": "🧱",
+            "alt": "Ibrahim and Ismail built the Kaaba."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They made dua while they worked.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They made dua while they worked."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We pray toward it today.",
+          "picture": {
+            "emoji": "🕋",
+            "alt": "We pray toward it today."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x5",
+      "title": "Hajar and Zamzam",
+      "emoji": "💧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Hajar looked for water for baby Ismail.",
+          "picture": {
+            "emoji": "🏜️",
+            "alt": "Hajar looked for water for baby Ismail."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She ran between two hills.",
+          "picture": {
+            "emoji": "🏃",
+            "alt": "She ran between two hills."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gave them Zamzam water.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Allah gave them Zamzam water."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x6",
+      "title": "Ibrahim and the sheep",
+      "emoji": "🐑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah tested Ibrahim.",
+          "picture": {
+            "emoji": "💭",
+            "alt": "Allah tested Ibrahim."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah sent a sheep instead.",
+          "picture": {
+            "emoji": "🐑",
+            "alt": "Allah sent a sheep instead."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We remember this at Eid al-Adha.",
+          "picture": {
+            "emoji": "🎉",
+            "alt": "We remember this at Eid al-Adha."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x7",
+      "title": "Yusuf's dream",
+      "emoji": "🌟",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Yusuf dreamed of the sun, moon and 11 stars.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "Yusuf dreamed of the sun, moon and 11 stars."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "His brothers were jealous.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "His brothers were jealous."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Yusuf stayed patient.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Yusuf stayed patient."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x8",
+      "title": "Yusuf in the well",
+      "emoji": "🕳️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "His brothers put Yusuf in a well.",
+          "picture": {
+            "emoji": "🕳️",
+            "alt": "His brothers put Yusuf in a well."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Travelers found him.",
+          "picture": {
+            "emoji": "🐪",
+            "alt": "Travelers found him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah took care of him.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah took care of him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x9",
+      "title": "Yusuf forgives",
+      "emoji": "👑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Yusuf became a leader in Egypt.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "Yusuf became a leader in Egypt."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He forgave his brothers.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "He forgave his brothers."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Forgiving is beautiful.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Forgiving is beautiful."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x10",
+      "title": "Yunus and the whale",
+      "emoji": "🐋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A big whale swallowed Yunus.",
+          "picture": {
+            "emoji": "🐋",
+            "alt": "A big whale swallowed Yunus."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said La ilaha illa anta subhanaka.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "He said La ilaha illa anta subhanaka."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah saved him.",
+          "picture": {
+            "emoji": "🏖️",
+            "alt": "Allah saved him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x11",
+      "title": "Musa and the sea",
+      "emoji": "🌊",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Musa hit the sea with his stick.",
+          "picture": {
+            "emoji": "🌊",
+            "alt": "Musa hit the sea with his stick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The sea opened into a path.",
+          "picture": {
+            "emoji": "↔️",
+            "alt": "The sea opened into a path."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They walked across safely.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They walked across safely."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x12",
+      "title": "Baby Musa in the river",
+      "emoji": "🧺",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Musa's mother put him in a basket.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "Musa's mother put him in a basket."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The river carried him.",
+          "picture": {
+            "emoji": "🌊",
+            "alt": "The river carried him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah kept him safe.",
+          "picture": {
+            "emoji": "🏰",
+            "alt": "Allah kept him safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x13",
+      "title": "Sulayman and the ants",
+      "emoji": "🐜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "An ant said: Hide, Sulayman is coming!",
+          "picture": {
+            "emoji": "🐜",
+            "alt": "An ant said: Hide, Sulayman is coming!"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sulayman smiled.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Sulayman smiled."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He thanked Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He thanked Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x14",
+      "title": "Sulayman and the bird",
+      "emoji": "🐦",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A hoopoe bird brought news.",
+          "picture": {
+            "emoji": "🐦",
+            "alt": "A hoopoe bird brought news."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sulayman listened.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "Sulayman listened."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gave him many gifts.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah gave him many gifts."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x15",
+      "title": "Prophet Ayyub's patience",
+      "emoji": "🩹",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ayyub was sick for a long time.",
+          "picture": {
+            "emoji": "🤒",
+            "alt": "Ayyub was sick for a long time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He stayed patient.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "He stayed patient."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made him well.",
+          "picture": {
+            "emoji": "🌈",
+            "alt": "Allah made him well."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x16",
+      "title": "Salih's camel",
+      "emoji": "🐫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah sent a special camel.",
+          "picture": {
+            "emoji": "🐫",
+            "alt": "Allah sent a special camel."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "People had to share water with it.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "People had to share water with it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We take care of animals.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "We take care of animals."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x17",
+      "title": "Prophet Dawud",
+      "emoji": "🪚",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Dawud had a beautiful voice.",
+          "picture": {
+            "emoji": "🎵",
+            "alt": "Dawud had a beautiful voice."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Mountains and birds praised Allah with him.",
+          "picture": {
+            "emoji": "⛰️",
+            "alt": "Mountains and birds praised Allah with him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He made armor.",
+          "picture": {
+            "emoji": "🛡️",
+            "alt": "He made armor."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x18",
+      "title": "Prophet Isa",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Isa spoke as a baby.",
+          "picture": {
+            "emoji": "🍼",
+            "alt": "Isa spoke as a baby."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He healed sick people by Allah's permission.",
+          "picture": {
+            "emoji": "🩹",
+            "alt": "He healed sick people by Allah's permission."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was a messenger of Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He was a messenger of Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-x19",
+      "title": "Maryam",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Maryam was very good.",
+          "picture": {
+            "emoji": "🌴",
+            "alt": "Maryam was very good."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gave her dates from a palm tree.",
+          "picture": {
+            "emoji": "🌴",
+            "alt": "Allah gave her dates from a palm tree."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She is honored in the Quran.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "She is honored in the Quran."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y1",
+      "title": "Adam in Jannah",
+      "emoji": "🍎",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Adam and Hawwa lived in Jannah.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Adam and Hawwa lived in Jannah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They ate from the one tree.",
+          "picture": {
+            "emoji": "🍎",
+            "alt": "They ate from the one tree."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They said sorry. Allah forgave.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They said sorry. Allah forgave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y2",
+      "title": "Habil and Qabil",
+      "emoji": "🐦",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Two sons of Adam.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Two sons of Adam."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Qabil was jealous.",
+          "picture": {
+            "emoji": "😡",
+            "alt": "Qabil was jealous."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be kind to your brother.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Be kind to your brother."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y3",
+      "title": "Prophet Idris",
+      "emoji": "📚",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Idris was one of the first to write.",
+          "picture": {
+            "emoji": "✍️",
+            "alt": "Idris was one of the first to write."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He taught sewing.",
+          "picture": {
+            "emoji": "🧵",
+            "alt": "He taught sewing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was very patient.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He was very patient."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y4",
+      "title": "Prophet Hud",
+      "emoji": "🌪️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The people of 'Ad were very strong.",
+          "picture": {
+            "emoji": "🏙️",
+            "alt": "The people of 'Ad were very strong."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They did not listen to Hud.",
+          "picture": {
+            "emoji": "🚫",
+            "alt": "They did not listen to Hud."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A wind came.",
+          "picture": {
+            "emoji": "🌪️",
+            "alt": "A wind came."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y5",
+      "title": "Ibrahim looks at the sky",
+      "emoji": "⭐",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Ibrahim saw a star, then the moon, then the sun.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Ibrahim saw a star, then the moon, then the sun."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They all went away.",
+          "picture": {
+            "emoji": "🌅",
+            "alt": "They all went away."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah never goes away.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "Allah never goes away."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y6",
+      "title": "Ibrahim and the idols",
+      "emoji": "🪓",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People prayed to statues.",
+          "picture": {
+            "emoji": "🗿",
+            "alt": "People prayed to statues."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ibrahim broke the small ones.",
+          "picture": {
+            "emoji": "🪓",
+            "alt": "Ibrahim broke the small ones."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Statues can't help anyone.",
+          "picture": {
+            "emoji": "🤔",
+            "alt": "Statues can't help anyone."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y7",
+      "title": "Prophet Lut",
+      "emoji": "🏘️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Lut told people to be good.",
+          "picture": {
+            "emoji": "🏘️",
+            "alt": "Lut told people to be good."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They didn't listen.",
+          "picture": {
+            "emoji": "🚫",
+            "alt": "They didn't listen."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah saved Lut and his family.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah saved Lut and his family."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y8",
+      "title": "Ishaq is born",
+      "emoji": "🍼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sarah was old.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Sarah was old."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Angels brought good news.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Angels brought good news."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Baby Ishaq was born.",
+          "picture": {
+            "emoji": "🍼",
+            "alt": "Baby Ishaq was born."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y9",
+      "title": "Yaqub's patience",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Yaqub missed Yusuf for years.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "Yaqub missed Yusuf for years."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He said: Patience is beautiful.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "He said: Patience is beautiful."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They met again.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They met again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y10",
+      "title": "Yusuf and the dream of cows",
+      "emoji": "🌾",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The king dreamed of 7 fat and 7 thin cows.",
+          "picture": {
+            "emoji": "🐄",
+            "alt": "The king dreamed of 7 fat and 7 thin cows."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Yusuf explained it.",
+          "picture": {
+            "emoji": "🌾",
+            "alt": "Yusuf explained it."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They saved food.",
+          "picture": {
+            "emoji": "🍞",
+            "alt": "They saved food."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y11",
+      "title": "Prophet Shuayb",
+      "emoji": "⚖️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Shuayb said: Be fair when you sell.",
+          "picture": {
+            "emoji": "⚖️",
+            "alt": "Shuayb said: Be fair when you sell."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Some didn't listen.",
+          "picture": {
+            "emoji": "🚫",
+            "alt": "Some didn't listen."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Be honest.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Be honest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y12",
+      "title": "Musa and the burning bush",
+      "emoji": "🔥",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Musa saw a fire on a mountain.",
+          "picture": {
+            "emoji": "🔥",
+            "alt": "Musa saw a fire on a mountain."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah spoke to him.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allah spoke to him."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made him a prophet.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Allah made him a prophet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y13",
+      "title": "Musa's stick",
+      "emoji": "🐍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Musa threw his stick.",
+          "picture": {
+            "emoji": "🪵",
+            "alt": "Musa threw his stick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It became a snake.",
+          "picture": {
+            "emoji": "🐍",
+            "alt": "It became a snake."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It was a miracle from Allah.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "It was a miracle from Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y14",
+      "title": "Musa and Pharaoh",
+      "emoji": "👑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Pharaoh was a cruel king.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "Pharaoh was a cruel king."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Musa told him to let the people go.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Musa told him to let the people go."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah saved Musa.",
+          "picture": {
+            "emoji": "🌊",
+            "alt": "Allah saved Musa."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y15",
+      "title": "Harun helps Musa",
+      "emoji": "🗣️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Harun was Musa's brother.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Harun was Musa's brother."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He helped Musa speak.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "He helped Musa speak."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Brothers help each other.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Brothers help each other."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y16",
+      "title": "Musa and Khidr",
+      "emoji": "🧭",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Musa traveled with a wise man.",
+          "picture": {
+            "emoji": "🧭",
+            "alt": "Musa traveled with a wise man."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Strange things happened.",
+          "picture": {
+            "emoji": "🤔",
+            "alt": "Strange things happened."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah knows best.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah knows best."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y17",
+      "title": "The cow of Bani Isra'il",
+      "emoji": "🐄",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Allah told them to find a cow.",
+          "picture": {
+            "emoji": "🐄",
+            "alt": "Allah told them to find a cow."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They asked too many questions.",
+          "picture": {
+            "emoji": "❓",
+            "alt": "They asked too many questions."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Just obey Allah.",
+          "picture": {
+            "emoji": "👍",
+            "alt": "Just obey Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y18",
+      "title": "Dawud and Jalut",
+      "emoji": "🪨",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Young Dawud had a sling.",
+          "picture": {
+            "emoji": "🪨",
+            "alt": "Young Dawud had a sling."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Jalut was a giant.",
+          "picture": {
+            "emoji": "🗿",
+            "alt": "Jalut was a giant."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah helped Dawud win.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "Allah helped Dawud win."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y19",
+      "title": "Sulayman's kingdom",
+      "emoji": "👑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sulayman was a king and prophet.",
+          "picture": {
+            "emoji": "👑",
+            "alt": "Sulayman was a king and prophet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He could talk to animals.",
+          "picture": {
+            "emoji": "🐾",
+            "alt": "He could talk to animals."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He always thanked Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He always thanked Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y20",
+      "title": "Queen Bilqis",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Bilqis was the Queen of Saba.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Bilqis was the Queen of Saba."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Her people prayed to the sun.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "Her people prayed to the sun."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "She became Muslim.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "She became Muslim."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y21",
+      "title": "Prophet Ilyas",
+      "emoji": "🔥",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "People worshipped an idol.",
+          "picture": {
+            "emoji": "🗿",
+            "alt": "People worshipped an idol."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ilyas told them about Allah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Ilyas told them about Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was brave.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He was brave."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y22",
+      "title": "Zakariya's dua",
+      "emoji": "💛",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Zakariya was old.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Zakariya was old."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He made dua quietly.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He made dua quietly."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah gave him Yahya.",
+          "picture": {
+            "emoji": "📜",
+            "alt": "Allah gave him Yahya."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y23",
+      "title": "Prophet Yahya",
+      "emoji": "📜",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Yahya was wise as a child.",
+          "picture": {
+            "emoji": "🎈",
+            "alt": "Yahya was wise as a child."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He was kind to his parents.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "He was kind to his parents."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah blessed him.",
+          "picture": {
+            "emoji": "✨",
+            "alt": "Allah blessed him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y24",
+      "title": "The table from heaven",
+      "emoji": "🍽️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Isa's friends asked for food.",
+          "picture": {
+            "emoji": "🍽️",
+            "alt": "Isa's friends asked for food."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah sent a table of food.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "Allah sent a table of food."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They thanked Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They thanked Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y25",
+      "title": "The people of the cave",
+      "emoji": "🐕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Young believers hid in a cave.",
+          "picture": {
+            "emoji": "🕳️",
+            "alt": "Young believers hid in a cave."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They slept for 309 years.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "They slept for 309 years."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Their dog stayed with them.",
+          "picture": {
+            "emoji": "🐕",
+            "alt": "Their dog stayed with them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "stories-y26",
+      "title": "The two gardens",
+      "emoji": "🌳",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A man had two gardens.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "A man had two gardens."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "He became proud.",
+          "picture": {
+            "emoji": "😤",
+            "alt": "He became proud."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Say MashaAllah, not I did it.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Say MashaAllah, not I did it."
+          }
+        }
+      ]
+    }
+  ]
+}

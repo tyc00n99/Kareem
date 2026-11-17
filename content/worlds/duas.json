@@ -1,0 +1,1624 @@
+{
+  "id": "duas",
+  "title": "Duas",
+  "summary": "Little prayers for every day",
+  "order": 40,
+  "picture": {
+    "src": "/content/images/art/duas.jpg",
+    "alt": "Duas"
+  },
+  "lessons": [
+    {
+      "id": "dua-waking",
+      "title": "When I wake up",
+      "emoji": "🌅",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I open my eyes in the morning.",
+          "picture": {
+            "emoji": "🛏️",
+            "alt": "I open my eyes in the morning."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say the waking up dua.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I say the waking up dua."
+          },
+          "arabic": {
+            "text": "الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ",
+            "say": "Alhamdu lillahil-ladhi ahyana ba'da ma amatana wa ilayhin-nushur"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It means: Thank you Allah for waking me up.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "It means: Thank you Allah for waking me up."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dua-eating",
+      "title": "Before and after eating",
+      "emoji": "🍽️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Before I eat, I say Bismillah.",
+          "picture": {
+            "emoji": "🍎",
+            "alt": "Before I eat, I say Bismillah."
+          },
+          "arabic": {
+            "text": "بِسْمِ اللَّهِ",
+            "say": "Bismillah"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I eat with my right hand.",
+          "picture": {
+            "emoji": "🤚",
+            "alt": "I eat with my right hand."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "After I eat, I say Alhamdulillah.",
+          "picture": {
+            "emoji": "😋",
+            "alt": "After I eat, I say Alhamdulillah."
+          },
+          "arabic": {
+            "text": "الْحَمْدُ لِلَّهِ",
+            "say": "Alhamdulillah"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dua-sleeping",
+      "title": "Before I sleep",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I lie down on my right side.",
+          "picture": {
+            "emoji": "🛌",
+            "alt": "I lie down on my right side."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say the sleeping dua.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I say the sleeping dua."
+          },
+          "arabic": {
+            "text": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
+            "say": "Bismika Allahumma amutu wa ahya"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It means: In Your name, Allah, I sleep and wake up.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "It means: In Your name, Allah, I sleep and wake up."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dua-home",
+      "title": "Coming home",
+      "emoji": "🏠",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I walk into my home.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "I walk into my home."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say the home dua.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I say the home dua."
+          },
+          "arabic": {
+            "text": "بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+            "say": "Bismillahi walajna, wa bismillahi kharajna, wa 'ala Rabbina tawakkalna"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Assalamu alaykum to my family.",
+          "picture": {
+            "emoji": "👋",
+            "alt": "I say Assalamu alaykum to my family."
+          },
+          "arabic": {
+            "text": "السَّلَامُ عَلَيْكُمْ",
+            "say": "Assalamu 'alaykum"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dua-bathroom",
+      "title": "Going to the bathroom",
+      "emoji": "🚽",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I step in with my left foot.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "I step in with my left foot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say the bathroom dua.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I say the bathroom dua."
+          },
+          "arabic": {
+            "text": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ",
+            "say": "Allahumma inni a'udhu bika minal-khubuthi wal-khaba'ith"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my hands when I am done.",
+          "picture": {
+            "emoji": "🧼",
+            "alt": "I wash my hands when I am done."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I step out with my right foot and say Ghufranak.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "I step out with my right foot and say Ghufranak."
+          },
+          "arabic": {
+            "text": "غُفْرَانَكَ",
+            "say": "Ghufranak"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dua-travel",
+      "title": "Riding in the car",
+      "emoji": "🚗",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I get in the car and buckle my seatbelt.",
+          "picture": {
+            "emoji": "🚗",
+            "alt": "I get in the car and buckle my seatbelt."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say the travel dua.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I say the travel dua."
+          },
+          "arabic": {
+            "text": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ",
+            "say": "Subhanal-ladhi sakhkhara lana hadha wa ma kunna lahu muqrinin"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It means: Thank you Allah for giving us this car.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "It means: Thank you Allah for giving us this car."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x1",
+      "title": "Before eating",
+      "emoji": "🍽️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My food is ready.",
+          "picture": {
+            "emoji": "🍽️",
+            "alt": "My food is ready."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Bismillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Bismillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now I eat.",
+          "picture": {
+            "emoji": "😋",
+            "alt": "Now I eat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x2",
+      "title": "After eating",
+      "emoji": "😋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I finished my food.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I finished my food."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Alhamdulillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Alhamdulillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Thank you Allah for my food.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Thank you Allah for my food."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x3",
+      "title": "After sneezing",
+      "emoji": "🤧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I sneeze.",
+          "picture": {
+            "emoji": "🤧",
+            "alt": "I sneeze."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Alhamdulillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Alhamdulillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Someone says Yarhamukallah.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "Someone says Yarhamukallah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x5",
+      "title": "Leaving home",
+      "emoji": "🏠",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I go out the door.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "I go out the door."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bismillahi tawakkaltu 'alallah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Bismillahi tawakkaltu 'alallah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah keeps me safe.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah keeps me safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x7",
+      "title": "Getting dressed",
+      "emoji": "👕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put on my clothes.",
+          "picture": {
+            "emoji": "👕",
+            "alt": "I put on my clothes."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Bismillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Bismillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Thank you Allah for clothes.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Thank you Allah for clothes."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x8",
+      "title": "Looking in the mirror",
+      "emoji": "🪞",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see myself.",
+          "picture": {
+            "emoji": "🪞",
+            "alt": "I see myself."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma anta hassanta khalqi.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma anta hassanta khalqi."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made me nicely.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Allah made me nicely."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x9",
+      "title": "When it rains",
+      "emoji": "🌧️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It is raining.",
+          "picture": {
+            "emoji": "🌧️",
+            "alt": "It is raining."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma sayyiban nafi'a.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma sayyiban nafi'a."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rain is a gift from Allah.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Rain is a gift from Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x10",
+      "title": "When I hear thunder",
+      "emoji": "⚡",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I hear thunder.",
+          "picture": {
+            "emoji": "⚡",
+            "alt": "I hear thunder."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "SubhanAllah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "SubhanAllah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is with me.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "Allah is with me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x11",
+      "title": "When I feel sick",
+      "emoji": "🤒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I don't feel well.",
+          "picture": {
+            "emoji": "🤒",
+            "alt": "I don't feel well."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask Allah to make me better.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I ask Allah to make me better."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I let a grown-up help me.",
+          "picture": {
+            "emoji": "💊",
+            "alt": "I let a grown-up help me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x12",
+      "title": "When I feel scared",
+      "emoji": "😟",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I feel scared.",
+          "picture": {
+            "emoji": "😟",
+            "alt": "I feel scared."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say A'udhu billah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say A'udhu billah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask for a hug.",
+          "picture": {
+            "emoji": "🫂",
+            "alt": "I ask for a hug."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x13",
+      "title": "When I feel angry",
+      "emoji": "😡",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I feel angry.",
+          "picture": {
+            "emoji": "😡",
+            "alt": "I feel angry."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A'udhu billahi minash shaytanir rajeem.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "A'udhu billahi minash shaytanir rajeem."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I take deep breaths or make wudu.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "I take deep breaths or make wudu."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x14",
+      "title": "Before learning",
+      "emoji": "📚",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It is time to learn.",
+          "picture": {
+            "emoji": "📚",
+            "alt": "It is time to learn."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rabbi zidni 'ilma.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Rabbi zidni 'ilma."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah, give me more knowledge.",
+          "picture": {
+            "emoji": "🧠",
+            "alt": "Allah, give me more knowledge."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x15",
+      "title": "Dua for parents",
+      "emoji": "👨‍👩‍👧",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I love my parents.",
+          "picture": {
+            "emoji": "👨‍👩‍👧",
+            "alt": "I love my parents."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rabbir hamhuma kama rabbayani saghira.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Rabbir hamhuma kama rabbayani saghira."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah, have mercy on them.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah, have mercy on them."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x16",
+      "title": "Waking up",
+      "emoji": "🌅",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I wake up.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "I wake up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Alhamdulillahil ladhi ahyana.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Alhamdulillahil ladhi ahyana."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Thank you Allah for a new day.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "Thank you Allah for a new day."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x17",
+      "title": "Going to sleep",
+      "emoji": "😴",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I get into bed.",
+          "picture": {
+            "emoji": "🛏️",
+            "alt": "I get into bed."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bismika Allahumma amutu wa ahya.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Bismika Allahumma amutu wa ahya."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Good night.",
+          "picture": {
+            "emoji": "😴",
+            "alt": "Good night."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x18",
+      "title": "Entering the bathroom",
+      "emoji": "🚻",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I go in with my left foot.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "I go in with my left foot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma inni a'udhu bika minal khubuthi wal khaba'ith.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma inni a'udhu bika minal khubuthi wal khaba'ith."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't talk inside.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I don't talk inside."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-x19",
+      "title": "Leaving the bathroom",
+      "emoji": "🚪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I come out with my right foot.",
+          "picture": {
+            "emoji": "🚪",
+            "alt": "I come out with my right foot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ghufranak.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Ghufranak."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I wash my hands.",
+          "picture": {
+            "emoji": "🧼",
+            "alt": "I wash my hands."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y1",
+      "title": "Entering the masjid",
+      "emoji": "🕌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Right foot in.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "Right foot in."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma aftah li abwaba rahmatik.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma aftah li abwaba rahmatik."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Quiet voice.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "Quiet voice."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y2",
+      "title": "Leaving the masjid",
+      "emoji": "🚪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Left foot out.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "Left foot out."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma inni as'aluka min fadlik.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma inni as'aluka min fadlik."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Goodbye masjid.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "Goodbye masjid."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y3",
+      "title": "Seeing the new moon",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see the new moon.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "I see the new moon."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahu Akbar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahu Akbar."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask Allah for a good month.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I ask Allah for a good month."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y4",
+      "title": "Visiting a sick person",
+      "emoji": "🤒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone is sick.",
+          "picture": {
+            "emoji": "🤒",
+            "alt": "Someone is sick."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "La ba'sa, tahurun in sha Allah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "La ba'sa, tahurun in sha Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It means: you'll be okay, Allah willing.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "It means: you'll be okay, Allah willing."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y5",
+      "title": "Breaking the fast",
+      "emoji": "🍼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "It is Maghrib in Ramadan.",
+          "picture": {
+            "emoji": "🌇",
+            "alt": "It is Maghrib in Ramadan."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dhahaba adh-dhama'.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Dhahaba adh-dhama'."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I eat a date.",
+          "picture": {
+            "emoji": "🌴",
+            "alt": "I eat a date."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y6",
+      "title": "Seeing something nice",
+      "emoji": "👀",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I see something beautiful.",
+          "picture": {
+            "emoji": "🌸",
+            "alt": "I see something beautiful."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "MashaAllah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "MashaAllah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah made it.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah made it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y7",
+      "title": "Something surprising",
+      "emoji": "😮",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Something amazing happens.",
+          "picture": {
+            "emoji": "😮",
+            "alt": "Something amazing happens."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "SubhanAllah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "SubhanAllah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is perfect.",
+          "picture": {
+            "emoji": "🌟",
+            "alt": "Allah is perfect."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y8",
+      "title": "Planning for later",
+      "emoji": "🙏",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I plan to do something tomorrow.",
+          "picture": {
+            "emoji": "📅",
+            "alt": "I plan to do something tomorrow."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "In sha Allah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "In sha Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "If Allah wills.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "If Allah wills."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y9",
+      "title": "Hearing bad news",
+      "emoji": "😢",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Something sad happens.",
+          "picture": {
+            "emoji": "😢",
+            "alt": "Something sad happens."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Inna lillahi wa inna ilayhi raji'un.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Inna lillahi wa inna ilayhi raji'un."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We belong to Allah.",
+          "picture": {
+            "emoji": "🫂",
+            "alt": "We belong to Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y10",
+      "title": "Thanking someone",
+      "emoji": "🤝",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone helps me.",
+          "picture": {
+            "emoji": "🎁",
+            "alt": "Someone helps me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "JazakAllahu khayran.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "JazakAllahu khayran."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They say Wa iyyak.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "They say Wa iyyak."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y11",
+      "title": "When I get hurt",
+      "emoji": "🤒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I get a bump.",
+          "picture": {
+            "emoji": "🩹",
+            "alt": "I get a bump."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bismillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Bismillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put my hand on it and ask Allah for healing.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "I put my hand on it and ask Allah for healing."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y12",
+      "title": "Dua for knowledge",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Before school.",
+          "picture": {
+            "emoji": "📚",
+            "alt": "Before school."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rabbi zidni 'ilma.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Rabbi zidni 'ilma."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah, increase my knowledge.",
+          "picture": {
+            "emoji": "🧠",
+            "alt": "Allah, increase my knowledge."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y13",
+      "title": "Dua for guidance",
+      "emoji": "🧭",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I want to do the right thing.",
+          "picture": {
+            "emoji": "🧭",
+            "alt": "I want to do the right thing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Ihdinas siratal mustaqeem.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Ihdinas siratal mustaqeem."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Show me the straight path.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Show me the straight path."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y14",
+      "title": "Dua for good in both lives",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Rabbana atina fid dunya hasanah.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "Rabbana atina fid dunya hasanah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Wa fil akhirati hasanah.",
+          "picture": {
+            "emoji": "🌳",
+            "alt": "Wa fil akhirati hasanah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Wa qina adhaban nar.",
+          "picture": {
+            "emoji": "🔥",
+            "alt": "Wa qina adhaban nar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y15",
+      "title": "Dua for protection",
+      "emoji": "🛡️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Morning and evening.",
+          "picture": {
+            "emoji": "🌅",
+            "alt": "Morning and evening."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bismillahil ladhi la yadurru...",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Bismillahil ladhi la yadurru..."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah protects me.",
+          "picture": {
+            "emoji": "🛡️",
+            "alt": "Allah protects me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y16",
+      "title": "Dua when worried",
+      "emoji": "😟",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I feel worried.",
+          "picture": {
+            "emoji": "😟",
+            "alt": "I feel worried."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Hasbunallahu wa ni'mal wakeel.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Hasbunallahu wa ni'mal wakeel."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah is enough for me.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "Allah is enough for me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y17",
+      "title": "Asking forgiveness",
+      "emoji": "🙇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I did something wrong.",
+          "picture": {
+            "emoji": "😔",
+            "alt": "I did something wrong."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Astaghfirullah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Astaghfirullah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah forgives.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah forgives."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y18",
+      "title": "When the wind blows",
+      "emoji": "🌬️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Strong wind is blowing.",
+          "picture": {
+            "emoji": "🌬️",
+            "alt": "Strong wind is blowing."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I ask Allah for its good.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I ask Allah for its good."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "And protection from its harm.",
+          "picture": {
+            "emoji": "🛡️",
+            "alt": "And protection from its harm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y19",
+      "title": "After the rain",
+      "emoji": "🌈",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The rain stopped.",
+          "picture": {
+            "emoji": "🌈",
+            "alt": "The rain stopped."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Mutirna bi fadlillah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Mutirna bi fadlillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rain is from Allah's kindness.",
+          "picture": {
+            "emoji": "💧",
+            "alt": "Rain is from Allah's kindness."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y20",
+      "title": "Going to the market",
+      "emoji": "🛒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "We go shopping.",
+          "picture": {
+            "emoji": "🛒",
+            "alt": "We go shopping."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I remember Allah there.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I remember Allah there."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "La ilaha illallah.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "La ilaha illallah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y21",
+      "title": "Hearing a dog bark at night",
+      "emoji": "🐕",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I hear barking.",
+          "picture": {
+            "emoji": "🐕",
+            "alt": "I hear barking."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A'udhu billah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "A'udhu billah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I feel safe.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "I feel safe."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y22",
+      "title": "For a new baby",
+      "emoji": "🍼",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A baby is born.",
+          "picture": {
+            "emoji": "👶",
+            "alt": "A baby is born."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Barakallahu lakum.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Barakallahu lakum."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "May Allah bless you.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "May Allah bless you."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y23",
+      "title": "For a wedding",
+      "emoji": "💍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone gets married.",
+          "picture": {
+            "emoji": "💍",
+            "alt": "Someone gets married."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Barakallahu laka.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Barakallahu laka."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "May Allah bless you both.",
+          "picture": {
+            "emoji": "🎉",
+            "alt": "May Allah bless you both."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y24",
+      "title": "Saying goodbye",
+      "emoji": "🧳",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone travels.",
+          "picture": {
+            "emoji": "👋",
+            "alt": "Someone travels."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Astawdi'ullaha deenak.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Astawdi'ullaha deenak."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I leave you in Allah's care.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I leave you in Allah's care."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y25",
+      "title": "Laylat al-Qadr dua",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "A special night in Ramadan.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "A special night in Ramadan."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma innaka 'afuwwun tuhibbul 'afwa fa'fu 'anni.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma innaka 'afuwwun tuhibbul 'afwa fa'fu 'anni."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah loves to forgive.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah loves to forgive."
+          }
+        }
+      ]
+    },
+    {
+      "id": "duas-y26",
+      "title": "Dua for Muslims",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I pray for all Muslims.",
+          "picture": {
+            "emoji": "🌍",
+            "alt": "I pray for all Muslims."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah, help them.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "Allah, help them."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We are one family.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "We are one family."
+          }
+        }
+      ]
+    }
+  ]
+}

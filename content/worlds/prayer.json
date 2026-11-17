@@ -1,0 +1,1684 @@
+{
+  "id": "prayer",
+  "title": "How to Pray",
+  "summary": "Salah step by step",
+  "order": 30,
+  "picture": {
+    "src": "/content/images/art/how-to-pray.jpg",
+    "alt": "How to Pray"
+  },
+  "lessons": [
+    {
+      "id": "prayer-steps",
+      "title": "How to pray",
+      "emoji": "🧎",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I stand on my prayer mat and face the Qibla.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand on my prayer mat and face the Qibla."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I raise my hands and say Allahu Akbar.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "I raise my hands and say Allahu Akbar."
+          },
+          "arabic": {
+            "text": "اللَّهُ أَكْبَرُ",
+            "say": "Allahu Akbar"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I fold my hands and read Surah Al-Fatiha.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I fold my hands and read Surah Al-Fatiha."
+          },
+          "arabic": {
+            "text": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+            "say": "Alhamdu lillahi Rabbil-'alamin"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I bow down.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "I bow down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is ruku.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "This is ruku."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Subhana Rabbiyal-Azim.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "I say Subhana Rabbiyal-Azim."
+          },
+          "arabic": {
+            "text": "سُبْحَانَ رَبِّيَ الْعَظِيمِ",
+            "say": "Subhana Rabbiyal-'Azim"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stand up and say Sami Allahu liman hamidah.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand up and say Sami Allahu liman hamidah."
+          },
+          "arabic": {
+            "text": "سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ",
+            "say": "Sami'Allahu liman hamidah"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put my head down on the mat.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I put my head down on the mat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "This is sujood.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "This is sujood."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Subhana Rabbiyal-A'la.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I say Subhana Rabbiyal-A'la."
+          },
+          "arabic": {
+            "text": "سُبْحَانَ رَبِّيَ الْأَعْلَى",
+            "say": "Subhana Rabbiyal-A'la"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I sit up for a moment.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "I sit up for a moment."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do sujood one more time.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I do sujood one more time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "At the end I sit and say the tashahhud.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "At the end I sit and say the tashahhud."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I turn my head right and say Assalamu alaykum wa rahmatullah.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "I turn my head right and say Assalamu alaykum wa rahmatullah."
+          },
+          "arabic": {
+            "text": "السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ",
+            "say": "Assalamu 'alaykum wa rahmatullah"
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I turn my head left and say it again.",
+          "picture": {
+            "emoji": "👈",
+            "alt": "I turn my head left and say it again."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I finished my prayer! Alhamdulillah.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "I finished my prayer! Alhamdulillah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x1",
+      "title": "Find the qiblah",
+      "emoji": "🧭",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I find the direction of the Kaaba.",
+          "picture": {
+            "emoji": "🧭",
+            "alt": "I find the direction of the Kaaba."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put my mat that way.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I put my mat that way."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stand on my mat.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand on my mat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x2",
+      "title": "Niyyah for prayer",
+      "emoji": "💭",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I think: I am praying for Allah.",
+          "picture": {
+            "emoji": "💭",
+            "alt": "I think: I am praying for Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stand still.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand still."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I get calm.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "I get calm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x3",
+      "title": "Takbir",
+      "emoji": "🙌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I raise my hands by my ears.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "I raise my hands by my ears."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Allahu Akbar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Allahu Akbar."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put my hands on my chest.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I put my hands on my chest."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x4",
+      "title": "Qiyam standing",
+      "emoji": "🧍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I stand straight.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand straight."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I look at the place for sujood.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I look at the place for sujood."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stay quiet and calm.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I stay quiet and calm."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x5",
+      "title": "Reciting Al-Fatiha",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I say Al-Fatiha.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "I say Al-Fatiha."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Alhamdulillahi rabbil alameen...",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Alhamdulillahi rabbil alameen..."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Ameen at the end.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "I say Ameen at the end."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x6",
+      "title": "A short surah",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "After Al-Fatiha I say a short surah.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "After Al-Fatiha I say a short surah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Like Al-Ikhlas.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Like Al-Ikhlas."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then Allahu Akbar.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "Then Allahu Akbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x7",
+      "title": "Ruku bowing",
+      "emoji": "🙇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I bow down.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "I bow down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "My hands are on my knees.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "My hands are on my knees."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say Subhana rabbiyal adheem 3 times.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "I say Subhana rabbiyal adheem 3 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x8",
+      "title": "Standing from ruku",
+      "emoji": "🧍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I stand up again.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand up again."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sami Allahu liman hamidah.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Sami Allahu liman hamidah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rabbana wa lakal hamd.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Rabbana wa lakal hamd."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x9",
+      "title": "Sujood",
+      "emoji": "🧎",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put my forehead on the floor.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I put my forehead on the floor."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "My nose, hands, knees and toes touch too.",
+          "picture": {
+            "emoji": "👃",
+            "alt": "My nose, hands, knees and toes touch too."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Subhana rabbiyal a'la, 3 times.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Subhana rabbiyal a'la, 3 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x10",
+      "title": "Sitting between sujood",
+      "emoji": "🪑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I sit up.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I sit up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Rabbighfir li.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Rabbighfir li."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I go to sujood again.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Then I go to sujood again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x11",
+      "title": "One rakah",
+      "emoji": "1️⃣",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Stand and read.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "Stand and read."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Bow.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "Bow."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Two sujood.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Two sujood."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "That is one rakah!",
+          "picture": {
+            "emoji": "✅",
+            "alt": "That is one rakah!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x12",
+      "title": "Tashahhud",
+      "emoji": "🪑",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I sit after 2 rakahs.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "I sit after 2 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I say At-tahiyyatu lillah.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "I say At-tahiyyatu lillah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I point my finger.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "I point my finger."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x13",
+      "title": "Salam",
+      "emoji": "👉",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I turn my head right: Assalamu alaykum wa rahmatullah.",
+          "picture": {
+            "emoji": "➡️",
+            "alt": "I turn my head right: Assalamu alaykum wa rahmatullah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I turn left and say it again.",
+          "picture": {
+            "emoji": "⬅️",
+            "alt": "I turn left and say it again."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "My prayer is done.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "My prayer is done."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x14",
+      "title": "Praying 2 rakahs",
+      "emoji": "2️⃣",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I pray the first rakah.",
+          "picture": {
+            "emoji": "1️⃣",
+            "alt": "I pray the first rakah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray the second rakah.",
+          "picture": {
+            "emoji": "2️⃣",
+            "alt": "I pray the second rakah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I sit and say salam.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "I sit and say salam."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x17",
+      "title": "Being still in prayer",
+      "emoji": "🤫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My body stays still.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "My body stays still."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I do not talk.",
+          "picture": {
+            "emoji": "🤫",
+            "alt": "I do not talk."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I am talking to Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "I am talking to Allah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x18",
+      "title": "Eyes in prayer",
+      "emoji": "👀",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I look at my sujood spot.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I look at my sujood spot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't look around.",
+          "picture": {
+            "emoji": "🙈",
+            "alt": "I don't look around."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It helps me focus.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "It helps me focus."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x19",
+      "title": "If I forget",
+      "emoji": "🔁",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sometimes I forget a step.",
+          "picture": {
+            "emoji": "🤔",
+            "alt": "Sometimes I forget a step."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "That is okay.",
+          "picture": {
+            "emoji": "🙂",
+            "alt": "That is okay."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A grown-up can help me learn.",
+          "picture": {
+            "emoji": "🧑‍🏫",
+            "alt": "A grown-up can help me learn."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x20",
+      "title": "Prayer mat",
+      "emoji": "🧎",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I get my prayer mat.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "I get my prayer mat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I lay it toward the qiblah.",
+          "picture": {
+            "emoji": "🧭",
+            "alt": "I lay it toward the qiblah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I fold it when I am done.",
+          "picture": {
+            "emoji": "🧺",
+            "alt": "I fold it when I am done."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x21",
+      "title": "After prayer dhikr",
+      "emoji": "📿",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "SubhanAllah 33 times.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "SubhanAllah 33 times."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Alhamdulillah 33 times.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "Alhamdulillah 33 times."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahu Akbar 34 times.",
+          "picture": {
+            "emoji": "📿",
+            "alt": "Allahu Akbar 34 times."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x22",
+      "title": "Praying behind imam",
+      "emoji": "🧍‍♂️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "The imam goes first.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "The imam goes first."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I move after the imam.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "I move after the imam."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I don't go before him.",
+          "picture": {
+            "emoji": "🤝",
+            "alt": "I don't go before him."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x23",
+      "title": "Praying at home",
+      "emoji": "🏠",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I find a quiet spot.",
+          "picture": {
+            "emoji": "🏠",
+            "alt": "I find a quiet spot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I put away the tablet.",
+          "picture": {
+            "emoji": "📵",
+            "alt": "I put away the tablet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray calmly.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray calmly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-x24",
+      "title": "Praying at school",
+      "emoji": "🧒",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I tell my teacher it is prayer time.",
+          "picture": {
+            "emoji": "🏫",
+            "alt": "I tell my teacher it is prayer time."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I find a clean spot.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I find a clean spot."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray and come back.",
+          "picture": {
+            "emoji": "😊",
+            "alt": "I pray and come back."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y1",
+      "title": "Hands in takbir",
+      "emoji": "🙌",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Palms face forward.",
+          "picture": {
+            "emoji": "🙌",
+            "alt": "Palms face forward."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Thumbs near my ears.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "Thumbs near my ears."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahu Akbar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahu Akbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y2",
+      "title": "Right hand on left",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put my right hand over my left.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I put my right hand over my left."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "On my chest.",
+          "picture": {
+            "emoji": "❤️",
+            "alt": "On my chest."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stand still.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand still."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y3",
+      "title": "Opening dua",
+      "emoji": "🗣️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Subhanakallahumma wa bihamdik.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Subhanakallahumma wa bihamdik."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It praises Allah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "It praises Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then Al-Fatiha.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "Then Al-Fatiha."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y4",
+      "title": "Quiet or out loud",
+      "emoji": "🤫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Fajr, Maghrib, Isha: the imam reads out loud.",
+          "picture": {
+            "emoji": "🌅",
+            "alt": "Fajr, Maghrib, Isha: the imam reads out loud."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Dhuhr and Asr: quietly.",
+          "picture": {
+            "emoji": "☀️",
+            "alt": "Dhuhr and Asr: quietly."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I listen.",
+          "picture": {
+            "emoji": "👂",
+            "alt": "I listen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y5",
+      "title": "Back straight in ruku",
+      "emoji": "🙇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "My back is flat like a table.",
+          "picture": {
+            "emoji": "🙇",
+            "alt": "My back is flat like a table."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I look down.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "I look down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Subhana rabbiyal adheem.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Subhana rabbiyal adheem."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y6",
+      "title": "Seven parts in sujood",
+      "emoji": "🧎",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Forehead and nose.",
+          "picture": {
+            "emoji": "🧠",
+            "alt": "Forehead and nose."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Two hands.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "Two hands."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Two knees. 🦶 Two feet.",
+          "picture": {
+            "emoji": "🦵",
+            "alt": "Two knees. 🦶 Two feet."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y7",
+      "title": "Elbows up in sujood",
+      "emoji": "💪",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I keep my elbows off the floor.",
+          "picture": {
+            "emoji": "💪",
+            "alt": "I keep my elbows off the floor."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Hands flat.",
+          "picture": {
+            "emoji": "✋",
+            "alt": "Hands flat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Gentle and still.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Gentle and still."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y8",
+      "title": "Dua in sujood",
+      "emoji": "🤲",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Sujood is closest to Allah.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Sujood is closest to Allah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I can ask Allah for things.",
+          "picture": {
+            "emoji": "🤲",
+            "alt": "I can ask Allah for things."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allah hears.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Allah hears."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y9",
+      "title": "Standing for rakah 2",
+      "emoji": "🧍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "After 2 sujood.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "After 2 sujood."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stand up.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand up."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahu Akbar.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahu Akbar."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y10",
+      "title": "Al-Fatiha every rakah",
+      "emoji": "📖",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I read Al-Fatiha in every rakah.",
+          "picture": {
+            "emoji": "📖",
+            "alt": "I read Al-Fatiha in every rakah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Every single one.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Every single one."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "It is the key surah.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "It is the key surah."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y11",
+      "title": "Salawat in tashahhud",
+      "emoji": "☝️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "After At-tahiyyat.",
+          "picture": {
+            "emoji": "☝️",
+            "alt": "After At-tahiyyat."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Allahumma salli ala Muhammad.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Allahumma salli ala Muhammad."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Blessings on the Prophet ﷺ.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "Blessings on the Prophet ﷺ."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y12",
+      "title": "Fajr step by step",
+      "emoji": "🧎",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "2 rakahs.",
+          "picture": {
+            "emoji": "2️⃣",
+            "alt": "2 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Imam reads aloud.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Imam reads aloud."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Salam.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "Salam."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y13",
+      "title": "Dhuhr step by step",
+      "emoji": "☀️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "4 rakahs.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "4 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sit after 2.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "Sit after 2."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Salam after 4.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "Salam after 4."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y14",
+      "title": "Maghrib step by step",
+      "emoji": "🌇",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "3 rakahs.",
+          "picture": {
+            "emoji": "3️⃣",
+            "alt": "3 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sit after 2.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "Sit after 2."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Salam after 3.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "Salam after 3."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y15",
+      "title": "Isha step by step",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "4 rakahs.",
+          "picture": {
+            "emoji": "4️⃣",
+            "alt": "4 rakahs."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Sit after 2.",
+          "picture": {
+            "emoji": "🪑",
+            "alt": "Sit after 2."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Salam after 4.",
+          "picture": {
+            "emoji": "👉",
+            "alt": "Salam after 4."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y16",
+      "title": "Sunnah prayers",
+      "emoji": "⭐",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Extra prayers are called sunnah.",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "Extra prayers are called sunnah."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Like 2 before Fajr.",
+          "picture": {
+            "emoji": "2️⃣",
+            "alt": "Like 2 before Fajr."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "They bring extra reward.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "They bring extra reward."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y17",
+      "title": "Witr prayer",
+      "emoji": "🌙",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Witr is an odd number prayer.",
+          "picture": {
+            "emoji": "🌙",
+            "alt": "Witr is an odd number prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "We pray it after Isha.",
+          "picture": {
+            "emoji": "🌌",
+            "alt": "We pray it after Isha."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "The Prophet ﷺ loved it.",
+          "picture": {
+            "emoji": "💛",
+            "alt": "The Prophet ﷺ loved it."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y18",
+      "title": "Straight rows",
+      "emoji": "🧍🧍",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I stand shoulder to shoulder.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I stand shoulder to shoulder."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Feet in line.",
+          "picture": {
+            "emoji": "🦶",
+            "alt": "Feet in line."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "No gaps.",
+          "picture": {
+            "emoji": "📏",
+            "alt": "No gaps."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y19",
+      "title": "If someone talks",
+      "emoji": "🤫",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "Someone talks near me.",
+          "picture": {
+            "emoji": "🗣️",
+            "alt": "Someone talks near me."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I keep praying.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I keep praying."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I stay focused.",
+          "picture": {
+            "emoji": "😌",
+            "alt": "I stay focused."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y20",
+      "title": "No phone in prayer",
+      "emoji": "📵",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put away the tablet.",
+          "picture": {
+            "emoji": "📵",
+            "alt": "I put away the tablet."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Turn off sounds.",
+          "picture": {
+            "emoji": "🔕",
+            "alt": "Turn off sounds."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Now I pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Now I pray."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y21",
+      "title": "Taking a toy away",
+      "emoji": "🧸",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I put my toy down.",
+          "picture": {
+            "emoji": "🧸",
+            "alt": "I put my toy down."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I pray.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "After, I can play again.",
+          "picture": {
+            "emoji": "🧸",
+            "alt": "After, I can play again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y22",
+      "title": "If I need the bathroom",
+      "emoji": "⏸️",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I go before I pray.",
+          "picture": {
+            "emoji": "🚽",
+            "alt": "I go before I pray."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I make wudu.",
+          "picture": {
+            "emoji": "🚰",
+            "alt": "I make wudu."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Then I pray calmly.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "Then I pray calmly."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y23",
+      "title": "Ask what I missed",
+      "emoji": "🙋",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I joined late.",
+          "picture": {
+            "emoji": "🤔",
+            "alt": "I joined late."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I finish the rakahs I missed.",
+          "picture": {
+            "emoji": "🧍",
+            "alt": "I finish the rakahs I missed."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A grown-up helps me.",
+          "picture": {
+            "emoji": "🧑‍🏫",
+            "alt": "A grown-up helps me."
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y24",
+      "title": "Whole prayer alone",
+      "emoji": "🏆",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I pray 2 rakahs all by myself.",
+          "picture": {
+            "emoji": "🧎",
+            "alt": "I pray 2 rakahs all by myself."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "A grown-up watches.",
+          "picture": {
+            "emoji": "👀",
+            "alt": "A grown-up watches."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "I did it!",
+          "picture": {
+            "emoji": "🏆",
+            "alt": "I did it!"
+          }
+        }
+      ]
+    },
+    {
+      "id": "prayer-y25",
+      "title": "Five a day chart",
+      "emoji": "📅",
+      "status": "draft",
+      "screens": [
+        {
+          "type": "learn",
+          "text": "I check off each prayer.",
+          "picture": {
+            "emoji": "📅",
+            "alt": "I check off each prayer."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "Fajr, Dhuhr, Asr, Maghrib, Isha.",
+          "picture": {
+            "emoji": "✅",
+            "alt": "Fajr, Dhuhr, Asr, Maghrib, Isha."
+          }
+        },
+        {
+          "type": "learn",
+          "text": "All five!",
+          "picture": {
+            "emoji": "⭐",
+            "alt": "All five!"
+          }
+        }
+      ]
+    }
+  ]
+}

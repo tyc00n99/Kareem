@@ -4,6 +4,7 @@
   "summary": "How Muslims pray, step by step.",
   "order": 40,
   "status": "draft",
+  "world": "prayer",
   "picture": {
     "src": "/content/images/art/how-to-pray.jpg",
     "alt": "A boy standing on a prayer mat by a window"

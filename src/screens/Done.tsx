@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Btn, Frame, Pic } from '../components';
-import type { LearnScreen, Topic } from '../lib/content';
+import { getWorld, nextInWorld, type LearnScreen, type Topic } from '../lib/content';
 import { playSound, stopSound } from '../lib/audio';
 import { go } from '../lib/route';
 import { useSettings } from '../lib/settings';
@@ -11,6 +11,8 @@ export function Done({ topic }: { topic: Topic }) {
   // A calm recap: the pictures from the lesson as a little story strip. Tap one to hear it again.
   const story = topic.screens.filter((s): s is LearnScreen => s.type === 'learn').slice(0, 6);
   const [lit, setLit] = useState<number | null>(null);
+  const next = nextInWorld(topic);
+  const world = topic.world ? getWorld(topic.world) : undefined;
   const tell = (k: number) => {
     if (!settings.sound) return;
     setLit(k);
@@ -38,9 +40,15 @@ export function Done({ topic }: { topic: Topic }) {
           >
             {settings.sound ? '🔊 Hear' : 'Sound off'}
           </Btn>
-          <Btn kind="main" onClick={() => { stopSound(); go({ name: 'home' }); }}>
-            Home
-          </Btn>
+          {world ? (
+            <Btn kind="main" onClick={() => { stopSound(); go({ name: 'world', worldId: world.id }); }}>
+              {world.title}
+            </Btn>
+          ) : (
+            <Btn kind="main" onClick={() => { stopSound(); go({ name: 'home' }); }}>
+              Home
+            </Btn>
+          )}
         </>
       }
     >
@@ -74,6 +82,15 @@ export function Done({ topic }: { topic: Topic }) {
         >
           ↻ Learn it again
         </button>
+        {next && (
+          <button
+            type="button"
+            className="btn btn-plain"
+            onClick={() => { stopSound(); go({ name: 'learn', topicId: next.id, index: 0 }); }}
+          >
+            Next: {next.title} →
+          </button>
+        )}
       </div>
     </Frame>
   );
