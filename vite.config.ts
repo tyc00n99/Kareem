@@ -58,4 +58,7 @@ self.addEventListener('fetch', (e) => {
 
 export default defineConfig({
   plugins: [react(), offlineServiceWorker()],
+  // NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY come from the Supabase integration in Vercel.
+  // They are public by design; the database's access rules keep each family's data private.
+  envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
 });

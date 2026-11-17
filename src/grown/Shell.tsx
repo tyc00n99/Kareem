@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { getPeople, signOut } from '../lib/people';
+import { getAccount, syncState } from '../lib/cloud';
 import { go } from '../lib/route';
 
 /** Header and page frame for the parent and teacher area. */
@@ -17,7 +18,7 @@ export function GrownUpShell({ children }: { children: ReactNode }) {
             <a href="#/grown-up/tips">ABA Tips</a>
             <a href="#/grown-up/helper">AI Helper</a>
             <a href="#/sign-in/kid">Child view</a>
-            <span className="gu-device" title="Everything is saved on this device only">● On this device</span>
+            <SyncChip />
             {g && (
               <span className="gu-who">
                 {g.name} · {g.role}
@@ -38,5 +39,29 @@ export function GrownUpShell({ children }: { children: ReactNode }) {
       </header>
       <main className="gu-main">{children}</main>
     </div>
+  );
+}
+
+const CHIP: Record<string, string> = {
+  syncing: '● Saving…',
+  synced: '● Saved to your account',
+  offline: '● Offline: will save later',
+  error: '● Not saved yet: will try again',
+};
+
+function SyncChip() {
+  const a = getAccount();
+  if (!a) {
+    return (
+      <a className="gu-device" href="#/grown-up" title="Everything is saved on this device only">
+        ● On this device
+      </a>
+    );
+  }
+  const s = syncState();
+  return (
+    <span className={`gu-device gu-sync-${s}`} title={a.email}>
+      {CHIP[s] ?? '● Account'}
+    </span>
   );
 }

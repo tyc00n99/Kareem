@@ -102,7 +102,15 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
     playSound({ text: word, rate: settings.speechRate, onEnd: () => setAt(null) });
   };
 
-  const nextBlocked = (screen.type === 'check' && answer !== 'right') || (screen.type === 'order' && !orderDone);
+  // World lessons: "Which picture shows this step?" under each picture, with emoji from the same lesson.
+  const choices = screen.type === 'learn' && topic.pickStep ? stepChoices(topic, i) : null;
+  const [stepPicked, setStepPicked] = useState<{ n: number; right: boolean } | null>(null);
+  useEffect(() => setStepPicked(null), [topic.id, i]);
+
+  const nextBlocked =
+    (screen.type === 'check' && answer !== 'right') ||
+    (screen.type === 'order' && !orderDone) ||
+    (!!choices && !stepPicked?.right);
 
   return (
     <Frame
@@ -137,7 +145,22 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
       </div>
       <div className="card" key={`${topic.id}-${i}`}>
         {screen.type === 'learn' ? (
-          <LearnCard screen={screen} at={at} onWord={settings.sound ? tapWord : undefined} onPicture={hear} showHint={i === 0} />
+          <>
+            <LearnCard screen={screen} at={at} onWord={settings.sound ? tapWord : undefined} onPicture={hear} showHint={i === 0} />
+            {choices && (
+              <PickStep
+                choices={choices}
+                picked={stepPicked}
+                onPick={(n) => {
+                  const right = choices[n] === screen.picture.emoji;
+                  if (!stepPicked) recordCheck(topic.id, right);
+                  if (!right) clean.current = false;
+                  setStepPicked({ n, right });
+                  if (settings.sound) playSound({ text: right ? 'Yes!' : 'Not yet. Look at the big picture.', rate: settings.speechRate });
+                }}
+              />
+            )}
+          </>
         ) : screen.type === 'order' ? (
           <OrderCard screen={screen} onDone={() => setOrderDone(true)} />
         ) : (
@@ -164,6 +187,59 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
         )}
       </div>
     </Frame>
+  );
+}
+
+const SPARE = ['🌙', '⭐', '🌳', '🏠', '📖', '💧', '🍎', '🕌'];
+
+/** Three pictures: this step's picture and two others, in a mixed order that stays the same on this screen. */
+function stepChoices(topic: Topic, i: number): string[] | null {
+  const screen = topic.screens[i];
+  if (screen.type !== 'learn' || !screen.picture.emoji) return null;
+  const right = screen.picture.emoji;
+  const others: string[] = [];
+  for (const s of topic.screens) {
+    if (s.type === 'learn' && s.picture.emoji && s.picture.emoji !== right && !others.includes(s.picture.emoji)) others.push(s.picture.emoji);
+  }
+  for (const e of SPARE) if (others.length < 2 && e !== right && !others.includes(e)) others.push(e);
+  const two = [others[(i + 1) % others.length], others[(i + 2) % others.length]].filter((e, k, a) => a.indexOf(e) === k);
+  while (two.length < 2) two.push(SPARE.find((e) => e !== right && !two.includes(e))!);
+  const all = [right, ...two];
+  // Rotate by screen number so the right one is not always in the same place.
+  const r = i % 3;
+  return [...all.slice(3 - r), ...all.slice(0, 3 - r)];
+}
+
+function PickStep({
+  choices,
+  picked,
+  onPick,
+}: {
+  choices: string[];
+  picked: { n: number; right: boolean } | null;
+  onPick: (n: number) => void;
+}) {
+  return (
+    <div className="pick-step">
+      <p className="pick-q">
+        <img className="pick-moon" src="/content/images/characters/moon.png" alt="" />
+        <span>{picked?.right ? 'Yes! 😊' : picked ? 'Not yet. Look at the big picture.' : 'Which picture shows this step?'}</span>
+      </p>
+      <div className="pick-row" role="group" aria-label="Which picture shows this step?">
+        {choices.map((e, n) => (
+          <button
+            key={n}
+            type="button"
+            className={`pick-btn${picked?.n === n ? (picked.right ? ' pick-right' : ' pick-wrong') : ''}`}
+            onClick={() => onPick(n)}
+            disabled={!!picked?.right}
+            aria-label={`Picture ${n + 1}`}
+          >
+            <span aria-hidden>{e}</span>
+          </button>
+        ))}
+      </div>
+    </div>
   );
 }
 

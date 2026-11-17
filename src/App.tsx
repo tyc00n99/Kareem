@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { getTopic, getWorld } from './lib/content';
 import { isSignedIn } from './lib/people';
 import { useRoute } from './lib/route';
@@ -14,8 +15,19 @@ import { ChildPage } from './grown/ChildPage';
 import { Tips } from './grown/Tips';
 import { HelperChat } from './grown/HelperChat';
 
+/** Redraw when the online account brings new children, classes or records. */
+function useCloudUpdates() {
+  const [, tick] = useState(0);
+  useEffect(() => {
+    const on = () => tick((n) => n + 1);
+    window.addEventListener('kareem:cloud', on);
+    return () => window.removeEventListener('kareem:cloud', on);
+  }, []);
+}
+
 export function App() {
   const route = useRoute();
+  useCloudUpdates();
   if (route.name === 'settings') return <SettingsScreen />;
   if (route.name === 'talk') return <Talk />;
   if (route.name === 'break') return <Break />;
