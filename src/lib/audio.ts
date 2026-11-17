@@ -5,6 +5,8 @@
 // speech engine tells us word boundaries on most devices; where it does not, or
 // for recorded audio, we estimate from word lengths.
 
+import { commonClip } from './clips';
+
 let current: HTMLAudioElement | null = null;
 let timer: number | null = null;
 let session = 0;
@@ -20,6 +22,27 @@ export type PlayOptions = {
   /** 'ar' speaks the text with an Arabic voice when the device has one. */
   lang?: 'ar';
 };
+
+/**
+ * Play two parts one after the other, e.g. the English sentence and then the
+ * Arabic phrase. Word positions from the second part are moved by `offset`.
+ */
+export function playTwo(first: PlayOptions, second: PlayOptions & { offset: number }): void {
+  playSound({
+    ...first,
+    onEnd: () => {
+      // Stopped early (Back, Next, another sound): do not go on to the second part.
+      if (stoppedByUser) return first.onEnd?.();
+      const mine = session;
+      window.setTimeout(() => {
+        if (mine !== session) return;
+        const shift = second.onWord;
+        playSound({ ...second, onWord: shift && ((i) => shift(i + second.offset)), onEnd: second.onEnd ?? first.onEnd });
+      }, 250);
+    },
+  });
+}
+let stoppedByUser = false;
 
 let pendingEnd: (() => void) | undefined;
 
@@ -83,6 +106,7 @@ export function onVoices(cb: () => void): () => void {
 }
 
 export function stopSound(): void {
+  stoppedByUser = !!pendingEnd;
   session++;
   if (timer !== null) {
     window.clearInterval(timer);
@@ -138,6 +162,7 @@ function estimate(text: string, totalMs: number, mine: number, onWord: (i: numbe
 
 function finish(mine: number) {
   if (mine !== session) return;
+  stoppedByUser = false;
   if (timer !== null) {
     window.clearInterval(timer);
     timer = null;
@@ -152,8 +177,9 @@ export function playSound(opts: PlayOptions): void {
   stopSound();
   const mine = session;
   pendingEnd = opts.onEnd;
-  if (opts.audio) {
-    const a = new Audio(opts.audio);
+  const file = opts.audio ?? commonClip(opts.text);
+  if (file) {
+    const a = new Audio(file);
     current = a;
     a.onended = () => finish(mine);
     a.onplaying = () => {

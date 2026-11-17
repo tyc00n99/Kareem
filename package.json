@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run check-content && tsc --noEmit && vite build",
+    "build": "npm run check-content && node scripts/audio-manifest.mjs && tsc --noEmit && vite build",
     "preview": "vite preview",
-    "check-content": "node scripts/check-content.mjs"
+    "check-content": "node scripts/check-content.mjs",
+    "predev": "node scripts/audio-manifest.mjs",
+    "make-voice": "node scripts/make-voice.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.9.0",
