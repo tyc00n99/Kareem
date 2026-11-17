@@ -262,3 +262,151 @@ button { font: inherit; color: inherit; }
 .helper-open { display: flex; align-items: center; text-decoration: none; }
 .foot-link { margin-top: 24px; text-align: center; }
 .foot-link a { color: var(--muted); }
+
+/* ---------- Light-up words ---------- */
+
+.words { margin: 0; }
+.word {
+  display: inline;
+  padding: 0 0.12em;
+  margin: 0 -0.12em;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: background-color 120ms;
+}
+span.word { cursor: default; }
+.word-lit { background: #ffe9a8; box-shadow: 0 0 0 3px #ffe9a8; }
+:root[data-contrast='high'] .word-lit { background: #000; color: #fff; box-shadow: 0 0 0 3px #000; }
+.tap-hint { margin: 0; font-size: 0.95rem; }
+
+.pic-button { width: 100%; padding: 0; border: 0; background: none; cursor: pointer; border-radius: calc(var(--radius) - 6px); }
+
+/* ---------- Speech bubbles ---------- */
+
+.bubble-row { display: flex; align-items: flex-end; gap: 10px; width: 100%; text-align: left; }
+.bubble-right { flex-direction: row-reverse; text-align: right; }
+.avatar { width: 64px; height: 64px; border-radius: 50%; border: 3px solid var(--surface); box-shadow: 0 0 0 2px var(--line); flex: none; background: var(--pic-bg); }
+.bubble {
+  position: relative;
+  flex: 1;
+  background: var(--soft);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  padding: 10px 16px 12px;
+}
+.bubble::before {
+  content: '';
+  position: absolute;
+  bottom: 14px;
+  left: -11px;
+  width: 18px;
+  height: 18px;
+  background: var(--soft);
+  border-left: 2px solid var(--line);
+  border-bottom: 2px solid var(--line);
+  transform: rotate(45deg);
+}
+.bubble-right .bubble::before { left: auto; right: -11px; transform: rotate(-135deg); }
+.who { display: block; font-size: 0.9rem; font-weight: 700; color: var(--accent); }
+.bubble-text { margin: 0; font-size: 1.45rem; font-weight: 700; line-height: 1.35; }
+
+/* ---------- Arabic flip card ---------- */
+
+.flip { width: 100%; perspective: 900px; }
+.flip-inner { display: grid; transition: transform 500ms ease; transform-style: preserve-3d; }
+.flip-turned .flip-inner { transform: rotateY(180deg); }
+.flip-face {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 12px;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-back { transform: rotateY(180deg); background: var(--soft); }
+/* Without motion the card simply swaps sides. */
+:root[data-motion='off'] .flip-inner { transform: none !important; }
+:root[data-motion='off'] .flip-face { backface-visibility: visible; transform: none; }
+:root[data-motion='off'] .flip:not(.flip-turned) .flip-back,
+:root[data-motion='off'] .flip-turned .flip-front { visibility: hidden; }
+.flip-label { margin: 0; font-weight: 700; color: var(--muted); font-size: 0.95rem; }
+.arabic-say.words { color: var(--muted); font-style: italic; font-size: 1.15rem; }
+.turn {
+  min-height: 48px;
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  font-weight: 700;
+  cursor: pointer;
+}
+.chunks { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.chunk {
+  min-width: 56px;
+  min-height: 56px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.chunk-lit { background: #ffe9a8; border-color: #e0b84a; }
+:root[data-contrast='high'] .chunk-lit { background: #000; color: #fff; }
+.meaning { margin: 0; font-size: 1.15rem; font-weight: 700; }
+
+/* ---------- Put it in order ---------- */
+
+.order-slots { list-style: none; margin: 0; padding: 0; width: 100%; display: grid; gap: 10px; }
+.slot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 72px;
+  padding: 8px 12px;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+  text-align: left;
+}
+.slot-filled { border-style: solid; background: var(--soft); }
+.slot-talk { border: 0; padding: 0; }
+.slot-num { width: 36px; height: 36px; flex: none; display: grid; place-items: center; border-radius: 50%; background: var(--accent); color: var(--accent-text); font-weight: 700; }
+.slot-empty { color: var(--muted); font-size: 1.4rem; font-weight: 700; }
+.slot-label { font-size: 1.2rem; font-weight: 700; }
+.slot .pic-small, .story .pic-small { width: 64px; height: 64px; }
+.slot .pic-small .pic-emoji, .story .pic-small .pic-emoji { font-size: 40px; }
+.answer .avatar { width: 80px; height: 80px; }
+.answer-notyet { border-style: dashed; }
+
+/* ---------- Story strip ---------- */
+
+.story { list-style: none; margin: 0; padding: 0; width: 100%; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+.story-step {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 8px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.story-step .pic-small { width: 100%; height: 84px; }
+.story-lit { background: #fff6d6; border-color: #e0b84a; }
+.pic-done { width: 100%; height: 140px; } .pic-done .pic-emoji { font-size: 96px; }

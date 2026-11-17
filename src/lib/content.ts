@@ -15,7 +15,14 @@ export type Arabic = {
   text: string;
   /** How to say it, in English letters. */
   say: string;
+  /** Optional sound chunks for the flip card, e.g. ["As", "sa", "laa", "mu", "a", "lay", "kum"]. */
+  chunks?: string[];
+  /** Optional plain meaning shown on the back of the flip card. */
+  meaning?: string;
 };
+
+/** The two recurring characters. A screen with a speaker shows the sentence in their speech bubble. */
+export type Speaker = 'kareem' | 'noor';
 
 export type LearnScreen = {
   type: 'learn';
@@ -25,6 +32,8 @@ export type LearnScreen = {
   /** Optional different picture for adult learners. */
   adultPicture?: Picture;
   arabic?: Arabic;
+  /** Optional: Kareem or Noor says the sentence in a speech bubble. */
+  speaker?: Speaker;
   /** Optional recorded audio, e.g. "/content/audio/wudu/01.mp3". Without it the device reads the text aloud. */
   audio?: string;
 };
@@ -45,7 +54,22 @@ export type CheckScreen = {
   audio?: string;
 };
 
-export type Screen = LearnScreen | CheckScreen;
+export type OrderItem = {
+  label: string;
+  picture?: Picture;
+  speaker?: Speaker;
+};
+
+/** The learner taps the items in the right order. No score; a wrong tap just says "not yet". */
+export type OrderScreen = {
+  type: 'order';
+  question: string;
+  /** Items in the right order. They are shown mixed up. */
+  items: OrderItem[];
+  audio?: string;
+};
+
+export type Screen = LearnScreen | CheckScreen | OrderScreen;
 
 export type Topic = {
   id: string;
