@@ -61,6 +61,7 @@ export function SettingsScreen() {
           <Choice name="textSize" label="Text size" options={[{ value: 'normal', text: 'Normal' }, { value: 'large', text: 'Large' }, { value: 'larger', text: 'Larger' }]} />
           <Choice name="highContrast" label="Strong colours" options={onOff('On', 'Off')} />
           <Choice name="motion" label="Movement on screen" options={onOff('On', 'Off')} />
+          <Choice name="calm" label="Calm mode (softer colours, no movement)" options={onOff('On', 'Off')} />
           <Choice name="celebration" label="When you finish" options={[{ value: 'picture', text: 'Words and a star' }, { value: 'words', text: 'Just words' }]} />
         </Section>
       </main>

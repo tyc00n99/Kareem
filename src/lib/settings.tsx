@@ -10,6 +10,8 @@ export type Settings = {
   highContrast: boolean;
   textSize: 'normal' | 'large' | 'larger';
   celebration: 'words' | 'picture';
+  /** Calm mode: softer, dimmer colours and no movement. */
+  calm: boolean;
 };
 
 const defaults: Settings = {
@@ -20,6 +22,7 @@ const defaults: Settings = {
   highContrast: false,
   textSize: 'normal',
   celebration: 'picture',
+  calm: false,
 };
 
 const KEY = 'deen-steps:settings';
@@ -28,7 +31,7 @@ type Ctx = { settings: Settings; update: (patch: Partial<Settings>) => void };
 const SettingsContext = createContext<Ctx | null>(null);
 
 export function SettingsProvider({ children }: { children: ReactNode }) {
-  const [settings, setSettings] = useState<Settings>(() => load(KEY, defaults));
+  const [settings, setSettings] = useState<Settings>(() => ({ ...defaults, ...load(KEY, defaults) }));
 
   useEffect(() => {
     save(KEY, settings);
@@ -36,7 +39,8 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     root.dataset.look = settings.look;
     root.dataset.contrast = settings.highContrast ? 'high' : 'normal';
     root.dataset.text = settings.textSize;
-    root.dataset.motion = settings.motion ? 'on' : 'off';
+    root.dataset.motion = settings.motion && !settings.calm ? 'on' : 'off';
+    root.dataset.calm = settings.calm ? 'on' : 'off';
   }, [settings]);
 
   const update = (patch: Partial<Settings>) => setSettings((s) => ({ ...s, ...patch }));

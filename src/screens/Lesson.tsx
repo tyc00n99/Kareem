@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Btn, Frame, Pic } from '../components';
+import { Btn, Frame, KidTools, Pic } from '../components';
 import type { CheckScreen, LearnScreen, Topic } from '../lib/content';
 import { ArabicCard, Bubble, OrderCard, Words } from '../lesson-parts';
 import { playSound, stopSound } from '../lib/audio';
@@ -89,9 +89,7 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
             Home
           </button>
           <span className="bar-title">{topic.title}</span>
-          <span className="count" aria-label={`Screen ${i + 1} of ${topic.screens.length}`}>
-            {i + 1} of {topic.screens.length}
-          </span>
+          <KidTools compact />
         </>
       }
       bottom={
@@ -106,6 +104,14 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
         </>
       }
     >
+      <div className="progress" aria-label={`Screen ${i + 1} of ${topic.screens.length}`}>
+        <span className="progress-track">
+          <span className="progress-fill" style={{ width: `${((i + 1) / topic.screens.length) * 100}%` }} />
+        </span>
+        <span className="progress-count" aria-hidden>
+          {i + 1} / {topic.screens.length}
+        </span>
+      </div>
       <div className="card" key={`${topic.id}-${i}`}>
         {screen.type === 'learn' ? (
           <LearnCard screen={screen} at={at} onWord={settings.sound ? tapWord : undefined} onPicture={hear} showHint={i === 0} />
