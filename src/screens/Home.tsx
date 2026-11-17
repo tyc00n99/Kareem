@@ -2,6 +2,7 @@ import { KidTools, Mascot } from '../components';
 import { topics, type Topic } from '../lib/content';
 import { playSound } from '../lib/audio';
 import { getFinished } from '../lib/progress';
+import { activeChild } from '../lib/people';
 import { href } from '../lib/route';
 import { useSettings } from '../lib/settings';
 
@@ -38,7 +39,9 @@ export function Home() {
   const todo = topics.filter((t) => !finished[t.id]);
   const plan = (todo.length ? todo : topics).slice(0, 4);
   const [first, then, ...after] = plan;
-  const greeting = adult ? 'Assalamu alaykum! What would you like to learn today?' : 'Assalamu alaykum! Ready for an adventure?';
+  const kid = activeChild();
+  const hello = kid ? `Assalamu alaykum, ${kid.name}!` : 'Assalamu alaykum!';
+  const greeting = adult ? `${hello} What would you like to learn today?` : `${hello} Ready for an adventure?`;
 
   return (
     <div className="frame home-frame">
@@ -143,7 +146,9 @@ export function Home() {
         </section>
 
         <p className="hint foot-link">
-          <a href="#/helper">For helpers: see progress</a>
+          <a href="#/sign-in/kid">{kid ? `${kid.avatar} Not ${kid.name}? Change` : '😊 Who is learning?'}</a>
+          <span aria-hidden> · </span>
+          <a href="#/sign-in">👪 Grown-ups</a>
         </p>
       </main>
     </div>

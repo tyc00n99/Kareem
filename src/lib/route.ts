@@ -8,13 +8,25 @@ export type Route =
   | { name: 'helper' }
   | { name: 'talk' }
   | { name: 'break' }
+  | { name: 'signin'; tab: 'grown-up' | 'kid' }
+  | { name: 'grown' }
+  | { name: 'tips' }
+  | { name: 'ai' }
+  | { name: 'child'; childId: string }
   | { name: 'learn'; topicId: string; index: number }
   | { name: 'done'; topicId: string };
 
 export function parse(hash: string): Route {
   const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean);
   if (parts[0] === 'settings') return { name: 'settings' };
-  if (parts[0] === 'helper') return { name: 'helper' };
+  if (parts[0] === 'helper') return { name: 'grown' };
+  if (parts[0] === 'sign-in') return { name: 'signin', tab: parts[1] === 'kid' ? 'kid' : 'grown-up' };
+  if (parts[0] === 'grown-up') {
+    if (parts[1] === 'tips') return { name: 'tips' };
+    if (parts[1] === 'helper') return { name: 'ai' };
+    if (parts[1] === 'child' && parts[2]) return { name: 'child', childId: parts[2] };
+    return { name: 'grown' };
+  }
   if (parts[0] === 'talk') return { name: 'talk' };
   if (parts[0] === 'break') return { name: 'break' };
   if (parts[0] === 'learn' && parts[1]) {
@@ -33,6 +45,16 @@ export function href(route: Route): string {
       return '#/settings';
     case 'helper':
       return '#/helper';
+    case 'signin':
+      return route.tab === 'kid' ? '#/sign-in/kid' : '#/sign-in';
+    case 'grown':
+      return '#/grown-up';
+    case 'tips':
+      return '#/grown-up/tips';
+    case 'ai':
+      return '#/grown-up/helper';
+    case 'child':
+      return `#/grown-up/child/${route.childId}`;
     case 'talk':
       return '#/talk';
     case 'break':
@@ -45,7 +67,16 @@ export function href(route: Route): string {
 }
 
 export function go(route: Route): void {
-  window.location.hash = href(route);
+  const h = href(route);
+  // Same address (for example after signing in on a locked page): just redraw.
+  if (window.location.hash === h) window.dispatchEvent(new HashChangeEvent('hashchange'));
+  else window.location.hash = h;
+}
+
+/** After signing in, stay on the grown-up page that was asked for, or open the dashboard. */
+export function goGrownUp(): void {
+  const here = parse(window.location.hash);
+  go(['grown', 'tips', 'child', 'ai'].includes(here.name) ? here : { name: 'grown' });
 }
 
 export function useRoute(): Route {

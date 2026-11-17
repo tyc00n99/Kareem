@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Btn, Frame, KidTools, Pic } from '../components';
 import type { CheckScreen, LearnScreen, Topic } from '../lib/content';
 import { ArabicCard, Bubble, OrderCard, Words } from '../lesson-parts';
 import { playSound, stopSound } from '../lib/audio';
-import { markFinished } from '../lib/progress';
+import { markFinished, recordCheck, recordOpen, recordScreen } from '../lib/progress';
 import { go } from '../lib/route';
 import { useSettings } from '../lib/settings';
 
@@ -35,6 +35,18 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   }, [topic.id, i]);
   useEffect(() => stopSound, []);
 
+  // Quiet records for grown-ups: started, how far, and question answers. The child never sees a score.
+  const clean = useRef(true);
+  const triedHere = useRef(false);
+  useEffect(() => {
+    if (i === 0) {
+      recordOpen(topic.id);
+      clean.current = true;
+    }
+    recordScreen(topic.id, i + 1);
+    triedHere.current = false;
+  }, [topic.id, i]);
+
   const reviewScreen =
     screen.type === 'check' ? (topic.screens[screen.showAgain - 1] as LearnScreen | undefined) : undefined;
 
@@ -63,7 +75,7 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
   const next = () => {
     stopSound();
     if (last) {
-      markFinished(topic.id);
+      markFinished(topic.id, clean.current);
       go({ name: 'done', topicId: topic.id });
     } else go({ name: 'learn', topicId: topic.id, index: i + 1 });
   };
@@ -125,7 +137,13 @@ export function Lesson({ topic, index }: { topic: Topic; index: number }) {
             review={reviewScreen}
             onPick={(n) => {
               setPicked(n);
-              setAnswer(screen.answers[n].correct ? 'right' : 'retry');
+              const right = !!screen.answers[n].correct;
+              if (!triedHere.current) {
+                triedHere.current = true;
+                recordCheck(topic.id, right);
+              }
+              if (!right) clean.current = false;
+              setAnswer(right ? 'right' : 'retry');
             }}
             onRetry={() => {
               setAnswer('none');
