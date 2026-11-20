@@ -4,7 +4,7 @@
     { "source": "/Home", "destination": "/", "permanent": true },
     { "source": "/About", "destination": "/#work", "permanent": true },
     { "source": "/Clothes", "destination": "/#work", "permanent": true },
-    { "source": "/Donate", "destination": "/#give", "permanent": true },
+    { "source": "/Donate", "destination": "https://www.gofundme.com/f/help-kareem-provide-warmth-and-food-globally", "permanent": false },
     { "source": "/Dashboard", "destination": "/", "permanent": false }
   ],
   "headers": [
