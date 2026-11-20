@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/Home", "destination": "/", "permanent": true },
+    { "source": "/About", "destination": "/#work", "permanent": true },
+    { "source": "/Clothes", "destination": "/#work", "permanent": true },
+    { "source": "/Donate", "destination": "/#give", "permanent": true },
+    { "source": "/Dashboard", "destination": "/", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+  ]
+}
